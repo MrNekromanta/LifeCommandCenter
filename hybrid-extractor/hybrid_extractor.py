@@ -50,13 +50,12 @@ class HybridExtractor(EntityExtractor):
 
     def __init__(
         self,
-        llm_model: str = "qwen3:8b",
         min_entities_threshold: int = MIN_ENTITIES_THRESHOLD,
         enable_llm: bool = True,
     ):
         self.layer1 = SpacyExtractor()
         self.layer2 = RulerExtractor()
-        self.layer3 = LLMExtractor(model=llm_model) if enable_llm else None
+        self.layer3 = LLMExtractor() if enable_llm else None
         self.threshold = min_entities_threshold
         self.stats: list[ExtractionStats] = []
         self._chunk_counter = 0
@@ -129,7 +128,7 @@ class HybridExtractor(EntityExtractor):
             "layer3_avg_when_called": round(
                 sum(s.layer3_count for s in self.stats if s.layer3_called) / max(l3_calls, 1), 1
             ),
-            "llm_tokens_used": 0,
+            "llm_input_tokens": self.layer3.input_tokens if self.layer3 else 0,
+            "llm_output_tokens": self.layer3.output_tokens if self.layer3 else 0,
             "llm_cost_pln": self.layer3.cost_estimate_pln if self.layer3 else 0,
-            "llm_avg_ms": self.layer3.avg_duration_ms if self.layer3 else 0,
         }

@@ -1,0 +1,46 @@
+
+============================================================
+MODEL: qwen3:1.7b
+============================================================
+
+  --- smoke_5 (51.1s) ---
+  Found: [('bupropion', 'MODEL'), ('hypertension', 'CONCEPT'), ('adaptogenów', 'CONCEPT')]
+  Hits:  ['bupropion'] (1/3)
+  Noise: [('hypertension', 'CONCEPT'), ('adaptogenów', 'CONCEPT')]
+
+  --- low_kurs9 (74.1s) ---
+  Found: [('PROMPT-GENERATOR-LEKCJI.md', 'PRODUCT'), ('JAK-GENEROWAC-LEKCJE.md', 'PRODUCT'), ('Claude Desktop', 'PRODUCT')]
+  Hits:  ['PROMPT-GENERATOR-LEKCJI.md', 'JAK-GENEROWAC-LEKCJE.md', 'Claude Desktop'] (3/3)
+
+  --- low_bv12 (33.6s) ---
+  Found: [('Multi-location', 'PROJECT'), ('Revenue Template Engine', 'PRODUCT'), ('UK', 'LOCATION')]
+  Hits:  ['Multi-location', 'Revenue Template Engine'] (2/3)
+  Noise: [('UK', 'LOCATION')]
+
+  --- low_bv35 (90.2s) ---
+  Found: []
+  Hits:  [] (0/6)
+
+  Avg time: 60211ms
+
+============================================================
+MODEL: qwen3:4b
+============================================================
+
+  --- smoke_5 (77.1s) ---
+  Found: []
+  Hits:  [] (0/3)
+
+  --- low_kurs9 (120.0s) ---
+  Found: []
+  Hits:  [] (0/3)
+
+  --- low_bv12 (64.4s) ---
+  Found: []
+  Hits:  [] (0/3)
+
+  --- low_bv35 (63.7s) ---
+  Found: []
+  Hits:  [] (0/6)
+
+  Avg time: 79242ms
