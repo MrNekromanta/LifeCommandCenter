@@ -1,8 +1,11 @@
 # HybridExtractor dependencies
 # Can reuse ner-benchmark venv (SpaCy + models already installed)
 spacy>=3.7,<4.0
-anthropic>=0.45.0  # Layer 3 (LLM) — optional, only if enable_llm=True
+requests>=2.28.0  # Layer 3 (Ollama HTTP API)
 
 # SpaCy models (install separately):
 # python -m spacy download pl_core_news_lg
 # python -m spacy download en_core_web_lg
+
+# Local LLM (Ollama):
+# ollama pull qwen3:8b

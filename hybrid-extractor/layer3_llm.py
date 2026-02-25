@@ -1,87 +1,89 @@
 """
-Layer 3: LLM micro-extraction using Claude Haiku.
+Layer 3: LLM micro-extraction using local Ollama (Qwen3:1.7b).
 Called selectively — only for chunks where Layers 1+2 found few entities.
 
-Cost: ~0.01 PLN/chunk. For 100 conversations (~1000 chunks),
-  ~5-15 PLN if 10-30% of chunks trigger Layer 3.
+Cost: 0 PLN (local inference on SER9).
+Uses /api/chat for proper system/user message format.
 """
 from __future__ import annotations
-import json, os, re
+import json, re, requests
 from models import Entity, EntityExtractor
 
-SYSTEM_PROMPT = """Extract named entities from the text. Return ONLY a JSON array.
-Each entity: {"text": "exact text", "label": "TYPE"}
+OLLAMA_URL = "http://localhost:11434/api/chat"
+DEFAULT_MODEL = "qwen3:1.7b"
 
+SYSTEM_MSG = """You are an entity extraction tool. Extract named entities and return ONLY a JSON array.
+Each entity: {"text": "exact text from input", "label": "TYPE"}
 Types: PROJECT, TOOL, MODEL, HARDWARE, PLATFORM, CONCEPT, PERSON, ORG, LOCATION, PRODUCT, BIOMEDICAL
-
 Rules:
-- Extract project names, tools, frameworks, AI models, hardware, people, organizations
-- Keep original casing
-- Skip generic nouns (system, data, file, code, project, plan)
-- For multi-word entities use the full name (e.g. "Docker Compose" not "Docker")
-- Max 15 entities per chunk
-- Return [] if no entities found"""
+- Extract project names, tools, frameworks, AI models, hardware, people, organizations, medical terms
+- Keep original casing from the input text
+- Skip generic words (system, data, file, code, project, plan, status)
+- Max 15 entities
+- Return ONLY the JSON array, nothing else"""
 
-USER_PROMPT_TEMPLATE = """Text:
-{text}
+USER_MSG_TEMPLATE = """Extract entities from this text that are NOT in the already-found list.
 
-Already found by other methods: {known_entities}
+Text: {text}
 
-Extract ADDITIONAL entities not in the "already found" list. Return JSON array only."""
+Already found: {known_entities}
+
+Return ONLY a JSON array of new entities. If none found, return []"""
 
 
 class LLMExtractor(EntityExtractor):
-    """Layer 3: Claude Haiku micro-extraction for low-entity chunks."""
+    """Layer 3: Local Ollama LLM micro-extraction for low-entity chunks."""
     
-    def __init__(self, api_key: str | None = None, model: str = "claude-haiku-4-5-20251001"):
-        self.api_key = api_key or os.environ.get("ANTHROPIC_API_KEY", "")
+    def __init__(self, model: str = DEFAULT_MODEL, base_url: str = OLLAMA_URL):
         self.model = model
-        self._client = None
+        self.base_url = base_url
         self.calls_made = 0
-        self.tokens_used = 0
-    
-    @property
-    def client(self):
-        if self._client is None:
-            try:
-                import anthropic
-                self._client = anthropic.Anthropic(api_key=self.api_key)
-            except ImportError:
-                raise ImportError("pip install anthropic")
-        return self._client
+        self.total_duration_ms = 0
     
     def extract(self, text: str, known_entities: list[str] | None = None) -> list[Entity]:
-        """Extract entities via LLM. known_entities = what L1+L2 already found."""
         known = ", ".join(known_entities) if known_entities else "none"
         
         try:
-            response = self.client.messages.create(
-                model=self.model,
-                max_tokens=512,
-                system=SYSTEM_PROMPT,
-                messages=[{
-                    "role": "user",
-                    "content": USER_PROMPT_TEMPLATE.format(text=text, known_entities=known)
-                }]
-            )
-            self.calls_made += 1
-            self.tokens_used += response.usage.input_tokens + response.usage.output_tokens
+            resp = requests.post(self.base_url, json={
+                "model": self.model,
+                "messages": [
+                    {"role": "system", "content": SYSTEM_MSG},
+                    {"role": "user", "content": USER_MSG_TEMPLATE.format(text=text, known_entities=known)},
+                ],
+                "stream": False,
+                "options": {
+                    "temperature": 0.1,
+                    "num_predict": 1024,
+                }
+            }, timeout=120)
+            resp.raise_for_status()
+            data = resp.json()
             
-            # Parse JSON from response
-            raw = response.content[0].text.strip()
-            # Strip markdown code fences if present
+            self.calls_made += 1
+            self.total_duration_ms += data.get("total_duration", 0) / 1_000_000
+            
+            raw = data.get("message", {}).get("content", "").strip()
+            
+            # Strip markdown code fences
             raw = re.sub(r'^```json\s*', '', raw)
             raw = re.sub(r'\s*```$', '', raw)
             
-            items = json.loads(raw)
+            # Find JSON array in response
+            match = re.search(r'\[.*\]', raw, re.DOTALL)
+            if not match:
+                return []
+            
+            items = json.loads(match.group())
             entities = []
             for item in items:
                 if isinstance(item, dict) and "text" in item:
-                    entities.append(Entity(
-                        text=item["text"],
-                        label=item.get("label", "ENTITY"),
-                        source="llm"
-                    ))
+                    ent_text = item["text"].strip()
+                    if len(ent_text) >= 2:
+                        entities.append(Entity(
+                            text=ent_text,
+                            label=item.get("label", "ENTITY"),
+                            source="llm"
+                        ))
             return entities
             
         except Exception as e:
@@ -89,9 +91,11 @@ class LLMExtractor(EntityExtractor):
             return []
     
     @property
+    def avg_duration_ms(self) -> float:
+        if self.calls_made == 0:
+            return 0
+        return round(self.total_duration_ms / self.calls_made, 0)
+    
+    @property
     def cost_estimate_pln(self) -> float:
-        """Rough cost estimate in PLN. Haiku: ~$0.25/1M input, ~$1.25/1M output."""
-        # ~4 PLN/USD
-        input_cost = (self.tokens_used * 0.5 * 0.25 / 1_000_000) * 4
-        output_cost = (self.tokens_used * 0.5 * 1.25 / 1_000_000) * 4
-        return round(input_cost + output_cost, 4)
+        return 0.0
