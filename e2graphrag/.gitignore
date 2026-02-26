@@ -1,0 +1,10 @@
+log/
+NovelQA/
+NarrativeQA/
+Ignore/
+LihuaWorld/
+__pycache__/
+cache/
+ans_log/
+old_code/
+baselines/

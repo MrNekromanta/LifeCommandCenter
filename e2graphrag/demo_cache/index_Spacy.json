@@ -1,0 +1,319 @@
+{
+    "concept": [
+        "leaf_0"
+    ],
+    "server": [
+        "leaf_0"
+    ],
+    "card": [
+        "leaf_0"
+    ],
+    "WIP": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "ner": [
+        "leaf_0"
+    ],
+    "Beelink SER9": [
+        "leaf_0"
+    ],
+    "board": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "automation": [
+        "leaf_0"
+    ],
+    "audits": [
+        "leaf_0"
+    ],
+    "saas": [
+        "leaf_0"
+    ],
+    "AGENCY": [
+        "leaf_0"
+    ],
+    "management": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "entity": [
+        "leaf_0"
+    ],
+    "detection": [
+        "leaf_0"
+    ],
+    "entrepreneur": [
+        "leaf_0"
+    ],
+    "task": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "Claude": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "knowledge": [
+        "leaf_0"
+    ],
+    "pl_core_news_lg": [
+        "leaf_0"
+    ],
+    "GUI": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "project": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "Ready,": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "Google Drive": [
+        "leaf_0"
+    ],
+    "extraction": [
+        "leaf_0"
+    ],
+    "limit": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "email": [
+        "leaf_0"
+    ],
+    "Trello": [
+        "leaf_0"
+    ],
+    "business": [
+        "leaf_0"
+    ],
+    "creator": [
+        "leaf_0"
+    ],
+    "architecture": [
+        "leaf_0"
+    ],
+    "name": [
+        "leaf_0"
+    ],
+    "entityruler": [
+        "leaf_0"
+    ],
+    "priority": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "epic": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "productivity": [
+        "leaf_0"
+    ],
+    "device": [
+        "leaf_0"
+    ],
+    "summary": [
+        "leaf_0"
+    ],
+    "domain": [
+        "leaf_0"
+    ],
+    "Claude Sonnet API": [
+        "leaf_0"
+    ],
+    "postgresql": [
+        "leaf_0"
+    ],
+    "digest": [
+        "leaf_0"
+    ],
+    "p1": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "machine": [
+        "leaf_0"
+    ],
+    "agency": [
+        "leaf_0"
+    ],
+    "In": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "CDN": [
+        "leaf_0"
+    ],
+    "system": [
+        "leaf_0"
+    ],
+    "platform": [
+        "leaf_0"
+    ],
+    "layer": [
+        "leaf_0"
+    ],
+    "Cloudflare": [
+        "leaf_0"
+    ],
+    "column": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "analysis": [
+        "leaf_0"
+    ],
+    "documentation": [
+        "leaf_0"
+    ],
+    "insight": [
+        "leaf_0"
+    ],
+    "EU": [
+        "leaf_0"
+    ],
+    "fastapi": [
+        "leaf_0"
+    ],
+    "Progress": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "GB RAM": [
+        "leaf_0"
+    ],
+    "progress": [
+        "leaf_0"
+    ],
+    "validation": [
+        "leaf_0"
+    ],
+    "idea": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "pattern": [
+        "leaf_0"
+    ],
+    "Backlog,": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "tree": [
+        "leaf_0"
+    ],
+    "backend": [
+        "leaf_0"
+    ],
+    "convention": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "e\u00b2graphrag": [
+        "leaf_0"
+    ],
+    "Krzysiek": [
+        "leaf_0"
+    ],
+    "tool": [
+        "leaf_0"
+    ],
+    "ALLMEDICA": [
+        "leaf_0"
+    ],
+    "fintech": [
+        "leaf_0"
+    ],
+    "API": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "projection": [
+        "leaf_0"
+    ],
+    "STATE": [
+        "leaf_0"
+    ],
+    "chunk": [
+        "leaf_0"
+    ],
+    "competitor": [
+        "leaf_0"
+    ],
+    "research": [
+        "leaf_0"
+    ],
+    "review": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "coaching": [
+        "leaf_0"
+    ],
+    "development": [
+        "leaf_0"
+    ],
+    "biznesvalidator": [
+        "leaf_0"
+    ],
+    "security": [
+        "leaf_0"
+    ],
+    "approach": [
+        "leaf_0"
+    ],
+    "lifecommandcenter": [
+        "leaf_0"
+    ],
+    "workflow": [
+        "leaf_0"
+    ],
+    "market": [
+        "leaf_0"
+    ],
+    "n8n": [
+        "leaf_0"
+    ],
+    "database": [
+        "leaf_0"
+    ],
+    "conversation": [
+        "leaf_0"
+    ],
+    "purple": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "alert": [
+        "leaf_0"
+    ],
+    "label": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "Supabase": [
+        "leaf_0"
+    ],
+    "trello": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "graph": [
+        "leaf_0"
+    ],
+    "bug": [
+        "leaf_1"
+    ],
+    "item": [
+        "leaf_1"
+    ],
+    "orange": [
+        "leaf_1"
+    ]
+}
