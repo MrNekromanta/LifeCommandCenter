@@ -1,0 +1,2622 @@
+[
+    [
+        "Entity Extraction",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "LifeCommandCenter",
+        "n8n",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "Google Drive",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "LifeCommandCenter",
+        "daily digest",
+        1
+    ],
+    [
+        "EntityRuler",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "LifeCommandCenter",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "Claude",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "LifeCommandCenter",
+        "WIP limit",
+        1
+    ],
+    [
+        "Allmedica",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "LifeCommandCenter",
+        "Supabase",
+        1
+    ],
+    [
+        "FastAPI",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "LifeCommandCenter",
+        "Windows 11",
+        1
+    ],
+    [
+        "LifeCommandCenter",
+        "Trello",
+        1
+    ],
+    [
+        "LifeCommandCenter",
+        "SpaCy",
+        1
+    ],
+    [
+        "Krzysiek",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "LifeCommandCenter",
+        "Review",
+        1
+    ],
+    [
+        "LifeCommandCenter",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "GB RAM",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "LifeCommandCenter",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "Cloudflare",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "CDN",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "Claude API",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "GUI",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "LifeCommandCenter",
+        1
+    ],
+    [
+        "LifeCommandCenter",
+        "WIP",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Entity Extraction",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "n8n",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "Entity Extraction",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "Google Drive",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Entity Extraction",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "daily digest",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "EntityRuler",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "Claude",
+        "Entity Extraction",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "WIP limit",
+        1
+    ],
+    [
+        "Allmedica",
+        "Entity Extraction",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "Supabase",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "FastAPI",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "Windows 11",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "Trello",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "SpaCy",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "Krzysiek",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "Review",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "Entity Extraction",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "GB RAM",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "Entity Extraction",
+        1
+    ],
+    [
+        "Cloudflare",
+        "Entity Extraction",
+        1
+    ],
+    [
+        "CDN",
+        "Entity Extraction",
+        1
+    ],
+    [
+        "Claude API",
+        "Entity Extraction",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Entity Extraction",
+        1
+    ],
+    [
+        "Entity Extraction",
+        "WIP",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "n8n",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Claude Sonnet",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Google Drive",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "BiznesValidator",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "daily digest",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "EntityRuler",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Claude",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "WIP limit",
+        1
+    ],
+    [
+        "Allmedica",
+        "BiznesValidator",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Supabase",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "FastAPI",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Windows 11",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Trello",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "SpaCy",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Krzysiek",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Review",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "BiznesValidator",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "GB RAM",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Windows",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Claude Sonnet API",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Cloudflare",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "CDN",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "Claude API",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "BiznesValidator",
+        1
+    ],
+    [
+        "BiznesValidator",
+        "WIP",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "n8n",
+        1
+    ],
+    [
+        "Google Drive",
+        "n8n",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "n8n",
+        1
+    ],
+    [
+        "daily digest",
+        "n8n",
+        1
+    ],
+    [
+        "EntityRuler",
+        "n8n",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "n8n",
+        1
+    ],
+    [
+        "PostgreSQL",
+        "n8n",
+        1
+    ],
+    [
+        "Claude",
+        "n8n",
+        1
+    ],
+    [
+        "WIP limit",
+        "n8n",
+        1
+    ],
+    [
+        "Allmedica",
+        "n8n",
+        1
+    ],
+    [
+        "Supabase",
+        "n8n",
+        1
+    ],
+    [
+        "FastAPI",
+        "n8n",
+        1
+    ],
+    [
+        "Windows 11",
+        "n8n",
+        1
+    ],
+    [
+        "Trello",
+        "n8n",
+        1
+    ],
+    [
+        "SpaCy",
+        "n8n",
+        1
+    ],
+    [
+        "Krzysiek",
+        "n8n",
+        1
+    ],
+    [
+        "Review",
+        "n8n",
+        1
+    ],
+    [
+        "STATE",
+        "n8n",
+        1
+    ],
+    [
+        "AGENCY",
+        "n8n",
+        1
+    ],
+    [
+        "GB RAM",
+        "n8n",
+        1
+    ],
+    [
+        "Windows",
+        "n8n",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "n8n",
+        1
+    ],
+    [
+        "Cloudflare",
+        "n8n",
+        1
+    ],
+    [
+        "CDN",
+        "n8n",
+        1
+    ],
+    [
+        "Claude API",
+        "n8n",
+        1
+    ],
+    [
+        "GUI",
+        "n8n",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "n8n",
+        1
+    ],
+    [
+        "WIP",
+        "n8n",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "Google Drive",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Claude Sonnet",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "daily digest",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "EntityRuler",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "Claude",
+        "Claude Sonnet",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "WIP limit",
+        1
+    ],
+    [
+        "Allmedica",
+        "Claude Sonnet",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "Supabase",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "FastAPI",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "Windows 11",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "Trello",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "SpaCy",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "Krzysiek",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "Review",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "Claude Sonnet",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "GB RAM",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "Claude Sonnet API",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "Cloudflare",
+        1
+    ],
+    [
+        "CDN",
+        "Claude Sonnet",
+        1
+    ],
+    [
+        "Claude API",
+        "Claude Sonnet",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Claude Sonnet",
+        1
+    ],
+    [
+        "Claude Sonnet",
+        "WIP",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Google Drive",
+        1
+    ],
+    [
+        "Google Drive",
+        "daily digest",
+        1
+    ],
+    [
+        "EntityRuler",
+        "Google Drive",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "Google Drive",
+        1
+    ],
+    [
+        "Google Drive",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "Claude",
+        "Google Drive",
+        1
+    ],
+    [
+        "Google Drive",
+        "WIP limit",
+        1
+    ],
+    [
+        "Allmedica",
+        "Google Drive",
+        1
+    ],
+    [
+        "Google Drive",
+        "Supabase",
+        1
+    ],
+    [
+        "FastAPI",
+        "Google Drive",
+        1
+    ],
+    [
+        "Google Drive",
+        "Windows 11",
+        1
+    ],
+    [
+        "Google Drive",
+        "Trello",
+        1
+    ],
+    [
+        "Google Drive",
+        "SpaCy",
+        1
+    ],
+    [
+        "Google Drive",
+        "Krzysiek",
+        1
+    ],
+    [
+        "Google Drive",
+        "Review",
+        1
+    ],
+    [
+        "Google Drive",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "Google Drive",
+        1
+    ],
+    [
+        "GB RAM",
+        "Google Drive",
+        1
+    ],
+    [
+        "Google Drive",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "Google Drive",
+        1
+    ],
+    [
+        "Cloudflare",
+        "Google Drive",
+        1
+    ],
+    [
+        "CDN",
+        "Google Drive",
+        1
+    ],
+    [
+        "Claude API",
+        "Google Drive",
+        1
+    ],
+    [
+        "GUI",
+        "Google Drive",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Google Drive",
+        1
+    ],
+    [
+        "Google Drive",
+        "WIP",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "daily digest",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "EntityRuler",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Claude",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "WIP limit",
+        1
+    ],
+    [
+        "Allmedica",
+        "Beelink SER9",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Supabase",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "FastAPI",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Windows 11",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Trello",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "SpaCy",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Krzysiek",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Review",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "Beelink SER9",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "GB RAM",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Windows",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Claude Sonnet API",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Cloudflare",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "CDN",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "Claude API",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Beelink SER9",
+        1
+    ],
+    [
+        "Beelink SER9",
+        "WIP",
+        1
+    ],
+    [
+        "EntityRuler",
+        "daily digest",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "daily digest",
+        1
+    ],
+    [
+        "PostgreSQL",
+        "daily digest",
+        1
+    ],
+    [
+        "Claude",
+        "daily digest",
+        1
+    ],
+    [
+        "WIP limit",
+        "daily digest",
+        1
+    ],
+    [
+        "Allmedica",
+        "daily digest",
+        1
+    ],
+    [
+        "Supabase",
+        "daily digest",
+        1
+    ],
+    [
+        "FastAPI",
+        "daily digest",
+        1
+    ],
+    [
+        "Windows 11",
+        "daily digest",
+        1
+    ],
+    [
+        "Trello",
+        "daily digest",
+        1
+    ],
+    [
+        "SpaCy",
+        "daily digest",
+        1
+    ],
+    [
+        "Krzysiek",
+        "daily digest",
+        1
+    ],
+    [
+        "Review",
+        "daily digest",
+        1
+    ],
+    [
+        "STATE",
+        "daily digest",
+        1
+    ],
+    [
+        "AGENCY",
+        "daily digest",
+        1
+    ],
+    [
+        "GB RAM",
+        "daily digest",
+        1
+    ],
+    [
+        "Windows",
+        "daily digest",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "daily digest",
+        1
+    ],
+    [
+        "Cloudflare",
+        "daily digest",
+        1
+    ],
+    [
+        "CDN",
+        "daily digest",
+        1
+    ],
+    [
+        "Claude API",
+        "daily digest",
+        1
+    ],
+    [
+        "GUI",
+        "daily digest",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "daily digest",
+        1
+    ],
+    [
+        "WIP",
+        "daily digest",
+        1
+    ],
+    [
+        "EntityRuler",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "EntityRuler",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "Claude",
+        "EntityRuler",
+        1
+    ],
+    [
+        "EntityRuler",
+        "WIP limit",
+        1
+    ],
+    [
+        "Allmedica",
+        "EntityRuler",
+        1
+    ],
+    [
+        "EntityRuler",
+        "Supabase",
+        1
+    ],
+    [
+        "EntityRuler",
+        "FastAPI",
+        1
+    ],
+    [
+        "EntityRuler",
+        "Windows 11",
+        1
+    ],
+    [
+        "EntityRuler",
+        "Trello",
+        1
+    ],
+    [
+        "EntityRuler",
+        "SpaCy",
+        1
+    ],
+    [
+        "EntityRuler",
+        "Krzysiek",
+        1
+    ],
+    [
+        "EntityRuler",
+        "Review",
+        1
+    ],
+    [
+        "EntityRuler",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "EntityRuler",
+        1
+    ],
+    [
+        "EntityRuler",
+        "GB RAM",
+        1
+    ],
+    [
+        "EntityRuler",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "EntityRuler",
+        1
+    ],
+    [
+        "Cloudflare",
+        "EntityRuler",
+        1
+    ],
+    [
+        "CDN",
+        "EntityRuler",
+        1
+    ],
+    [
+        "Claude API",
+        "EntityRuler",
+        1
+    ],
+    [
+        "EntityRuler",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "EntityRuler",
+        1
+    ],
+    [
+        "EntityRuler",
+        "WIP",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "Claude",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "WIP limit",
+        1
+    ],
+    [
+        "Allmedica",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "Supabase",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "FastAPI",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "Windows 11",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "Trello",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "SpaCy",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "Krzysiek",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "Review",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "GB RAM",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "Cloudflare",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "CDN",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "Claude API",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "E²GraphRAG Pipeline",
+        1
+    ],
+    [
+        "E²GraphRAG Pipeline",
+        "WIP",
+        1
+    ],
+    [
+        "Claude",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "PostgreSQL",
+        "WIP limit",
+        1
+    ],
+    [
+        "Allmedica",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "PostgreSQL",
+        "Supabase",
+        1
+    ],
+    [
+        "FastAPI",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "PostgreSQL",
+        "Windows 11",
+        1
+    ],
+    [
+        "PostgreSQL",
+        "Trello",
+        1
+    ],
+    [
+        "PostgreSQL",
+        "SpaCy",
+        1
+    ],
+    [
+        "Krzysiek",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "PostgreSQL",
+        "Review",
+        1
+    ],
+    [
+        "PostgreSQL",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "GB RAM",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "PostgreSQL",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "Cloudflare",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "CDN",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "Claude API",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "GUI",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "PostgreSQL",
+        1
+    ],
+    [
+        "PostgreSQL",
+        "WIP",
+        1
+    ],
+    [
+        "Claude",
+        "WIP limit",
+        1
+    ],
+    [
+        "Allmedica",
+        "Claude",
+        1
+    ],
+    [
+        "Claude",
+        "Supabase",
+        1
+    ],
+    [
+        "Claude",
+        "FastAPI",
+        1
+    ],
+    [
+        "Claude",
+        "Windows 11",
+        1
+    ],
+    [
+        "Claude",
+        "Trello",
+        1
+    ],
+    [
+        "Claude",
+        "SpaCy",
+        1
+    ],
+    [
+        "Claude",
+        "Krzysiek",
+        1
+    ],
+    [
+        "Claude",
+        "Review",
+        1
+    ],
+    [
+        "Claude",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "Claude",
+        1
+    ],
+    [
+        "Claude",
+        "GB RAM",
+        1
+    ],
+    [
+        "Claude",
+        "Windows",
+        1
+    ],
+    [
+        "Claude",
+        "Claude Sonnet API",
+        1
+    ],
+    [
+        "Claude",
+        "Cloudflare",
+        1
+    ],
+    [
+        "CDN",
+        "Claude",
+        1
+    ],
+    [
+        "Claude",
+        "Claude API",
+        1
+    ],
+    [
+        "Claude",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Claude",
+        1
+    ],
+    [
+        "Claude",
+        "WIP",
+        1
+    ],
+    [
+        "Allmedica",
+        "WIP limit",
+        1
+    ],
+    [
+        "Supabase",
+        "WIP limit",
+        1
+    ],
+    [
+        "FastAPI",
+        "WIP limit",
+        1
+    ],
+    [
+        "WIP limit",
+        "Windows 11",
+        1
+    ],
+    [
+        "Trello",
+        "WIP limit",
+        1
+    ],
+    [
+        "SpaCy",
+        "WIP limit",
+        1
+    ],
+    [
+        "Krzysiek",
+        "WIP limit",
+        1
+    ],
+    [
+        "Review",
+        "WIP limit",
+        1
+    ],
+    [
+        "STATE",
+        "WIP limit",
+        1
+    ],
+    [
+        "AGENCY",
+        "WIP limit",
+        1
+    ],
+    [
+        "GB RAM",
+        "WIP limit",
+        1
+    ],
+    [
+        "WIP limit",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "WIP limit",
+        1
+    ],
+    [
+        "Cloudflare",
+        "WIP limit",
+        1
+    ],
+    [
+        "CDN",
+        "WIP limit",
+        1
+    ],
+    [
+        "Claude API",
+        "WIP limit",
+        1
+    ],
+    [
+        "GUI",
+        "WIP limit",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "WIP limit",
+        1
+    ],
+    [
+        "WIP",
+        "WIP limit",
+        1
+    ],
+    [
+        "Allmedica",
+        "Supabase",
+        1
+    ],
+    [
+        "Allmedica",
+        "FastAPI",
+        1
+    ],
+    [
+        "Allmedica",
+        "Windows 11",
+        1
+    ],
+    [
+        "Allmedica",
+        "Trello",
+        1
+    ],
+    [
+        "Allmedica",
+        "SpaCy",
+        1
+    ],
+    [
+        "Allmedica",
+        "Krzysiek",
+        1
+    ],
+    [
+        "Allmedica",
+        "Review",
+        1
+    ],
+    [
+        "Allmedica",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "Allmedica",
+        1
+    ],
+    [
+        "Allmedica",
+        "GB RAM",
+        1
+    ],
+    [
+        "Allmedica",
+        "Windows",
+        1
+    ],
+    [
+        "Allmedica",
+        "Claude Sonnet API",
+        1
+    ],
+    [
+        "Allmedica",
+        "Cloudflare",
+        1
+    ],
+    [
+        "Allmedica",
+        "CDN",
+        1
+    ],
+    [
+        "Allmedica",
+        "Claude API",
+        1
+    ],
+    [
+        "Allmedica",
+        "GUI",
+        1
+    ],
+    [
+        "Allmedica",
+        "Backlog, Ready, In Progress",
+        1
+    ],
+    [
+        "Allmedica",
+        "WIP",
+        1
+    ],
+    [
+        "FastAPI",
+        "Supabase",
+        1
+    ],
+    [
+        "Supabase",
+        "Windows 11",
+        1
+    ],
+    [
+        "Supabase",
+        "Trello",
+        1
+    ],
+    [
+        "SpaCy",
+        "Supabase",
+        1
+    ],
+    [
+        "Krzysiek",
+        "Supabase",
+        1
+    ],
+    [
+        "Review",
+        "Supabase",
+        1
+    ],
+    [
+        "STATE",
+        "Supabase",
+        1
+    ],
+    [
+        "AGENCY",
+        "Supabase",
+        1
+    ],
+    [
+        "GB RAM",
+        "Supabase",
+        1
+    ],
+    [
+        "Supabase",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "Supabase",
+        1
+    ],
+    [
+        "Cloudflare",
+        "Supabase",
+        1
+    ],
+    [
+        "CDN",
+        "Supabase",
+        1
+    ],
+    [
+        "Claude API",
+        "Supabase",
+        1
+    ],
+    [
+        "GUI",
+        "Supabase",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Supabase",
+        1
+    ],
+    [
+        "Supabase",
+        "WIP",
+        1
+    ],
+    [
+        "FastAPI",
+        "Windows 11",
+        1
+    ],
+    [
+        "FastAPI",
+        "Trello",
+        1
+    ],
+    [
+        "FastAPI",
+        "SpaCy",
+        1
+    ],
+    [
+        "FastAPI",
+        "Krzysiek",
+        1
+    ],
+    [
+        "FastAPI",
+        "Review",
+        1
+    ],
+    [
+        "FastAPI",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "FastAPI",
+        1
+    ],
+    [
+        "FastAPI",
+        "GB RAM",
+        1
+    ],
+    [
+        "FastAPI",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "FastAPI",
+        1
+    ],
+    [
+        "Cloudflare",
+        "FastAPI",
+        1
+    ],
+    [
+        "CDN",
+        "FastAPI",
+        1
+    ],
+    [
+        "Claude API",
+        "FastAPI",
+        1
+    ],
+    [
+        "FastAPI",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "FastAPI",
+        1
+    ],
+    [
+        "FastAPI",
+        "WIP",
+        1
+    ],
+    [
+        "Trello",
+        "Windows 11",
+        1
+    ],
+    [
+        "SpaCy",
+        "Windows 11",
+        1
+    ],
+    [
+        "Krzysiek",
+        "Windows 11",
+        1
+    ],
+    [
+        "Review",
+        "Windows 11",
+        1
+    ],
+    [
+        "STATE",
+        "Windows 11",
+        1
+    ],
+    [
+        "AGENCY",
+        "Windows 11",
+        1
+    ],
+    [
+        "GB RAM",
+        "Windows 11",
+        1
+    ],
+    [
+        "Windows",
+        "Windows 11",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "Windows 11",
+        1
+    ],
+    [
+        "Cloudflare",
+        "Windows 11",
+        1
+    ],
+    [
+        "CDN",
+        "Windows 11",
+        1
+    ],
+    [
+        "Claude API",
+        "Windows 11",
+        1
+    ],
+    [
+        "GUI",
+        "Windows 11",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Windows 11",
+        1
+    ],
+    [
+        "WIP",
+        "Windows 11",
+        1
+    ],
+    [
+        "SpaCy",
+        "Trello",
+        1
+    ],
+    [
+        "Krzysiek",
+        "Trello",
+        1
+    ],
+    [
+        "Review",
+        "Trello",
+        1
+    ],
+    [
+        "STATE",
+        "Trello",
+        1
+    ],
+    [
+        "AGENCY",
+        "Trello",
+        1
+    ],
+    [
+        "GB RAM",
+        "Trello",
+        1
+    ],
+    [
+        "Trello",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "Trello",
+        1
+    ],
+    [
+        "Cloudflare",
+        "Trello",
+        1
+    ],
+    [
+        "CDN",
+        "Trello",
+        1
+    ],
+    [
+        "Claude API",
+        "Trello",
+        1
+    ],
+    [
+        "GUI",
+        "Trello",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Trello",
+        1
+    ],
+    [
+        "Trello",
+        "WIP",
+        1
+    ],
+    [
+        "Krzysiek",
+        "SpaCy",
+        1
+    ],
+    [
+        "Review",
+        "SpaCy",
+        1
+    ],
+    [
+        "STATE",
+        "SpaCy",
+        1
+    ],
+    [
+        "AGENCY",
+        "SpaCy",
+        1
+    ],
+    [
+        "GB RAM",
+        "SpaCy",
+        1
+    ],
+    [
+        "SpaCy",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "SpaCy",
+        1
+    ],
+    [
+        "Cloudflare",
+        "SpaCy",
+        1
+    ],
+    [
+        "CDN",
+        "SpaCy",
+        1
+    ],
+    [
+        "Claude API",
+        "SpaCy",
+        1
+    ],
+    [
+        "GUI",
+        "SpaCy",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "SpaCy",
+        1
+    ],
+    [
+        "SpaCy",
+        "WIP",
+        1
+    ],
+    [
+        "Krzysiek",
+        "Review",
+        1
+    ],
+    [
+        "Krzysiek",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "Krzysiek",
+        1
+    ],
+    [
+        "GB RAM",
+        "Krzysiek",
+        1
+    ],
+    [
+        "Krzysiek",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "Krzysiek",
+        1
+    ],
+    [
+        "Cloudflare",
+        "Krzysiek",
+        1
+    ],
+    [
+        "CDN",
+        "Krzysiek",
+        1
+    ],
+    [
+        "Claude API",
+        "Krzysiek",
+        1
+    ],
+    [
+        "GUI",
+        "Krzysiek",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Krzysiek",
+        1
+    ],
+    [
+        "Krzysiek",
+        "WIP",
+        1
+    ],
+    [
+        "Review",
+        "STATE",
+        1
+    ],
+    [
+        "AGENCY",
+        "Review",
+        1
+    ],
+    [
+        "GB RAM",
+        "Review",
+        1
+    ],
+    [
+        "Review",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "Review",
+        1
+    ],
+    [
+        "Cloudflare",
+        "Review",
+        1
+    ],
+    [
+        "CDN",
+        "Review",
+        1
+    ],
+    [
+        "Claude API",
+        "Review",
+        1
+    ],
+    [
+        "GUI",
+        "Review",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Review",
+        1
+    ],
+    [
+        "Review",
+        "WIP",
+        1
+    ],
+    [
+        "AGENCY",
+        "STATE",
+        1
+    ],
+    [
+        "GB RAM",
+        "STATE",
+        1
+    ],
+    [
+        "STATE",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "STATE",
+        1
+    ],
+    [
+        "Cloudflare",
+        "STATE",
+        1
+    ],
+    [
+        "CDN",
+        "STATE",
+        1
+    ],
+    [
+        "Claude API",
+        "STATE",
+        1
+    ],
+    [
+        "GUI",
+        "STATE",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "STATE",
+        1
+    ],
+    [
+        "STATE",
+        "WIP",
+        1
+    ],
+    [
+        "AGENCY",
+        "GB RAM",
+        1
+    ],
+    [
+        "AGENCY",
+        "Windows",
+        1
+    ],
+    [
+        "AGENCY",
+        "Claude Sonnet API",
+        1
+    ],
+    [
+        "AGENCY",
+        "Cloudflare",
+        1
+    ],
+    [
+        "AGENCY",
+        "CDN",
+        1
+    ],
+    [
+        "AGENCY",
+        "Claude API",
+        1
+    ],
+    [
+        "AGENCY",
+        "GUI",
+        1
+    ],
+    [
+        "AGENCY",
+        "Backlog, Ready, In Progress",
+        1
+    ],
+    [
+        "AGENCY",
+        "WIP",
+        1
+    ],
+    [
+        "GB RAM",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "GB RAM",
+        1
+    ],
+    [
+        "Cloudflare",
+        "GB RAM",
+        1
+    ],
+    [
+        "CDN",
+        "GB RAM",
+        1
+    ],
+    [
+        "Claude API",
+        "GB RAM",
+        1
+    ],
+    [
+        "GB RAM",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "GB RAM",
+        1
+    ],
+    [
+        "GB RAM",
+        "WIP",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "Windows",
+        1
+    ],
+    [
+        "Cloudflare",
+        "Windows",
+        1
+    ],
+    [
+        "CDN",
+        "Windows",
+        1
+    ],
+    [
+        "Claude API",
+        "Windows",
+        1
+    ],
+    [
+        "GUI",
+        "Windows",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Windows",
+        1
+    ],
+    [
+        "WIP",
+        "Windows",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "Cloudflare",
+        1
+    ],
+    [
+        "CDN",
+        "Claude Sonnet API",
+        1
+    ],
+    [
+        "Claude API",
+        "Claude Sonnet API",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Claude Sonnet API",
+        1
+    ],
+    [
+        "Claude Sonnet API",
+        "WIP",
+        1
+    ],
+    [
+        "CDN",
+        "Cloudflare",
+        1
+    ],
+    [
+        "Claude API",
+        "Cloudflare",
+        1
+    ],
+    [
+        "Cloudflare",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Cloudflare",
+        1
+    ],
+    [
+        "Cloudflare",
+        "WIP",
+        1
+    ],
+    [
+        "CDN",
+        "Claude API",
+        1
+    ],
+    [
+        "CDN",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "CDN",
+        1
+    ],
+    [
+        "CDN",
+        "WIP",
+        1
+    ],
+    [
+        "Claude API",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Claude API",
+        1
+    ],
+    [
+        "Claude API",
+        "WIP",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "GUI",
+        1
+    ],
+    [
+        "GUI",
+        "WIP",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "WIP",
+        1
+    ],
+    [
+        "Claude",
+        "WIP limit",
+        1
+    ],
+    [
+        "Claude",
+        "Trello",
+        1
+    ],
+    [
+        "Claude",
+        "Review",
+        1
+    ],
+    [
+        "Claude",
+        "Claude API",
+        1
+    ],
+    [
+        "Claude",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Claude",
+        1
+    ],
+    [
+        "Claude",
+        "WIP",
+        1
+    ],
+    [
+        "Trello",
+        "WIP limit",
+        1
+    ],
+    [
+        "Review",
+        "WIP limit",
+        1
+    ],
+    [
+        "Claude API",
+        "WIP limit",
+        1
+    ],
+    [
+        "GUI",
+        "WIP limit",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "WIP limit",
+        1
+    ],
+    [
+        "WIP",
+        "WIP limit",
+        1
+    ],
+    [
+        "Review",
+        "Trello",
+        1
+    ],
+    [
+        "Claude API",
+        "Trello",
+        1
+    ],
+    [
+        "GUI",
+        "Trello",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Trello",
+        1
+    ],
+    [
+        "Trello",
+        "WIP",
+        1
+    ],
+    [
+        "Claude API",
+        "Review",
+        1
+    ],
+    [
+        "GUI",
+        "Review",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Review",
+        1
+    ],
+    [
+        "Review",
+        "WIP",
+        1
+    ],
+    [
+        "Claude API",
+        "GUI",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "Claude API",
+        1
+    ],
+    [
+        "Claude API",
+        "WIP",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "GUI",
+        1
+    ],
+    [
+        "GUI",
+        "WIP",
+        1
+    ],
+    [
+        "Backlog, Ready, In Progress",
+        "WIP",
+        1
+    ]
+]

@@ -56,8 +56,7 @@ for priorities P1 through P3, orange for bugs, pink for ideas, and black for blo
 """.strip()
 
 # ── Config ──
-CACHE_FOLDER = os.path.join(os.path.dirname(__file__), "demo_cache")
-os.makedirs(CACHE_FOLDER, exist_ok=True)
+CACHE_FOLDER = None  # Set in __main__ based on extractor choice
 CHUNK_LENGTH = 300  # tokens (smaller for demo)
 CHUNK_OVERLAP = 50
 
@@ -290,8 +289,15 @@ if __name__ == "__main__":
     sys.stdout.reconfigure(encoding='utf-8')
     
     use_hybrid = "--spacy" not in sys.argv
+    
+    # Set cache folder per extractor type
+    cache_name = "demo_cache_hybrid" if use_hybrid else "demo_cache"
+    CACHE_FOLDER = os.path.join(os.path.dirname(__file__), cache_name)
+    os.makedirs(CACHE_FOLDER, exist_ok=True)
+    
     print("E²GraphRAG End-to-End Demo")
     print(f"Extractor: {'LCCExtractor (Hybrid)' if use_hybrid else 'SpacyExtractor (baseline)'}")
+    print(f"Cache: {cache_name}/")
     print(f"Sample text: {len(SAMPLE_TEXT)} chars")
     
     # Chunk

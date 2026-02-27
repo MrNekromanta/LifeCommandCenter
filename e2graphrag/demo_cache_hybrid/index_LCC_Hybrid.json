@@ -1,0 +1,106 @@
+{
+    "LifeCommandCenter": [
+        "leaf_0"
+    ],
+    "Entity Extraction": [
+        "leaf_0"
+    ],
+    "BiznesValidator": [
+        "leaf_0"
+    ],
+    "n8n": [
+        "leaf_0"
+    ],
+    "Claude Sonnet": [
+        "leaf_0"
+    ],
+    "Google Drive": [
+        "leaf_0"
+    ],
+    "Beelink SER9": [
+        "leaf_0"
+    ],
+    "daily digest": [
+        "leaf_0"
+    ],
+    "EntityRuler": [
+        "leaf_0"
+    ],
+    "E²GraphRAG Pipeline": [
+        "leaf_0"
+    ],
+    "PostgreSQL": [
+        "leaf_0"
+    ],
+    "Claude": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "WIP limit": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "Allmedica": [
+        "leaf_0"
+    ],
+    "Supabase": [
+        "leaf_0"
+    ],
+    "FastAPI": [
+        "leaf_0"
+    ],
+    "Windows 11": [
+        "leaf_0"
+    ],
+    "Trello": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "SpaCy": [
+        "leaf_0"
+    ],
+    "Krzysiek": [
+        "leaf_0"
+    ],
+    "Review": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "STATE": [
+        "leaf_0"
+    ],
+    "AGENCY": [
+        "leaf_0"
+    ],
+    "GB RAM": [
+        "leaf_0"
+    ],
+    "Windows": [
+        "leaf_0"
+    ],
+    "Claude Sonnet API": [
+        "leaf_0"
+    ],
+    "Cloudflare": [
+        "leaf_0"
+    ],
+    "CDN": [
+        "leaf_0"
+    ],
+    "Claude API": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "GUI": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "Backlog, Ready, In Progress": [
+        "leaf_0",
+        "leaf_1"
+    ],
+    "WIP": [
+        "leaf_0",
+        "leaf_1"
+    ]
+}
