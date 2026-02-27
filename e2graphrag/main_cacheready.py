@@ -167,8 +167,8 @@ def main():
 
             # Save results
             res_path = os.path.join(configs["paths"]["answer_path"],configs["dataset"]["dataset_name"], f"book_{i}.json")
-            with open(res_path, "w") as f:
-                json.dump(res, f, indent=4)
+            with open(res_path, "w", encoding="utf-8") as f:
+                json.dump(res, f, indent=4, ensure_ascii=False)
         
         except Exception as e:
             print(f"Error occurred during QA processing: {e}")

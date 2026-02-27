@@ -280,6 +280,8 @@ def demo_query(cache_tree, G, index, appearance_count, nlp):
 
 
 if __name__ == "__main__":
+    import sys
+    sys.stdout.reconfigure(encoding='utf-8')
     print("E²GraphRAG End-to-End Demo")
     print(f"Sample text: {len(SAMPLE_TEXT)} chars")
     

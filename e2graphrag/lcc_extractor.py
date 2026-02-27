@@ -78,6 +78,8 @@ class LCCExtractor(Extractor):
 
 
 if __name__ == "__main__":
+    import sys
+    sys.stdout.reconfigure(encoding='utf-8')
     print("Testing LCCExtractor adapter...")
     ext = LCCExtractor(enable_llm=False)
     

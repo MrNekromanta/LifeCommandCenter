@@ -423,23 +423,23 @@ def load_cache(cache_path:str, method_name:str):
     graph_file_path = os.path.join(cache_path, f"graph_{method_name}.json")
     index_file_path = os.path.join(cache_path, f"index_{method_name}.json")
     appearance_count_file_path = os.path.join(cache_path, f"appearance_count_{method_name}.json")
-    edges = json.load(open(graph_file_path, "r"))
-    index = json.load(open(index_file_path, "r"))
-    appearance_count = json.load(open(appearance_count_file_path, "r"))
+    edges = json.load(open(graph_file_path, "r", encoding="utf-8"))
+    index = json.load(open(index_file_path, "r", encoding="utf-8"))
+    appearance_count = json.load(open(appearance_count_file_path, "r", encoding="utf-8"))
     graph = build_graph(edges)
     return graph, index, appearance_count
 
 def save_graph(result, cache_path:str):
-    with open(cache_path, "w") as f:
-        json.dump(result, f, indent=4)
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=4, ensure_ascii=False)
 
 def save_index(result, cache_path:str):
-    with open(cache_path, "w") as f:
-        json.dump(result, f, indent=4)
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=4, ensure_ascii=False)
 
 def save_appearance_count(result, cache_path:str):
-    with open(cache_path, "w") as f:
-        json.dump(result, f, indent=4)
+    with open(cache_path, "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=4, ensure_ascii=False)
     
 def extract_graph(text:List[str], cache_folder:str, nlp:Extractor, use_cache=True, reextract=False):
     extract_start_time = time.time()
