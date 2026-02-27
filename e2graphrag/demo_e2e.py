@@ -17,6 +17,7 @@ import time
 sys.path.insert(0, os.path.dirname(__file__))
 
 from extract_graph import SpacyExtractor, extract_graph, build_graph
+from lcc_extractor import LCCExtractor
 from build_tree import build_tree, load_cache_summary
 from query import Retriever
 from utils import sequential_split
@@ -76,14 +77,19 @@ def simple_split(text: str, length: int, overlap: int) -> list:
     return chunks
 
 
-def demo_graph_extraction(chunks):
-    """Step 1: Extract entity graph using SpacyExtractor."""
+def demo_graph_extraction(chunks, use_hybrid=True):
+    """Step 1: Extract entity graph."""
+    extractor_name = "LCCExtractor (Hybrid)" if use_hybrid else "SpacyExtractor"
     print("\n" + "="*60)
-    print("STEP 1: Graph Extraction (SpacyExtractor)")
+    print(f"STEP 1: Graph Extraction ({extractor_name})")
     print("="*60)
     
-    nlp = SpacyExtractor("en")
-    print(f"  SpaCy model loaded: en_core_web_lg")
+    if use_hybrid:
+        nlp = LCCExtractor(enable_llm=False)
+        print(f"  LCCExtractor loaded (L1: SpaCy, L2: EntityRuler, L3: off)")
+    else:
+        nlp = SpacyExtractor("en")
+        print(f"  SpaCy model loaded: en_core_web_lg")
     
     t0 = time.time()
     (G, index, appearance_count), time_cost = extract_graph(
@@ -282,7 +288,10 @@ def demo_query(cache_tree, G, index, appearance_count, nlp):
 if __name__ == "__main__":
     import sys
     sys.stdout.reconfigure(encoding='utf-8')
+    
+    use_hybrid = "--spacy" not in sys.argv
     print("E²GraphRAG End-to-End Demo")
+    print(f"Extractor: {'LCCExtractor (Hybrid)' if use_hybrid else 'SpacyExtractor (baseline)'}")
     print(f"Sample text: {len(SAMPLE_TEXT)} chars")
     
     # Chunk
@@ -290,7 +299,7 @@ if __name__ == "__main__":
     print(f"Chunks: {len(chunks)} (length={CHUNK_LENGTH}, overlap={CHUNK_OVERLAP})")
     
     # Step 1: Graph
-    G, index, appearance_count, nlp = demo_graph_extraction(chunks)
+    G, index, appearance_count, nlp = demo_graph_extraction(chunks, use_hybrid=use_hybrid)
     
     # Step 2: Tree (Claude API)
     cache_tree = demo_tree_building_claude(chunks)
