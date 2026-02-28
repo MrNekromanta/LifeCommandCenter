@@ -1,0 +1,6295 @@
+{
+    "Crypto Phantom Rebalancing": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_4",
+        "leaf_5",
+        "leaf_10",
+        "leaf_11",
+        "leaf_15",
+        "leaf_30",
+        "leaf_34",
+        "leaf_35",
+        "leaf_37",
+        "leaf_39",
+        "leaf_42",
+        "leaf_48",
+        "leaf_49",
+        "leaf_51",
+        "leaf_52",
+        "leaf_116",
+        "leaf_119",
+        "leaf_120",
+        "leaf_121",
+        "leaf_122",
+        "leaf_123"
+    ],
+    "Telegram Bot": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_2",
+        "leaf_4",
+        "leaf_5",
+        "leaf_6",
+        "leaf_12",
+        "leaf_13",
+        "leaf_14",
+        "leaf_30",
+        "leaf_31",
+        "leaf_33",
+        "leaf_34",
+        "leaf_35",
+        "leaf_36",
+        "leaf_48",
+        "leaf_49",
+        "leaf_52"
+    ],
+    "rebalancing": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_2",
+        "leaf_4",
+        "leaf_6",
+        "leaf_7",
+        "leaf_8",
+        "leaf_9",
+        "leaf_11",
+        "leaf_12",
+        "leaf_13",
+        "leaf_14",
+        "leaf_15",
+        "leaf_30",
+        "leaf_31",
+        "leaf_32",
+        "leaf_34",
+        "leaf_52"
+    ],
+    "PostgreSQL": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_5",
+        "leaf_11",
+        "leaf_12",
+        "leaf_13",
+        "leaf_30",
+        "leaf_33",
+        "leaf_34",
+        "leaf_35",
+        "leaf_39",
+        "leaf_48",
+        "leaf_49",
+        "leaf_73",
+        "leaf_74",
+        "leaf_84",
+        "leaf_107",
+        "leaf_116",
+        "leaf_119",
+        "leaf_120",
+        "leaf_121",
+        "leaf_122",
+        "leaf_123",
+        "leaf_126"
+    ],
+    "DeepSeek-R1": [
+        "leaf_0",
+        "leaf_3",
+        "leaf_14",
+        "leaf_30",
+        "leaf_31",
+        "leaf_35",
+        "leaf_49",
+        "leaf_138",
+        "leaf_139",
+        "leaf_140",
+        "leaf_163"
+    ],
+    "phantom buffer": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_2",
+        "leaf_6",
+        "leaf_7",
+        "leaf_9",
+        "leaf_12",
+        "leaf_13",
+        "leaf_14",
+        "leaf_15",
+        "leaf_30",
+        "leaf_31"
+    ],
+    "Docker": [
+        "leaf_0",
+        "leaf_3",
+        "leaf_5",
+        "leaf_6",
+        "leaf_8",
+        "leaf_10",
+        "leaf_11",
+        "leaf_12",
+        "leaf_13",
+        "leaf_15",
+        "leaf_30",
+        "leaf_32",
+        "leaf_33",
+        "leaf_34",
+        "leaf_35",
+        "leaf_39",
+        "leaf_46",
+        "leaf_48",
+        "leaf_49",
+        "leaf_53",
+        "leaf_54",
+        "leaf_55",
+        "leaf_56",
+        "leaf_57",
+        "leaf_58",
+        "leaf_59",
+        "leaf_60",
+        "leaf_61",
+        "leaf_62",
+        "leaf_63",
+        "leaf_64",
+        "leaf_65",
+        "leaf_66",
+        "leaf_67",
+        "leaf_81",
+        "leaf_82",
+        "leaf_84"
+    ],
+    "psycopg2": [
+        "leaf_0"
+    ],
+    "schedule": [
+        "leaf_0"
+    ],
+    "Qwen3:8B": [
+        "leaf_0",
+        "leaf_3",
+        "leaf_12",
+        "leaf_14",
+        "leaf_15"
+    ],
+    "RTX 3090": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_3",
+        "leaf_6",
+        "leaf_8",
+        "leaf_31",
+        "leaf_32",
+        "leaf_33",
+        "leaf_34",
+        "leaf_35",
+        "leaf_36",
+        "leaf_37",
+        "leaf_39",
+        "leaf_40",
+        "leaf_41",
+        "leaf_42",
+        "leaf_43",
+        "leaf_47",
+        "leaf_48",
+        "leaf_49",
+        "leaf_50",
+        "leaf_51",
+        "leaf_52",
+        "leaf_138",
+        "leaf_139",
+        "leaf_140",
+        "leaf_149",
+        "leaf_150",
+        "leaf_151",
+        "leaf_154",
+        "leaf_155",
+        "leaf_156",
+        "leaf_162",
+        "leaf_163",
+        "leaf_166",
+        "leaf_167",
+        "leaf_169"
+    ],
+    "Arbitrum": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_2",
+        "leaf_4",
+        "leaf_5",
+        "leaf_6",
+        "leaf_7",
+        "leaf_8",
+        "leaf_12",
+        "leaf_13",
+        "leaf_14",
+        "leaf_15",
+        "leaf_30",
+        "leaf_32",
+        "leaf_53"
+    ],
+    "Grafana": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_5",
+        "leaf_6",
+        "leaf_8",
+        "leaf_10",
+        "leaf_11",
+        "leaf_12",
+        "leaf_13",
+        "leaf_14",
+        "leaf_30",
+        "leaf_35",
+        "leaf_49",
+        "leaf_53",
+        "leaf_64",
+        "leaf_65"
+    ],
+    "Web3.py": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_2",
+        "leaf_5",
+        "leaf_12",
+        "leaf_30"
+    ],
+    "Ollama": [
+        "leaf_0",
+        "leaf_3",
+        "leaf_8",
+        "leaf_10",
+        "leaf_11",
+        "leaf_12",
+        "leaf_14",
+        "leaf_30",
+        "leaf_34",
+        "leaf_35",
+        "leaf_40",
+        "leaf_48",
+        "leaf_49",
+        "leaf_138",
+        "leaf_150",
+        "leaf_161",
+        "leaf_163"
+    ],
+    "Claude": [
+        "leaf_0",
+        "leaf_13",
+        "leaf_16",
+        "leaf_18",
+        "leaf_19",
+        "leaf_20",
+        "leaf_21",
+        "leaf_22",
+        "leaf_23",
+        "leaf_26",
+        "leaf_27",
+        "leaf_30",
+        "leaf_42",
+        "leaf_43",
+        "leaf_44",
+        "leaf_45",
+        "leaf_46",
+        "leaf_48",
+        "leaf_50",
+        "leaf_51",
+        "leaf_54",
+        "leaf_55",
+        "leaf_56",
+        "leaf_58",
+        "leaf_59",
+        "leaf_60",
+        "leaf_61",
+        "leaf_62",
+        "leaf_63",
+        "leaf_64",
+        "leaf_66",
+        "leaf_67",
+        "leaf_68",
+        "leaf_70",
+        "leaf_71",
+        "leaf_72",
+        "leaf_74",
+        "leaf_77",
+        "leaf_78",
+        "leaf_79",
+        "leaf_80",
+        "leaf_81",
+        "leaf_82",
+        "leaf_88",
+        "leaf_89",
+        "leaf_90",
+        "leaf_91",
+        "leaf_96",
+        "leaf_97",
+        "leaf_98",
+        "leaf_99",
+        "leaf_101",
+        "leaf_102",
+        "leaf_103",
+        "leaf_104",
+        "leaf_105",
+        "leaf_106",
+        "leaf_107",
+        "leaf_108",
+        "leaf_113",
+        "leaf_115",
+        "leaf_119",
+        "leaf_120",
+        "leaf_121",
+        "leaf_122",
+        "leaf_123",
+        "leaf_124",
+        "leaf_125",
+        "leaf_126",
+        "leaf_130",
+        "leaf_131",
+        "leaf_133",
+        "leaf_136",
+        "leaf_137",
+        "leaf_138",
+        "leaf_139",
+        "leaf_140",
+        "leaf_141",
+        "leaf_148",
+        "leaf_155",
+        "leaf_160",
+        "leaf_163",
+        "leaf_164",
+        "leaf_166"
+    ],
+    "Beelink SER9": [
+        "leaf_0",
+        "leaf_5",
+        "leaf_7",
+        "leaf_8",
+        "leaf_11",
+        "leaf_12",
+        "leaf_15",
+        "leaf_30",
+        "leaf_31",
+        "leaf_32",
+        "leaf_33",
+        "leaf_36",
+        "leaf_37",
+        "leaf_38",
+        "leaf_39",
+        "leaf_40",
+        "leaf_42",
+        "leaf_47",
+        "leaf_48",
+        "leaf_49",
+        "leaf_51",
+        "leaf_52",
+        "leaf_53",
+        "leaf_66",
+        "leaf_68",
+        "leaf_69",
+        "leaf_70",
+        "leaf_72",
+        "leaf_73",
+        "leaf_74",
+        "leaf_75",
+        "leaf_76",
+        "leaf_78",
+        "leaf_79",
+        "leaf_80",
+        "leaf_81",
+        "leaf_82",
+        "leaf_83",
+        "leaf_84",
+        "leaf_85",
+        "leaf_86",
+        "leaf_87",
+        "leaf_89",
+        "leaf_101",
+        "leaf_102",
+        "leaf_107",
+        "leaf_108",
+        "leaf_111",
+        "leaf_113",
+        "leaf_121",
+        "leaf_122",
+        "leaf_123",
+        "leaf_125",
+        "leaf_161",
+        "leaf_162"
+    ],
+    "USDC": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_2",
+        "leaf_4",
+        "leaf_6",
+        "leaf_7",
+        "leaf_8",
+        "leaf_11",
+        "leaf_12",
+        "leaf_13",
+        "leaf_14",
+        "leaf_15",
+        "leaf_30",
+        "leaf_31",
+        "leaf_32"
+    ],
+    "n8n": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_8",
+        "leaf_10",
+        "leaf_11",
+        "leaf_12",
+        "leaf_13",
+        "leaf_15",
+        "leaf_30",
+        "leaf_33",
+        "leaf_34",
+        "leaf_35",
+        "leaf_37",
+        "leaf_38",
+        "leaf_39",
+        "leaf_43",
+        "leaf_44",
+        "leaf_45",
+        "leaf_46",
+        "leaf_47",
+        "leaf_48",
+        "leaf_49",
+        "leaf_50",
+        "leaf_51",
+        "leaf_55",
+        "leaf_56",
+        "leaf_57",
+        "leaf_60",
+        "leaf_62",
+        "leaf_64",
+        "leaf_66",
+        "leaf_68",
+        "leaf_72",
+        "leaf_73",
+        "leaf_74",
+        "leaf_80",
+        "leaf_81",
+        "leaf_82",
+        "leaf_83",
+        "leaf_88",
+        "leaf_101",
+        "leaf_103",
+        "leaf_106",
+        "leaf_108",
+        "leaf_119",
+        "leaf_120",
+        "leaf_122",
+        "leaf_123",
+        "leaf_126",
+        "leaf_138",
+        "leaf_139",
+        "leaf_140",
+        "leaf_149",
+        "leaf_150",
+        "leaf_157",
+        "leaf_158",
+        "leaf_161",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_166",
+        "leaf_170"
+    ],
+    "Ethereum": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_2",
+        "leaf_4",
+        "leaf_5",
+        "leaf_6",
+        "leaf_7",
+        "leaf_8",
+        "leaf_9",
+        "leaf_10",
+        "leaf_12",
+        "leaf_13",
+        "leaf_14",
+        "leaf_15",
+        "leaf_30",
+        "leaf_31",
+        "leaf_32",
+        "leaf_159"
+    ],
+    "DeFi": [
+        "leaf_0",
+        "leaf_4",
+        "leaf_7",
+        "leaf_8"
+    ],
+    "Telegram": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_4",
+        "leaf_13",
+        "leaf_14",
+        "leaf_31",
+        "leaf_33",
+        "leaf_34",
+        "leaf_35",
+        "leaf_48",
+        "leaf_49"
+    ],
+    "Kontener": [
+        "leaf_0"
+    ],
+    "Projekt": [
+        "leaf_0",
+        "leaf_12",
+        "leaf_16",
+        "leaf_27",
+        "leaf_30",
+        "leaf_43",
+        "leaf_50",
+        "leaf_52",
+        "leaf_62",
+        "leaf_84",
+        "leaf_85",
+        "leaf_88",
+        "leaf_101",
+        "leaf_104",
+        "leaf_107",
+        "leaf_124",
+        "leaf_130",
+        "leaf_136",
+        "leaf_164"
+    ],
+    "Automatyczny": [
+        "leaf_0",
+        "leaf_18",
+        "leaf_30",
+        "leaf_91"
+    ],
+    "LLM": [
+        "leaf_0",
+        "leaf_26",
+        "leaf_27",
+        "leaf_37",
+        "leaf_38",
+        "leaf_54",
+        "leaf_55",
+        "leaf_57",
+        "leaf_59",
+        "leaf_60",
+        "leaf_61",
+        "leaf_62",
+        "leaf_63",
+        "leaf_66",
+        "leaf_67",
+        "leaf_68",
+        "leaf_69",
+        "leaf_70",
+        "leaf_74",
+        "leaf_77",
+        "leaf_83",
+        "leaf_84",
+        "leaf_138",
+        "leaf_139",
+        "leaf_149",
+        "leaf_155",
+        "leaf_163",
+        "leaf_164"
+    ],
+    "Crypto Rebalancer": [
+        "leaf_0",
+        "leaf_1",
+        "leaf_123"
+    ],
+    "Chainlink": [
+        "leaf_1",
+        "leaf_2",
+        "leaf_30"
+    ],
+    "mean-reversion": [
+        "leaf_1",
+        "leaf_8",
+        "leaf_9",
+        "leaf_10",
+        "leaf_12"
+    ],
+    "Bitwarden": [
+        "leaf_1",
+        "leaf_5",
+        "leaf_12",
+        "leaf_13"
+    ],
+    "Alchemy": [
+        "leaf_1",
+        "leaf_5",
+        "leaf_6",
+        "leaf_12",
+        "leaf_30",
+        "leaf_33"
+    ],
+    "USDD": [
+        "leaf_1",
+        "leaf_8",
+        "leaf_9",
+        "leaf_12",
+        "leaf_52",
+        "leaf_159"
+    ],
+    "PAXG": [
+        "leaf_1",
+        "leaf_9",
+        "leaf_13"
+    ],
+    "SCRT": [
+        "leaf_1",
+        "leaf_9",
+        "leaf_12",
+        "leaf_13"
+    ],
+    "Solana": [
+        "leaf_1",
+        "leaf_2",
+        "leaf_4",
+        "leaf_6",
+        "leaf_7",
+        "leaf_8",
+        "leaf_11",
+        "leaf_13",
+        "leaf_14",
+        "leaf_15",
+        "leaf_31"
+    ],
+    "Tron": [
+        "leaf_1",
+        "leaf_2",
+        "leaf_8",
+        "leaf_9",
+        "leaf_10",
+        "leaf_12",
+        "leaf_52",
+        "leaf_159"
+    ],
+    "BTC": [
+        "leaf_1",
+        "leaf_8",
+        "leaf_9",
+        "leaf_14",
+        "leaf_15"
+    ],
+    "TRX": [
+        "leaf_1",
+        "leaf_2",
+        "leaf_9"
+    ],
+    "HODL": [
+        "leaf_1",
+        "leaf_6",
+        "leaf_7",
+        "leaf_8",
+        "leaf_9",
+        "leaf_12",
+        "leaf_14",
+        "leaf_15",
+        "leaf_32",
+        "leaf_52"
+    ],
+    "ATH": [
+        "leaf_1",
+        "leaf_4",
+        "leaf_9"
+    ],
+    "ETH": [
+        "leaf_1",
+        "leaf_2",
+        "leaf_4",
+        "leaf_7",
+        "leaf_12",
+        "leaf_159"
+    ],
+    "Backtesting": [
+        "leaf_1",
+        "leaf_2"
+    ],
+    "RPC": [
+        "leaf_1",
+        "leaf_2",
+        "leaf_5",
+        "leaf_6",
+        "leaf_30"
+    ],
+    "ETH/USDC": [
+        "leaf_1",
+        "leaf_7"
+    ],
+    "Arbitrum ma": [
+        "leaf_1"
+    ],
+    "ETH/": [
+        "leaf_1"
+    ],
+    "Phantom": [
+        "leaf_1",
+        "leaf_2",
+        "leaf_15",
+        "leaf_31"
+    ],
+    "monitoring-only": [
+        "leaf_2",
+        "leaf_3"
+    ],
+    "balance-based tracking": [
+        "leaf_2",
+        "leaf_30",
+        "leaf_31"
+    ],
+    "WBTC": [
+        "leaf_2"
+    ],
+    "DEX": [
+        "leaf_2"
+    ],
+    "Czyste": [
+        "leaf_2",
+        "leaf_38"
+    ],
+    "TX z": [
+        "leaf_2"
+    ],
+    "Ethereum L1": [
+        "leaf_2"
+    ],
+    "Maksymalna": [
+        "leaf_2"
+    ],
+    "Ubuntu": [
+        "leaf_3",
+        "leaf_6",
+        "leaf_7",
+        "leaf_14",
+        "leaf_15",
+        "leaf_81"
+    ],
+    "PowerShell": [
+        "leaf_3",
+        "leaf_5",
+        "leaf_6",
+        "leaf_16",
+        "leaf_19",
+        "leaf_25",
+        "leaf_26",
+        "leaf_113",
+        "leaf_127"
+    ],
+    "Windows 11": [
+        "leaf_3",
+        "leaf_6",
+        "leaf_8",
+        "leaf_11",
+        "leaf_13",
+        "leaf_15",
+        "leaf_16",
+        "leaf_22",
+        "leaf_25",
+        "leaf_26",
+        "leaf_46",
+        "leaf_47",
+        "leaf_48",
+        "leaf_93",
+        "leaf_157"
+    ],
+    "MetaMask": [
+        "leaf_3",
+        "leaf_12"
+    ],
+    "CLI": [
+        "leaf_3",
+        "leaf_63"
+    ],
+    "Qwen": [
+        "leaf_3"
+    ],
+    "OLLAMA_MODEL": [
+        "leaf_3"
+    ],
+    "CHECK_INTERVAL_MINUTES=120": [
+        "leaf_3",
+        "leaf_4"
+    ],
+    "Minimalizuje": [
+        "leaf_3"
+    ],
+    "Ubuntu Server": [
+        "leaf_3"
+    ],
+    "Docker Desktop ma GUI": [
+        "leaf_3"
+    ],
+    "GB RAM": [
+        "leaf_3",
+        "leaf_40",
+        "leaf_45",
+        "leaf_55"
+    ],
+    "Windows": [
+        "leaf_3"
+    ],
+    "Docker Desktop": [
+        "leaf_3"
+    ],
+    "Windows 7": [
+        "leaf_3"
+    ],
+    "Prompty AI": [
+        "leaf_3"
+    ],
+    "Rozmiar": [
+        "leaf_3",
+        "leaf_33",
+        "leaf_134"
+    ],
+    "APY": [
+        "leaf_4",
+        "leaf_8",
+        "leaf_14"
+    ],
+    "Breakeven": [
+        "leaf_4"
+    ],
+    "MIN_REBALANCE_DELTA_USD": [
+        "leaf_4"
+    ],
+    "Pyth": [
+        "leaf_4"
+    ],
+    "Jupiter DEX": [
+        "leaf_4"
+    ],
+    "Polski": [
+        "leaf_4",
+        "leaf_5",
+        "leaf_8",
+        "leaf_11",
+        "leaf_34",
+        "leaf_61",
+        "leaf_105",
+        "leaf_109",
+        "leaf_120",
+        "leaf_121",
+        "leaf_135"
+    ],
+    "SOL ma": [
+        "leaf_4"
+    ],
+    "Jupiter": [
+        "leaf_4"
+    ],
+    "Zmieniono": [
+        "leaf_4",
+        "leaf_5",
+        "leaf_89",
+        "leaf_90"
+    ],
+    "C:\\Users\\KN\\": [
+        "leaf_5"
+    ],
+    "Scheduler": [
+        "leaf_5"
+    ],
+    "CHECK_INTERVAL_MINUTES": [
+        "leaf_5"
+    ],
+    "Decimal": [
+        "leaf_5"
+    ],
+    "Web3": [
+        "leaf_5",
+        "leaf_30"
+    ],
+    "PID": [
+        "leaf_5"
+    ],
+    "Zmiana": [
+        "leaf_5",
+        "leaf_6",
+        "leaf_56",
+        "leaf_67",
+        "leaf_68",
+        "leaf_142"
+    ],
+    "Dodanie": [
+        "leaf_5",
+        "leaf_27",
+        "leaf_113",
+        "leaf_114"
+    ],
+    "Task Scheduler": [
+        "leaf_6"
+    ],
+    "Dashboardy Grafana": [
+        "leaf_6"
+    ],
+    "System Health": [
+        "leaf_6",
+        "leaf_7"
+    ],
+    "Krzysiek": [
+        "leaf_6",
+        "leaf_7",
+        "leaf_16",
+        "leaf_17",
+        "leaf_18",
+        "leaf_19",
+        "leaf_25",
+        "leaf_27",
+        "leaf_28",
+        "leaf_29",
+        "leaf_46",
+        "leaf_67",
+        "leaf_68",
+        "leaf_71",
+        "leaf_72",
+        "leaf_73",
+        "leaf_76",
+        "leaf_77",
+        "leaf_78",
+        "leaf_82",
+        "leaf_85",
+        "leaf_86",
+        "leaf_87",
+        "leaf_90",
+        "leaf_94",
+        "leaf_96",
+        "leaf_98",
+        "leaf_100",
+        "leaf_105",
+        "leaf_106",
+        "leaf_108",
+        "leaf_109",
+        "leaf_119",
+        "leaf_120",
+        "leaf_122",
+        "leaf_123",
+        "leaf_127",
+        "leaf_138",
+        "leaf_139",
+        "leaf_146",
+        "leaf_148",
+        "leaf_151",
+        "leaf_152",
+        "leaf_157",
+        "leaf_158",
+        "leaf_160"
+    ],
+    "Kompletna": [
+        "leaf_6",
+        "leaf_52",
+        "leaf_93",
+        "leaf_94"
+    ],
+    "Docelowo": [
+        "leaf_6"
+    ],
+    "Potencjalnie": [
+        "leaf_6",
+        "leaf_116",
+        "leaf_117"
+    ],
+    "Performance Analytics": [
+        "leaf_6"
+    ],
+    "Multi-Portfolio Comparison": [
+        "leaf_6",
+        "leaf_7"
+    ],
+    "daily digest": [
+        "leaf_7",
+        "leaf_121"
+    ],
+    "Research": [
+        "leaf_7",
+        "leaf_9",
+        "leaf_12",
+        "leaf_13",
+        "leaf_14",
+        "leaf_38",
+        "leaf_39",
+        "leaf_41",
+        "leaf_47",
+        "leaf_48",
+        "leaf_94",
+        "leaf_156",
+        "leaf_159"
+    ],
+    "Specyfikacja": [
+        "leaf_7",
+        "leaf_9",
+        "leaf_10",
+        "leaf_13",
+        "leaf_32",
+        "leaf_33",
+        "leaf_34",
+        "leaf_41",
+        "leaf_58",
+        "leaf_59",
+        "leaf_72",
+        "leaf_81"
+    ],
+    "SOL": [
+        "leaf_7"
+    ],
+    "Aktualny": [
+        "leaf_7"
+    ],
+    "Docelowa": [
+        "leaf_7"
+    ],
+    "Decyzja": [
+        "leaf_7",
+        "leaf_20",
+        "leaf_50",
+        "leaf_54",
+        "leaf_62",
+        "leaf_63",
+        "leaf_98",
+        "leaf_104",
+        "leaf_125",
+        "leaf_126",
+        "leaf_142"
+    ],
+    "Historyczny": [
+        "leaf_7"
+    ],
+    "Realistyczny": [
+        "leaf_7",
+        "leaf_115",
+        "leaf_116"
+    ],
+    "CPU": [
+        "leaf_7",
+        "leaf_11",
+        "leaf_31",
+        "leaf_32",
+        "leaf_33",
+        "leaf_35",
+        "leaf_36",
+        "leaf_40",
+        "leaf_41",
+        "leaf_42",
+        "leaf_52",
+        "leaf_54",
+        "leaf_55",
+        "leaf_57",
+        "leaf_60",
+        "leaf_61",
+        "leaf_68",
+        "leaf_81",
+        "leaf_86",
+        "leaf_87",
+        "leaf_149"
+    ],
+    "Beelink SER9 Lab": [
+        "leaf_8",
+        "leaf_11",
+        "leaf_12",
+        "leaf_83"
+    ],
+    "Liczba": [
+        "leaf_8",
+        "leaf_20",
+        "leaf_30",
+        "leaf_36",
+        "leaf_66",
+        "leaf_71",
+        "leaf_78",
+        "leaf_79",
+        "leaf_88",
+        "leaf_131",
+        "leaf_138"
+    ],
+    "Audyt": [
+        "leaf_8",
+        "leaf_126",
+        "leaf_130",
+        "leaf_137",
+        "leaf_168",
+        "leaf_169"
+    ],
+    "Jaki MIN_REBALANCE_DELTA_USD": [
+        "leaf_8"
+    ],
+    "Kiedy": [
+        "leaf_8",
+        "leaf_21",
+        "leaf_37",
+        "leaf_42",
+        "leaf_116",
+        "leaf_169",
+        "leaf_170"
+    ],
+    "Czy": [
+        "leaf_8",
+        "leaf_21",
+        "leaf_34",
+        "leaf_37",
+        "leaf_39",
+        "leaf_42",
+        "leaf_43",
+        "leaf_72",
+        "leaf_73",
+        "leaf_80",
+        "leaf_94",
+        "leaf_119",
+        "leaf_132",
+        "leaf_135",
+        "leaf_169",
+        "leaf_170"
+    ],
+    "Beelink SER9 +": [
+        "leaf_8"
+    ],
+    "SHARES_STACK": [
+        "leaf_8",
+        "leaf_37",
+        "leaf_39",
+        "leaf_45",
+        "leaf_46",
+        "leaf_135"
+    ],
+    "Seria": [
+        "leaf_8"
+    ],
+    "HackerNoon": [
+        "leaf_9"
+    ],
+    "Ostatecznie": [
+        "leaf_9"
+    ],
+    "Zignaly": [
+        "leaf_9"
+    ],
+    "Quantpedia": [
+        "leaf_9"
+    ],
+    "CoinGecko": [
+        "leaf_9"
+    ],
+    "CoinMarketCap": [
+        "leaf_9"
+    ],
+    "DefiLlama": [
+        "leaf_9"
+    ],
+    "TVL": [
+        "leaf_9"
+    ],
+    "Zbilansowana": [
+        "leaf_9"
+    ],
+    "Historyczny CAGR ETH": [
+        "leaf_9"
+    ],
+    "Historical": [
+        "leaf_9",
+        "leaf_10"
+    ],
+    "Sharpe": [
+        "leaf_9",
+        "leaf_10"
+    ],
+    "USDJ": [
+        "leaf_10",
+        "leaf_11",
+        "leaf_13",
+        "leaf_14",
+        "leaf_159"
+    ],
+    "USDJ Analysis": [
+        "leaf_10"
+    ],
+    "Brak": [
+        "leaf_10",
+        "leaf_15",
+        "leaf_25",
+        "leaf_26",
+        "leaf_57",
+        "leaf_64",
+        "leaf_81",
+        "leaf_87",
+        "leaf_97",
+        "leaf_122",
+        "leaf_123",
+        "leaf_130"
+    ],
+    "Desktop Commander": [
+        "leaf_11",
+        "leaf_16",
+        "leaf_18",
+        "leaf_21",
+        "leaf_25",
+        "leaf_26",
+        "leaf_89",
+        "leaf_91",
+        "leaf_92",
+        "leaf_102",
+        "leaf_103",
+        "leaf_104",
+        "leaf_113",
+        "leaf_123",
+        "leaf_127",
+        "leaf_138",
+        "leaf_158",
+        "leaf_161",
+        "leaf_162",
+        "leaf_164"
+    ],
+    "RTX 3090 Upgrade": [
+        "leaf_11",
+        "leaf_48",
+        "leaf_49",
+        "leaf_140",
+        "leaf_141",
+        "leaf_149",
+        "leaf_154",
+        "leaf_155",
+        "leaf_156",
+        "leaf_162",
+        "leaf_163",
+        "leaf_166",
+        "leaf_167",
+        "leaf_169",
+        "leaf_170"
+    ],
+    "Angielski": [
+        "leaf_11"
+    ],
+    "Analiza_Rebalancingu": [
+        "leaf_11"
+    ],
+    "Home_Lab_SER9": [
+        "leaf_11"
+    ],
+    "SOL_USDC_Portfolio": [
+        "leaf_11"
+    ],
+    "Better_AI_Models": [
+        "leaf_11"
+    ],
+    "Encje": [
+        "leaf_11",
+        "leaf_26",
+        "leaf_49",
+        "leaf_61",
+        "leaf_62",
+        "leaf_83",
+        "leaf_103",
+        "leaf_123",
+        "leaf_136",
+        "leaf_163"
+    ],
+    "Home Lab": [
+        "leaf_11",
+        "leaf_12"
+    ],
+    "Linux - Privacy-": [
+        "leaf_11"
+    ],
+    "USDJ_Analysis": [
+        "leaf_11"
+    ],
+    "Rola": [
+        "leaf_11",
+        "leaf_12",
+        "leaf_26",
+        "leaf_49",
+        "leaf_61",
+        "leaf_62",
+        "leaf_83",
+        "leaf_103",
+        "leaf_123",
+        "leaf_136",
+        "leaf_163"
+    ],
+    "Dashboardy": [
+        "leaf_12",
+        "leaf_49"
+    ],
+    "Alerty": [
+        "leaf_12",
+        "leaf_52"
+    ],
+    "AMD Ryzen 7": [
+        "leaf_12"
+    ],
+    "Arbitrum RPC": [
+        "leaf_12"
+    ],
+    "Milestones": [
+        "leaf_13"
+    ],
+    "Crypto Rebalancing": [
+        "leaf_13",
+        "leaf_14"
+    ],
+    "TypeError Decimal": [
+        "leaf_13",
+        "leaf_14"
+    ],
+    "USDJ analyzed & rejected": [
+        "leaf_13",
+        "leaf_14"
+    ],
+    "Konsolidacja": [
+        "leaf_13",
+        "leaf_164"
+    ],
+    "Claude Project": [
+        "leaf_13"
+    ],
+    "Docker Stack": [
+        "leaf_13"
+    ],
+    "Milestone": [
+        "leaf_13"
+    ],
+    "DECISION": [
+        "leaf_14"
+    ],
+    "Meta": [
+        "leaf_14",
+        "leaf_168",
+        "leaf_169"
+    ],
+    "Grafana Dashboard 1": [
+        "leaf_14"
+    ],
+    "SODIMM": [
+        "leaf_14",
+        "leaf_15"
+    ],
+    "ETH/BTC": [
+        "leaf_14",
+        "leaf_15"
+    ],
+    "Systemd": [
+        "leaf_15"
+    ],
+    "C:\\projects\\AI\\crypto-rebalancer\\": [
+        "leaf_15"
+    ],
+    "API": [
+        "leaf_15",
+        "leaf_43",
+        "leaf_44",
+        "leaf_45",
+        "leaf_56",
+        "leaf_57",
+        "leaf_61",
+        "leaf_66",
+        "leaf_68",
+        "leaf_69",
+        "leaf_70",
+        "leaf_71",
+        "leaf_74",
+        "leaf_75",
+        "leaf_76",
+        "leaf_77",
+        "leaf_78",
+        "leaf_81",
+        "leaf_82",
+        "leaf_83",
+        "leaf_106",
+        "leaf_109",
+        "leaf_110",
+        "leaf_111",
+        "leaf_120",
+        "leaf_123",
+        "leaf_139"
+    ],
+    "Kurs PM/PO": [
+        "leaf_16",
+        "leaf_22",
+        "leaf_26",
+        "leaf_27",
+        "leaf_28",
+        "leaf_29",
+        "leaf_102",
+        "leaf_103"
+    ],
+    "Anthropic": [
+        "leaf_16",
+        "leaf_74"
+    ],
+    "MCP": [
+        "leaf_16",
+        "leaf_26",
+        "leaf_37",
+        "leaf_38",
+        "leaf_42",
+        "leaf_43",
+        "leaf_44",
+        "leaf_45",
+        "leaf_46",
+        "leaf_47",
+        "leaf_49",
+        "leaf_50",
+        "leaf_51",
+        "leaf_113",
+        "leaf_114",
+        "leaf_119",
+        "leaf_120",
+        "leaf_121",
+        "leaf_123",
+        "leaf_138",
+        "leaf_157",
+        "leaf_158",
+        "leaf_162",
+        "leaf_164"
+    ],
+    "Claude Data": [
+        "leaf_16"
+    ],
+    "Fintech": [
+        "leaf_16",
+        "leaf_23",
+        "leaf_25"
+    ],
+    "Kurs PM": [
+        "leaf_16"
+    ],
+    "Kurs": [
+        "leaf_16",
+        "leaf_28"
+    ],
+    "SaaS": [
+        "leaf_16",
+        "leaf_107",
+        "leaf_109",
+        "leaf_117",
+        "leaf_123",
+        "leaf_124",
+        "leaf_127"
+    ],
+    "Progress Tracker": [
+        "leaf_16",
+        "leaf_20",
+        "leaf_21",
+        "leaf_28"
+    ],
+    "Lokalne": [
+        "leaf_16",
+        "leaf_25",
+        "leaf_26",
+        "leaf_55",
+        "leaf_56",
+        "leaf_69",
+        "leaf_70"
+    ],
+    "Krzyśka": [
+        "leaf_17",
+        "leaf_35",
+        "leaf_73",
+        "leaf_78",
+        "leaf_80",
+        "leaf_91",
+        "leaf_96",
+        "leaf_119",
+        "leaf_126",
+        "leaf_127",
+        "leaf_152",
+        "leaf_153"
+    ],
+    "Cagan": [
+        "leaf_17",
+        "leaf_22",
+        "leaf_23",
+        "leaf_27"
+    ],
+    "Torres": [
+        "leaf_17",
+        "leaf_22",
+        "leaf_23",
+        "leaf_24",
+        "leaf_25",
+        "leaf_27"
+    ],
+    "Olsen": [
+        "leaf_17",
+        "leaf_23"
+    ],
+    "Perri": [
+        "leaf_17",
+        "leaf_18",
+        "leaf_23",
+        "leaf_27"
+    ],
+    "SaaS + Fintech": [
+        "leaf_17"
+    ],
+    "Lekcja.md": [
+        "leaf_18"
+    ],
+    "YouTube": [
+        "leaf_18"
+    ],
+    "Notatki.md": [
+        "leaf_18"
+    ],
+    "Wprowadzenie": [
+        "leaf_19"
+    ],
+    "Teoria - Podstawy": [
+        "leaf_19"
+    ],
+    "Dnia 8 Claude": [
+        "leaf_19"
+    ],
+    "Przy": [
+        "leaf_19",
+        "leaf_76"
+    ],
+    "Pierwsze": [
+        "leaf_19"
+    ],
+    "Utworzenie": [
+        "leaf_19",
+        "leaf_20",
+        "leaf_27",
+        "leaf_124",
+        "leaf_125"
+    ],
+    "Czas": [
+        "leaf_20",
+        "leaf_36",
+        "leaf_58",
+        "leaf_59",
+        "leaf_72",
+        "leaf_153"
+    ],
+    "Linii": [
+        "leaf_20"
+    ],
+    "Sekcji": [
+        "leaf_20",
+        "leaf_21"
+    ],
+    "Pliki": [
+        "leaf_20",
+        "leaf_21"
+    ],
+    "Driven/": [
+        "leaf_22"
+    ],
+    "DOCX/": [
+        "leaf_22"
+    ],
+    "HTML/": [
+        "leaf_22"
+    ],
+    "Korzystanie": [
+        "leaf_22"
+    ],
+    "Dnia 3": [
+        "leaf_22"
+    ],
+    "System-Prompt.md │ ├": [
+        "leaf_22"
+    ],
+    "Diagramy/": [
+        "leaf_22"
+    ],
+    "Modul-01-Fundamenty/": [
+        "leaf_22"
+    ],
+    "Modul-04-Metryki-Data-Driven/": [
+        "leaf_22"
+    ],
+    "Patton": [
+        "leaf_23"
+    ],
+    "Frameworks": [
+        "leaf_23"
+    ],
+    "ChartMogul": [
+        "leaf_23"
+    ],
+    "ProfitWell": [
+        "leaf_23"
+    ],
+    "Miejsce PM": [
+        "leaf_23"
+    ],
+    "Engineering/Design": [
+        "leaf_23"
+    ],
+    "OKR basics": [
+        "leaf_23"
+    ],
+    "Monzo": [
+        "leaf_23"
+    ],
+    "Airbnb": [
+        "leaf_23"
+    ],
+    "Business Model Canvas": [
+        "leaf_23"
+    ],
+    "Unit Economics": [
+        "leaf_23"
+    ],
+    "Churn": [
+        "leaf_23"
+    ],
+    "Estimated": [
+        "leaf_23",
+        "leaf_24"
+    ],
+    "Emergent": [
+        "leaf_23",
+        "leaf_24"
+    ],
+    "Croll & Yoskovitz": [
+        "leaf_23"
+    ],
+    "Product Management Body of Knowledge - Industry": [
+        "leaf_23"
+    ],
+    "GDPR": [
+        "leaf_23"
+    ],
+    "AML/KYC": [
+        "leaf_23"
+    ],
+    "Fundamenty Hybrydowej Roli": [
+        "leaf_23"
+    ],
+    "Referencje": [
+        "leaf_23",
+        "leaf_24"
+    ],
+    "Scrum Guide": [
+        "leaf_23",
+        "leaf_24",
+        "leaf_27"
+    ],
+    "Feature/Component/Squad": [
+        "leaf_23"
+    ],
+    "North Star Metric": [
+        "leaf_23"
+    ],
+    "OKR": [
+        "leaf_23"
+    ],
+    "Value Proposition": [
+        "leaf_23"
+    ],
+    "Scrum Framework": [
+        "leaf_23",
+        "leaf_24"
+    ],
+    "Scrum": [
+        "leaf_23",
+        "leaf_24",
+        "leaf_26"
+    ],
+    "Stripe": [
+        "leaf_24",
+        "leaf_25",
+        "leaf_108",
+        "leaf_110",
+        "leaf_124",
+        "leaf_128"
+    ],
+    "Prioritized": [
+        "leaf_24"
+    ],
+    "Refinement": [
+        "leaf_24"
+    ],
+    "Roman Pichler": [
+        "leaf_24"
+    ],
+    "Ken Schwaber": [
+        "leaf_24"
+    ],
+    "Mike Cohn": [
+        "leaf_24"
+    ],
+    "Story Points": [
+        "leaf_24"
+    ],
+    "Elevator Pitch": [
+        "leaf_24"
+    ],
+    "Melissa Perri": [
+        "leaf_24"
+    ],
+    "Lafley & Martin": [
+        "leaf_24"
+    ],
+    "SOM": [
+        "leaf_24"
+    ],
+    "Customer": [
+        "leaf_24"
+    ],
+    "Sean Ellis": [
+        "leaf_24"
+    ],
+    "Krug": [
+        "leaf_24",
+        "leaf_25"
+    ],
+    "Kohavi": [
+        "leaf_24",
+        "leaf_25"
+    ],
+    "Booking.com": [
+        "leaf_24",
+        "leaf_25"
+    ],
+    "Revolut": [
+        "leaf_24",
+        "leaf_25"
+    ],
+    "Acceptance Criteria": [
+        "leaf_24"
+    ],
+    "Planning Poker": [
+        "leaf_24"
+    ],
+    "Sprint Planning & Review": [
+        "leaf_24"
+    ],
+    "Product Vision": [
+        "leaf_24",
+        "leaf_28"
+    ],
+    "Product Vision Board": [
+        "leaf_24"
+    ],
+    "Vision vs Mission vs Strategy vs Roadmap": [
+        "leaf_24"
+    ],
+    "Discovery": [
+        "leaf_24",
+        "leaf_27",
+        "leaf_76",
+        "leaf_77",
+        "leaf_80"
+    ],
+    "MVP": [
+        "leaf_24",
+        "leaf_25",
+        "leaf_75",
+        "leaf_76",
+        "leaf_79",
+        "leaf_80",
+        "leaf_82",
+        "leaf_83",
+        "leaf_109",
+        "leaf_125",
+        "leaf_126",
+        "leaf_128",
+        "leaf_140"
+    ],
+    "Stripe, Booking.com": [
+        "leaf_24",
+        "leaf_25"
+    ],
+    "Analytics Fundamentals": [
+        "leaf_24",
+        "leaf_25"
+    ],
+    "Funnels basics": [
+        "leaf_25"
+    ],
+    "Metrics vs KPIs": [
+        "leaf_25"
+    ],
+    "Dave McClure": [
+        "leaf_25"
+    ],
+    "Spotify": [
+        "leaf_25"
+    ],
+    "Atlassian Jira examples": [
+        "leaf_25"
+    ],
+    "Technical Debt": [
+        "leaf_25"
+    ],
+    "Dependency Management": [
+        "leaf_25"
+    ],
+    "Metrics": [
+        "leaf_25"
+    ],
+    "Engagement Metrics": [
+        "leaf_25"
+    ],
+    "Funnel Analysis": [
+        "leaf_25"
+    ],
+    "Retention & Churn": [
+        "leaf_25"
+    ],
+    "Segmentation": [
+        "leaf_25"
+    ],
+    "Experimentation": [
+        "leaf_25"
+    ],
+    "Managing Up": [
+        "leaf_25"
+    ],
+    "Customer Engagement": [
+        "leaf_25"
+    ],
+    "Team Culture": [
+        "leaf_25"
+    ],
+    "Coaching & Mentoring": [
+        "leaf_25"
+    ],
+    "Conflict Resolution": [
+        "leaf_25"
+    ],
+    "Technical Architecture": [
+        "leaf_25"
+    ],
+    "Platform Management": [
+        "leaf_25"
+    ],
+    "Fintech Regulatory": [
+        "leaf_25"
+    ],
+    "Security & Privacy": [
+        "leaf_25"
+    ],
+    "Growth Management": [
+        "leaf_25"
+    ],
+    "C:\\Projects\\": [
+        "leaf_25",
+        "leaf_26"
+    ],
+    "North Star": [
+        "leaf_25"
+    ],
+    "Atlassian Jira": [
+        "leaf_25"
+    ],
+    "Zaplanowane": [
+        "leaf_25"
+    ],
+    "Release Planning, Dependency Management": [
+        "leaf_25"
+    ],
+    "Metryki & Data-Driven Decisions": [
+        "leaf_25"
+    ],
+    "Dashboard Design": [
+        "leaf_25"
+    ],
+    "SQL": [
+        "leaf_25"
+    ],
+    "PM/PO": [
+        "leaf_25"
+    ],
+    "Stakeholder & Team Management": [
+        "leaf_25"
+    ],
+    "SaaS Pricing, Growth Management": [
+        "leaf_25"
+    ],
+    "Onboarding Optimization, Retention & Expansion": [
+        "leaf_25"
+    ],
+    "Modul3": [
+        "leaf_26"
+    ],
+    "README": [
+        "leaf_26"
+    ],
+    "Reaguje": [
+        "leaf_26"
+    ],
+    "ProgressTracker": [
+        "leaf_26"
+    ],
+    "KnowledgeBase": [
+        "leaf_26"
+    ],
+    "Struktura": [
+        "leaf_26",
+        "leaf_27",
+        "leaf_28",
+        "leaf_29",
+        "leaf_69"
+    ],
+    "Markdown": [
+        "leaf_26",
+        "leaf_37",
+        "leaf_46",
+        "leaf_47",
+        "leaf_50",
+        "leaf_51",
+        "leaf_135",
+        "leaf_136"
+    ],
+    "Claude AI": [
+        "leaf_26",
+        "leaf_27"
+    ],
+    "Plik": [
+        "leaf_26",
+        "leaf_27"
+    ],
+    "Progress-Tracker.md": [
+        "leaf_26",
+        "leaf_27"
+    ],
+    "Stan": [
+        "leaf_26",
+        "leaf_27"
+    ],
+    "Metody": [
+        "leaf_27"
+    ],
+    "Ustalenie": [
+        "leaf_27"
+    ],
+    "Generowanie Dnia 1: PM": [
+        "leaf_27"
+    ],
+    "Generowanie Dnia 2": [
+        "leaf_27",
+        "leaf_28"
+    ],
+    "Generowanie Dni": [
+        "leaf_27",
+        "leaf_28"
+    ],
+    "Dniu 3": [
+        "leaf_27",
+        "leaf_28"
+    ],
+    "Estimation": [
+        "leaf_28"
+    ],
+    "Odkrycie": [
+        "leaf_28"
+    ],
+    "Generowanie Dnia 11": [
+        "leaf_28"
+    ],
+    "User Stories, Estimation": [
+        "leaf_28"
+    ],
+    "Naprawa": [
+        "leaf_28"
+    ],
+    "Generowanie Dnia 19": [
+        "leaf_28"
+    ],
+    "Validation & Testing": [
+        "leaf_28"
+    ],
+    "Generowanie Dnia": [
+        "leaf_28"
+    ],
+    "Struktura) - Specjalne": [
+        "leaf_28",
+        "leaf_29"
+    ],
+    "SPECJALNE": [
+        "leaf_28",
+        "leaf_29"
+    ],
+    "Rewizja": [
+        "leaf_29"
+    ],
+    "Oracle": [
+        "leaf_30"
+    ],
+    "Telegrama": [
+        "leaf_30",
+        "leaf_33",
+        "leaf_34"
+    ],
+    "Projekt Claude": [
+        "leaf_30",
+        "leaf_66",
+        "leaf_88",
+        "leaf_136"
+    ],
+    "Automatyzacja Data": [
+        "leaf_30"
+    ],
+    "Osobista Baza Wiedzy": [
+        "leaf_30"
+    ],
+    "WhatsApp": [
+        "leaf_30"
+    ],
+    "Meta Business": [
+        "leaf_30",
+        "leaf_31"
+    ],
+    "Prostsze": [
+        "leaf_30",
+        "leaf_31",
+        "leaf_40",
+        "leaf_41",
+        "leaf_120"
+    ],
+    "Habit Tracker": [
+        "leaf_31",
+        "leaf_33",
+        "leaf_39",
+        "leaf_42",
+        "leaf_48",
+        "leaf_49",
+        "leaf_52"
+    ],
+    "Conservative ETH": [
+        "leaf_31"
+    ],
+    "Aggressive BTC": [
+        "leaf_31"
+    ],
+    "Experimental SOL": [
+        "leaf_31"
+    ],
+    "Klasyczny": [
+        "leaf_31"
+    ],
+    "Kluczowa": [
+        "leaf_31"
+    ],
+    "Znacznie": [
+        "leaf_31"
+    ],
+    "Python": [
+        "leaf_31",
+        "leaf_42",
+        "leaf_94"
+    ],
+    "WhatsApp Business API": [
+        "leaf_31"
+    ],
+    "Darmowy": [
+        "leaf_31"
+    ],
+    "Experimental SOL/USDC": [
+        "leaf_31"
+    ],
+    "Bardziej": [
+        "leaf_31"
+    ],
+    "GPU": [
+        "leaf_32",
+        "leaf_33",
+        "leaf_36",
+        "leaf_39",
+        "leaf_40",
+        "leaf_41",
+        "leaf_47",
+        "leaf_50",
+        "leaf_52",
+        "leaf_57",
+        "leaf_66",
+        "leaf_68",
+        "leaf_69",
+        "leaf_81",
+        "leaf_82",
+        "leaf_140",
+        "leaf_141",
+        "leaf_149",
+        "leaf_150",
+        "leaf_151",
+        "leaf_155",
+        "leaf_162",
+        "leaf_163",
+        "leaf_167"
+    ],
+    "Koszt": [
+        "leaf_32",
+        "leaf_41",
+        "leaf_42",
+        "leaf_45",
+        "leaf_59",
+        "leaf_68",
+        "leaf_71",
+        "leaf_74",
+        "leaf_75",
+        "leaf_78",
+        "leaf_81",
+        "leaf_82",
+        "leaf_98",
+        "leaf_115",
+        "leaf_116",
+        "leaf_117",
+        "leaf_140",
+        "leaf_144"
+    ],
+    "Wykorzystanie Docker": [
+        "leaf_32"
+    ],
+    "Wykorzystanie CPU": [
+        "leaf_32",
+        "leaf_33"
+    ],
+    "Szacowany": [
+        "leaf_32",
+        "leaf_33",
+        "leaf_41"
+    ],
+    "ENABLES": [
+        "leaf_33",
+        "leaf_34",
+        "leaf_35",
+        "leaf_37",
+        "leaf_42",
+        "leaf_47",
+        "leaf_82"
+    ],
+    "System Śledzenia Nawyków": [
+        "leaf_33"
+    ],
+    "Chart.js": [
+        "leaf_33"
+    ],
+    "Czy RPC": [
+        "leaf_33"
+    ],
+    "Czy Telegram": [
+        "leaf_33"
+    ],
+    "BotFather": [
+        "leaf_33"
+    ],
+    "Docker, SER9": [
+        "leaf_33",
+        "leaf_48"
+    ],
+    "Dashboard": [
+        "leaf_33",
+        "leaf_125",
+        "leaf_126"
+    ],
+    "Dedykowana": [
+        "leaf_33",
+        "leaf_34",
+        "leaf_56"
+    ],
+    "Ebook Library": [
+        "leaf_34",
+        "leaf_35",
+        "leaf_151",
+        "leaf_154",
+        "leaf_155",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_167"
+    ],
+    "Data": [
+        "leaf_34",
+        "leaf_38",
+        "leaf_40",
+        "leaf_47",
+        "leaf_60",
+        "leaf_61",
+        "leaf_68",
+        "leaf_69",
+        "leaf_70",
+        "leaf_75",
+        "leaf_76",
+        "leaf_130",
+        "leaf_139",
+        "leaf_141",
+        "leaf_145",
+        "leaf_148",
+        "leaf_149",
+        "leaf_151",
+        "leaf_152",
+        "leaf_154",
+        "leaf_156",
+        "leaf_158"
+    ],
+    "Telegram Mini App": [
+        "leaf_34"
+    ],
+    "MB RAM": [
+        "leaf_34",
+        "leaf_36",
+        "leaf_37"
+    ],
+    "Port": [
+        "leaf_34",
+        "leaf_156",
+        "leaf_164",
+        "leaf_165"
+    ],
+    "Calibre-Web": [
+        "leaf_35",
+        "leaf_46",
+        "leaf_49",
+        "leaf_50",
+        "leaf_149",
+        "leaf_150",
+        "leaf_154",
+        "leaf_155",
+        "leaf_163"
+    ],
+    "E²GraphRAG Pipeline": [
+        "leaf_35",
+        "leaf_52",
+        "leaf_66",
+        "leaf_68",
+        "leaf_69",
+        "leaf_84",
+        "leaf_85",
+        "leaf_116",
+        "leaf_120",
+        "leaf_125",
+        "leaf_138",
+        "leaf_155",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_167"
+    ],
+    "Qdrant": [
+        "leaf_35",
+        "leaf_36",
+        "leaf_37",
+        "leaf_50",
+        "leaf_66",
+        "leaf_67",
+        "leaf_68",
+        "leaf_69",
+        "leaf_73",
+        "leaf_74",
+        "leaf_80",
+        "leaf_81",
+        "leaf_83",
+        "leaf_84",
+        "leaf_87",
+        "leaf_88",
+        "leaf_89"
+    ],
+    "Microsoft": [
+        "leaf_35",
+        "leaf_66",
+        "leaf_68"
+    ],
+    "CWA": [
+        "leaf_35",
+        "leaf_36",
+        "leaf_46"
+    ],
+    "Ile": [
+        "leaf_35"
+    ],
+    "Szybsza": [
+        "leaf_35"
+    ],
+    "Sekwencyjnie": [
+        "leaf_35",
+        "leaf_36"
+    ],
+    "NAS 4x4TB": [
+        "leaf_36",
+        "leaf_37",
+        "leaf_48",
+        "leaf_50"
+    ],
+    "Google Books": [
+        "leaf_36"
+    ],
+    "Amazon": [
+        "leaf_36",
+        "leaf_46"
+    ],
+    "Komendy Telegram": [
+        "leaf_36"
+    ],
+    "EPUB": [
+        "leaf_36"
+    ],
+    "PDF": [
+        "leaf_36",
+        "leaf_59",
+        "leaf_60",
+        "leaf_109",
+        "leaf_154",
+        "leaf_155"
+    ],
+    "MOBI": [
+        "leaf_36",
+        "leaf_154",
+        "leaf_155"
+    ],
+    "Open Library": [
+        "leaf_36"
+    ],
+    "Szacunek": [
+        "leaf_36",
+        "leaf_37",
+        "leaf_41",
+        "leaf_42",
+        "leaf_45"
+    ],
+    "Wolne": [
+        "leaf_36",
+        "leaf_37"
+    ],
+    "NAS": [
+        "leaf_36",
+        "leaf_37",
+        "leaf_50"
+    ],
+    "Digital Brain GraphRAG": [
+        "leaf_37",
+        "leaf_38",
+        "leaf_39",
+        "leaf_42",
+        "leaf_45",
+        "leaf_46",
+        "leaf_47",
+        "leaf_48",
+        "leaf_49",
+        "leaf_50",
+        "leaf_51",
+        "leaf_52"
+    ],
+    "Meilisearch": [
+        "leaf_37",
+        "leaf_38",
+        "leaf_39",
+        "leaf_43",
+        "leaf_44",
+        "leaf_45",
+        "leaf_46",
+        "leaf_48",
+        "leaf_49",
+        "leaf_55",
+        "leaf_56",
+        "leaf_57",
+        "leaf_60",
+        "leaf_62",
+        "leaf_64",
+        "leaf_65"
+    ],
+    "Syncthing": [
+        "leaf_37",
+        "leaf_50"
+    ],
+    "Obsidian": [
+        "leaf_37",
+        "leaf_38",
+        "leaf_39",
+        "leaf_48",
+        "leaf_49",
+        "leaf_50"
+    ],
+    "LocalAI": [
+        "leaf_37",
+        "leaf_38",
+        "leaf_40",
+        "leaf_43",
+        "leaf_54",
+        "leaf_56",
+        "leaf_57",
+        "leaf_61",
+        "leaf_62",
+        "leaf_63",
+        "leaf_64",
+        "leaf_65"
+    ],
+    "EVOLVED_INTO": [
+        "leaf_37",
+        "leaf_46"
+    ],
+    "Mark3": [
+        "leaf_37",
+        "leaf_38",
+        "leaf_39",
+        "leaf_50",
+        "leaf_51",
+        "leaf_52"
+    ],
+    "Templater": [
+        "leaf_37"
+    ],
+    "ArchiveBox": [
+        "leaf_37",
+        "leaf_38"
+    ],
+    "Dataview, Templater, Calendar": [
+        "leaf_37"
+    ],
+    "Model": [
+        "leaf_37"
+    ],
+    "Raspberry Pi 4": [
+        "leaf_38",
+        "leaf_157",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_166"
+    ],
+    "Flowise": [
+        "leaf_38"
+    ],
+    "Community Edition": [
+        "leaf_38"
+    ],
+    "MIT": [
+        "leaf_38",
+        "leaf_155",
+        "leaf_168"
+    ],
+    "Privacy": [
+        "leaf_38"
+    ],
+    "PKB": [
+        "leaf_38",
+        "leaf_47",
+        "leaf_49",
+        "leaf_50",
+        "leaf_51",
+        "leaf_52"
+    ],
+    "Obsidian, Meilisearch": [
+        "leaf_38"
+    ],
+    "Wymaga": [
+        "leaf_38",
+        "leaf_83"
+    ],
+    "Confluence Wiki Analysis": [
+        "leaf_39",
+        "leaf_43",
+        "leaf_49",
+        "leaf_50"
+    ],
+    "Crypto": [
+        "leaf_39",
+        "leaf_49"
+    ],
+    "INFORMS": [
+        "leaf_39",
+        "leaf_45",
+        "leaf_46",
+        "leaf_47",
+        "leaf_48",
+        "leaf_73",
+        "leaf_94",
+        "leaf_100",
+        "leaf_101"
+    ],
+    "RAG": [
+        "leaf_39",
+        "leaf_45",
+        "leaf_46",
+        "leaf_49",
+        "leaf_54",
+        "leaf_55",
+        "leaf_58",
+        "leaf_59",
+        "leaf_60",
+        "leaf_64",
+        "leaf_65",
+        "leaf_74",
+        "leaf_82",
+        "leaf_83",
+        "leaf_93",
+        "leaf_94",
+        "leaf_100",
+        "leaf_101",
+        "leaf_108",
+        "leaf_120",
+        "leaf_121",
+        "leaf_125",
+        "leaf_126",
+        "leaf_138",
+        "leaf_140",
+        "leaf_163",
+        "leaf_164"
+    ],
+    "Dzienny": [
+        "leaf_39"
+    ],
+    "Google Custom Search API": [
+        "leaf_39"
+    ],
+    "Zalecane": [
+        "leaf_39"
+    ],
+    "Oznaczenie": [
+        "leaf_39"
+    ],
+    "Konwencja": [
+        "leaf_39"
+    ],
+    "Priorytet": [
+        "leaf_39"
+    ],
+    "Digital Brain": [
+        "leaf_39",
+        "leaf_42",
+        "leaf_45",
+        "leaf_46",
+        "leaf_52"
+    ],
+    "LAN": [
+        "leaf_39",
+        "leaf_40",
+        "leaf_41",
+        "leaf_42",
+        "leaf_48"
+    ],
+    "Samsung": [
+        "leaf_39",
+        "leaf_40"
+    ],
+    "USB4": [
+        "leaf_40"
+    ],
+    "SER9": [
+        "leaf_40",
+        "leaf_76"
+    ],
+    "2.5GbE": [
+        "leaf_40"
+    ],
+    "MikroTik CRS305": [
+        "leaf_40",
+        "leaf_41"
+    ],
+    "LAN w SER9": [
+        "leaf_40"
+    ],
+    "70B": [
+        "leaf_40"
+    ],
+    "PNY Blower": [
+        "leaf_41"
+    ],
+    "Status": [
+        "leaf_41",
+        "leaf_88",
+        "leaf_89"
+    ],
+    "DDR5": [
+        "leaf_41",
+        "leaf_149"
+    ],
+    "Gigabyte Turbo": [
+        "leaf_41"
+    ],
+    "EVGA": [
+        "leaf_41"
+    ],
+    "Furmark": [
+        "leaf_41"
+    ],
+    "Konfiguracji 1": [
+        "leaf_41"
+    ],
+    "Cena": [
+        "leaf_41",
+        "leaf_65",
+        "leaf_98",
+        "leaf_118"
+    ],
+    "GB DDR5": [
+        "leaf_41"
+    ],
+    "Korekta": [
+        "leaf_41",
+        "leaf_86",
+        "leaf_113"
+    ],
+    "Browser Automation": [
+        "leaf_42",
+        "leaf_48",
+        "leaf_49"
+    ],
+    "Playwright": [
+        "leaf_42",
+        "leaf_43",
+        "leaf_49",
+        "leaf_50",
+        "leaf_51"
+    ],
+    "Browser MCP": [
+        "leaf_42"
+    ],
+    "Allegro": [
+        "leaf_42",
+        "leaf_43",
+        "leaf_49",
+        "leaf_51"
+    ],
+    "Claude Desktop": [
+        "leaf_42",
+        "leaf_43",
+        "leaf_44",
+        "leaf_48",
+        "leaf_50",
+        "leaf_51"
+    ],
+    "Playwright MCP": [
+        "leaf_42"
+    ],
+    "Konfiguracja Claude Desktop": [
+        "leaf_42"
+    ],
+    "Firefox": [
+        "leaf_42",
+        "leaf_48"
+    ],
+    "Konflikt": [
+        "leaf_42",
+        "leaf_43"
+    ],
+    "Chrome": [
+        "leaf_42",
+        "leaf_43",
+        "leaf_124"
+    ],
+    "Claude Sonnet": [
+        "leaf_43",
+        "leaf_44",
+        "leaf_45",
+        "leaf_54",
+        "leaf_55",
+        "leaf_56",
+        "leaf_59",
+        "leaf_60",
+        "leaf_64",
+        "leaf_67",
+        "leaf_70",
+        "leaf_74",
+        "leaf_83",
+        "leaf_88",
+        "leaf_93",
+        "leaf_103",
+        "leaf_108",
+        "leaf_111",
+        "leaf_116",
+        "leaf_120",
+        "leaf_121",
+        "leaf_123"
+    ],
+    "MCP Server": [
+        "leaf_43",
+        "leaf_44",
+        "leaf_51"
+    ],
+    "Confluence Cloud": [
+        "leaf_43",
+        "leaf_44"
+    ],
+    "548 MB": [
+        "leaf_43"
+    ],
+    "Sonnet": [
+        "leaf_43",
+        "leaf_44",
+        "leaf_55",
+        "leaf_60",
+        "leaf_74",
+        "leaf_93",
+        "leaf_111",
+        "leaf_116"
+    ],
+    "Instalacja": [
+        "leaf_43",
+        "leaf_51"
+    ],
+    "Confluence Wiki": [
+        "leaf_43",
+        "leaf_48"
+    ],
+    "Dwie": [
+        "leaf_43"
+    ],
+    "Q&A z Confluence Cloud": [
+        "leaf_43"
+    ],
+    "Node.js": [
+        "leaf_43",
+        "leaf_44"
+    ],
+    "Llama 3.1 70B": [
+        "leaf_44",
+        "leaf_54",
+        "leaf_55",
+        "leaf_56",
+        "leaf_57",
+        "leaf_58",
+        "leaf_59",
+        "leaf_62",
+        "leaf_63",
+        "leaf_64"
+    ],
+    "Claude Haiku": [
+        "leaf_44",
+        "leaf_45",
+        "leaf_67",
+        "leaf_88",
+        "leaf_93",
+        "leaf_103",
+        "leaf_108",
+        "leaf_111",
+        "leaf_112",
+        "leaf_115",
+        "leaf_116",
+        "leaf_120",
+        "leaf_121",
+        "leaf_123"
+    ],
+    "Nutanix": [
+        "leaf_44",
+        "leaf_45",
+        "leaf_48",
+        "leaf_50",
+        "leaf_51"
+    ],
+    "BGE-M3": [
+        "leaf_44",
+        "leaf_54",
+        "leaf_55",
+        "leaf_56",
+        "leaf_57",
+        "leaf_58",
+        "leaf_59",
+        "leaf_60",
+        "leaf_61",
+        "leaf_62",
+        "leaf_63",
+        "leaf_64"
+    ],
+    "BGE": [
+        "leaf_44",
+        "leaf_51",
+        "leaf_55",
+        "leaf_56",
+        "leaf_58",
+        "leaf_59",
+        "leaf_60",
+        "leaf_63"
+    ],
+    "Nomic": [
+        "leaf_44"
+    ],
+    "Confluence": [
+        "leaf_44",
+        "leaf_45",
+        "leaf_48",
+        "leaf_49",
+        "leaf_50",
+        "leaf_51",
+        "leaf_54",
+        "leaf_55",
+        "leaf_57",
+        "leaf_58",
+        "leaf_59",
+        "leaf_60",
+        "leaf_61",
+        "leaf_62",
+        "leaf_64",
+        "leaf_65",
+        "leaf_139",
+        "leaf_140"
+    ],
+    "Llama": [
+        "leaf_44",
+        "leaf_45",
+        "leaf_54",
+        "leaf_55",
+        "leaf_56",
+        "leaf_57",
+        "leaf_59"
+    ],
+    "Claude API": [
+        "leaf_44",
+        "leaf_45",
+        "leaf_50",
+        "leaf_51",
+        "leaf_55",
+        "leaf_56",
+        "leaf_58",
+        "leaf_61",
+        "leaf_62",
+        "leaf_63",
+        "leaf_115",
+        "leaf_123",
+        "leaf_163"
+    ],
+    "Faza 2": [
+        "leaf_44",
+        "leaf_75",
+        "leaf_76",
+        "leaf_131",
+        "leaf_133",
+        "leaf_134"
+    ],
+    "Cloud": [
+        "leaf_45",
+        "leaf_48",
+        "leaf_75",
+        "leaf_76",
+        "leaf_79"
+    ],
+    "System": [
+        "leaf_45"
+    ],
+    "Confluence Cloud API": [
+        "leaf_45"
+    ],
+    "Claude vs Llama": [
+        "leaf_45"
+    ],
+    "Timeline": [
+        "leaf_45",
+        "leaf_59",
+        "leaf_72"
+    ],
+    "Czy VM": [
+        "leaf_45"
+    ],
+    "Open Library API": [
+        "leaf_46"
+    ],
+    "GraphRAG": [
+        "leaf_46",
+        "leaf_49",
+        "leaf_50",
+        "leaf_66",
+        "leaf_67",
+        "leaf_68",
+        "leaf_81",
+        "leaf_83",
+        "leaf_120",
+        "leaf_155"
+    ],
+    "GUI": [
+        "leaf_46",
+        "leaf_47",
+        "leaf_63",
+        "leaf_119",
+        "leaf_123",
+        "leaf_124"
+    ],
+    "Geekom A9/A8 Max": [
+        "leaf_47"
+    ],
+    "TOPS": [
+        "leaf_47"
+    ],
+    "Framework Desktop": [
+        "leaf_47"
+    ],
+    "Max": [
+        "leaf_47",
+        "leaf_72",
+        "leaf_117",
+        "leaf_118"
+    ],
+    "Unified": [
+        "leaf_47"
+    ],
+    "Cena MS": [
+        "leaf_47"
+    ],
+    "Planowanie": [
+        "leaf_47",
+        "leaf_48"
+    ],
+    "AI runtime": [
+        "leaf_48"
+    ],
+    "Mix PL/EN": [
+        "leaf_48"
+    ],
+    "Emoji": [
+        "leaf_48"
+    ],
+    "Ryzen 7": [
+        "leaf_48"
+    ],
+    "Pracuje": [
+        "leaf_48",
+        "leaf_121",
+        "leaf_122"
+    ],
+    "MiniPC Research": [
+        "leaf_49",
+        "leaf_52"
+    ],
+    "Orkiestracja": [
+        "leaf_49"
+    ],
+    "Docker Compose": [
+        "leaf_49"
+    ],
+    "Komunikacja": [
+        "leaf_49",
+        "leaf_102"
+    ],
+    "Repozytorium": [
+        "leaf_49",
+        "leaf_50"
+    ],
+    "Habit": [
+        "leaf_50"
+    ],
+    "Platforma VM": [
+        "leaf_50"
+    ],
+    "Browser Auto": [
+        "leaf_50",
+        "leaf_51"
+    ],
+    "Interfejs": [
+        "leaf_50"
+    ],
+    "Sync": [
+        "leaf_50"
+    ],
+    "Dodatkowy": [
+        "leaf_50"
+    ],
+    "Pierwsza": [
+        "leaf_50",
+        "leaf_113"
+    ],
+    "Generowanie": [
+        "leaf_50",
+        "leaf_61",
+        "leaf_62",
+        "leaf_69",
+        "leaf_70",
+        "leaf_84",
+        "leaf_90",
+        "leaf_136"
+    ],
+    "Wygenerowanie": [
+        "leaf_50",
+        "leaf_51",
+        "leaf_63"
+    ],
+    "PV Energy": [
+        "leaf_51",
+        "leaf_114",
+        "leaf_147",
+        "leaf_154",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_166",
+        "leaf_167",
+        "leaf_168",
+        "leaf_169",
+        "leaf_170"
+    ],
+    "Wiki Confluence": [
+        "leaf_51"
+    ],
+    "Analiza Wiki Confluence": [
+        "leaf_51"
+    ],
+    "Modele": [
+        "leaf_51",
+        "leaf_81"
+    ],
+    "Zakup Beelink SER9": [
+        "leaf_51"
+    ],
+    "CES": [
+        "leaf_51"
+    ],
+    "Allmedica": [
+        "leaf_52",
+        "leaf_122",
+        "leaf_123",
+        "leaf_126",
+        "leaf_127",
+        "leaf_141",
+        "leaf_156",
+        "leaf_157",
+        "leaf_161",
+        "leaf_164"
+    ],
+    "MiniPC": [
+        "leaf_52"
+    ],
+    "Gold": [
+        "leaf_52"
+    ],
+    "Framework": [
+        "leaf_52",
+        "leaf_136"
+    ],
+    "OCR": [
+        "leaf_52",
+        "leaf_67",
+        "leaf_68",
+        "leaf_86",
+        "leaf_89",
+        "leaf_101",
+        "leaf_103"
+    ],
+    "Mark3.6": [
+        "leaf_52"
+    ],
+    "SSH": [
+        "leaf_53"
+    ],
+    "E5-mistral-7b": [
+        "leaf_54",
+        "leaf_55",
+        "leaf_56",
+        "leaf_60",
+        "leaf_62",
+        "leaf_63"
+    ],
+    "Mixtral 8x7B": [
+        "leaf_54",
+        "leaf_55",
+        "leaf_56",
+        "leaf_57",
+        "leaf_58",
+        "leaf_59",
+        "leaf_61",
+        "leaf_62",
+        "leaf_63",
+        "leaf_64"
+    ],
+    "CodeLlama 34B": [
+        "leaf_54",
+        "leaf_55",
+        "leaf_56"
+    ],
+    "Rocky Linux": [
+        "leaf_54",
+        "leaf_61"
+    ],
+    "Wiki RAG Baremetal": [
+        "leaf_54",
+        "leaf_60",
+        "leaf_61",
+        "leaf_62",
+        "leaf_63",
+        "leaf_64",
+        "leaf_65"
+    ],
+    "Context": [
+        "leaf_54"
+    ],
+    "Instruct": [
+        "leaf_54"
+    ],
+    "Backend": [
+        "leaf_54",
+        "leaf_55",
+        "leaf_83",
+        "leaf_84"
+    ],
+    "Mixtral": [
+        "leaf_54",
+        "leaf_55",
+        "leaf_56",
+        "leaf_57",
+        "leaf_59",
+        "leaf_61",
+        "leaf_62",
+        "leaf_64"
+    ],
+    "40GB": [
+        "leaf_54"
+    ],
+    "FastAPI": [
+        "leaf_55",
+        "leaf_62",
+        "leaf_73",
+        "leaf_74",
+        "leaf_84",
+        "leaf_119",
+        "leaf_120",
+        "leaf_123"
+    ],
+    "Express": [
+        "leaf_55",
+        "leaf_70",
+        "leaf_71"
+    ],
+    "Nginx": [
+        "leaf_55",
+        "leaf_56",
+        "leaf_57",
+        "leaf_62",
+        "leaf_63",
+        "leaf_64"
+    ],
+    "Endpoints": [
+        "leaf_55"
+    ],
+    "WebSocket": [
+        "leaf_55"
+    ],
+    "Baremetal": [
+        "leaf_55",
+        "leaf_61"
+    ],
+    "Embeddings": [
+        "leaf_55"
+    ],
+    "SQLite": [
+        "leaf_55"
+    ],
+    "Claude Sonnet API": [
+        "leaf_55",
+        "leaf_56"
+    ],
+    "CodeLlama": [
+        "leaf_56"
+    ],
+    "$20": [
+        "leaf_56"
+    ],
+    "Podman": [
+        "leaf_56",
+        "leaf_63"
+    ],
+    "Uproszczenie": [
+        "leaf_56"
+    ],
+    "Docker/Docker Compose": [
+        "leaf_56",
+        "leaf_84"
+    ],
+    "Dockera": [
+        "leaf_56"
+    ],
+    "Whisper": [
+        "leaf_57",
+        "leaf_140",
+        "leaf_141",
+        "leaf_150",
+        "leaf_151",
+        "leaf_155",
+        "leaf_156",
+        "leaf_162",
+        "leaf_163",
+        "leaf_166"
+    ],
+    "Workaround": [
+        "leaf_57"
+    ],
+    "Mapowanie": [
+        "leaf_57"
+    ],
+    "Opis": [
+        "leaf_57",
+        "leaf_70",
+        "leaf_76",
+        "leaf_77"
+    ],
+    "Prawdopodobnie": [
+        "leaf_57",
+        "leaf_87",
+        "leaf_127",
+        "leaf_169"
+    ],
+    "Akceptowalne": [
+        "leaf_57"
+    ],
+    "N8n ma": [
+        "leaf_57"
+    ],
+    "OAuth": [
+        "leaf_57"
+    ],
+    "Confluence API": [
+        "leaf_57",
+        "leaf_59"
+    ],
+    "RAM": [
+        "leaf_58",
+        "leaf_59",
+        "leaf_64",
+        "leaf_72",
+        "leaf_149",
+        "leaf_150",
+        "leaf_167"
+    ],
+    "Rdzenie CPU": [
+        "leaf_58"
+    ],
+    "Target": [
+        "leaf_58",
+        "leaf_59"
+    ],
+    "Wymiar": [
+        "leaf_58"
+    ],
+    "Batch": [
+        "leaf_58",
+        "leaf_59"
+    ],
+    "Plan": [
+        "leaf_59"
+    ],
+    "Jakość Llama 3": [
+        "leaf_59"
+    ],
+    "Oczekiwana": [
+        "leaf_59"
+    ],
+    "Baremetal Edition": [
+        "leaf_60",
+        "leaf_64"
+    ],
+    "VPN": [
+        "leaf_60"
+    ],
+    "Pierwotna": [
+        "leaf_60"
+    ],
+    "Wiki": [
+        "leaf_60",
+        "leaf_62",
+        "leaf_63",
+        "leaf_64",
+        "leaf_65"
+    ],
+    "Odrzucenie": [
+        "leaf_60",
+        "leaf_141"
+    ],
+    "Wiki RAG Cloud": [
+        "leaf_61",
+        "leaf_62"
+    ],
+    "Estymacja": [
+        "leaf_61"
+    ],
+    "Wiki_RAG_Cloud": [
+        "leaf_61"
+    ],
+    "Oryginalny": [
+        "leaf_61"
+    ],
+    "Jednorazowy": [
+        "leaf_61"
+    ],
+    "Wiki_RAG_Baremetal": [
+        "leaf_61"
+    ],
+    "Backup LLM": [
+        "leaf_62"
+    ],
+    "Backend Framework": [
+        "leaf_62"
+    ],
+    "LLM Service": [
+        "leaf_62"
+    ],
+    "Stworzenie": [
+        "leaf_62",
+        "leaf_63"
+    ],
+    "Claude MMLU": [
+        "leaf_63"
+    ],
+    "Access Control": [
+        "leaf_63",
+        "leaf_64"
+    ],
+    "chunking": [
+        "leaf_64",
+        "leaf_66",
+        "leaf_93",
+        "leaf_94",
+        "leaf_113",
+        "leaf_114"
+    ],
+    "\"Llama 3": [
+        "leaf_64"
+    ],
+    "Buffer": [
+        "leaf_64"
+    ],
+    "Rolling": [
+        "leaf_64",
+        "leaf_65"
+    ],
+    "Wiki Cache": [
+        "leaf_64"
+    ],
+    "Prometheus": [
+        "leaf_64"
+    ],
+    "Wiki RAG Baremetal -": [
+        "leaf_64",
+        "leaf_65"
+    ],
+    "AI Automation": [
+        "leaf_66",
+        "leaf_71",
+        "leaf_88",
+        "leaf_100",
+        "leaf_101",
+        "leaf_102",
+        "leaf_138",
+        "leaf_139",
+        "leaf_140",
+        "leaf_141",
+        "leaf_143",
+        "leaf_144",
+        "leaf_145",
+        "leaf_151",
+        "leaf_152",
+        "leaf_156",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_165",
+        "leaf_166",
+        "leaf_169",
+        "leaf_170"
+    ],
+    "Entity Graph": [
+        "leaf_66",
+        "leaf_81",
+        "leaf_84"
+    ],
+    "Thermal Insulation": [
+        "leaf_66",
+        "leaf_69",
+        "leaf_81",
+        "leaf_84",
+        "leaf_141",
+        "leaf_142",
+        "leaf_143",
+        "leaf_145",
+        "leaf_146",
+        "leaf_147",
+        "leaf_149",
+        "leaf_162",
+        "leaf_164",
+        "leaf_165",
+        "leaf_167",
+        "leaf_168",
+        "leaf_169",
+        "leaf_170"
+    ],
+    "Pandoc": [
+        "leaf_66",
+        "leaf_67",
+        "leaf_69",
+        "leaf_84",
+        "leaf_164"
+    ],
+    "Redis": [
+        "leaf_66",
+        "leaf_67",
+        "leaf_73",
+        "leaf_74",
+        "leaf_75",
+        "leaf_84"
+    ],
+    "AI Automation Business": [
+        "leaf_66"
+    ],
+    "AI Automation Business Data": [
+        "leaf_66"
+    ],
+    "Docelowo ma": [
+        "leaf_66"
+    ],
+    "AMD Ryzen": [
+        "leaf_66",
+        "leaf_81",
+        "leaf_149"
+    ],
+    "GPU NVIDIA": [
+        "leaf_66",
+        "leaf_68"
+    ],
+    "GB - Rola": [
+        "leaf_66"
+    ],
+    "GB - Collections": [
+        "leaf_66"
+    ],
+    "SSD - Rola": [
+        "leaf_66"
+    ],
+    "GB - Rola: Job": [
+        "leaf_66",
+        "leaf_67"
+    ],
+    "text-embedding-3-small": [
+        "leaf_67",
+        "leaf_81",
+        "leaf_84",
+        "leaf_86",
+        "leaf_87"
+    ],
+    "Claude Opus": [
+        "leaf_67",
+        "leaf_68",
+        "leaf_69",
+        "leaf_70",
+        "leaf_74",
+        "leaf_83",
+        "leaf_85"
+    ],
+    "python-docx": [
+        "leaf_67",
+        "leaf_70",
+        "leaf_84",
+        "leaf_164"
+    ],
+    "DeepSeek-V3": [
+        "leaf_67",
+        "leaf_68",
+        "leaf_84"
+    ],
+    "O1-preview": [
+        "leaf_67",
+        "leaf_68",
+        "leaf_69",
+        "leaf_70",
+        "leaf_83",
+        "leaf_84",
+        "leaf_85"
+    ],
+    "Pydantic": [
+        "leaf_67",
+        "leaf_84"
+    ],
+    "GPT-4o": [
+        "leaf_67",
+        "leaf_68",
+        "leaf_69",
+        "leaf_70",
+        "leaf_71",
+        "leaf_74",
+        "leaf_83",
+        "leaf_84",
+        "leaf_85",
+        "leaf_88",
+        "leaf_93",
+        "leaf_103"
+    ],
+    "OpenAI": [
+        "leaf_67",
+        "leaf_68",
+        "leaf_69",
+        "leaf_139"
+    ],
+    "14/1M tokens": [
+        "leaf_67"
+    ],
+    "Przetwarzanie": [
+        "leaf_67",
+        "leaf_84"
+    ],
+    "Embedowanie": [
+        "leaf_67"
+    ],
+    "Claude Haiku/Sonnet": [
+        "leaf_67"
+    ],
+    "Hybrydowy GPT-4": [
+        "leaf_67",
+        "leaf_68"
+    ],
+    "ROCm": [
+        "leaf_68",
+        "leaf_81"
+    ],
+    "Claude Opus + GPT-4o + O1-preview": [
+        "leaf_68"
+    ],
+    "PLN": [
+        "leaf_68",
+        "leaf_72",
+        "leaf_75",
+        "leaf_98",
+        "leaf_111",
+        "leaf_112",
+        "leaf_115",
+        "leaf_116",
+        "leaf_117",
+        "leaf_118",
+        "leaf_119",
+        "leaf_126",
+        "leaf_127",
+        "leaf_128",
+        "leaf_142",
+        "leaf_143",
+        "leaf_144",
+        "leaf_145",
+        "leaf_146",
+        "leaf_147",
+        "leaf_149",
+        "leaf_150",
+        "leaf_151",
+        "leaf_160"
+    ],
+    "Natomiast SER9": [
+        "leaf_68"
+    ],
+    "Rezygnacja z": [
+        "leaf_68"
+    ],
+    "Unstructured.io": [
+        "leaf_69"
+    ],
+    "Thunderbolt": [
+        "leaf_69",
+        "leaf_86"
+    ],
+    "OCuLink": [
+        "leaf_69",
+        "leaf_86"
+    ],
+    "80/wniosek": [
+        "leaf_69",
+        "leaf_70"
+    ],
+    "Przy AI": [
+        "leaf_69"
+    ],
+    "H1-H6": [
+        "leaf_69"
+    ],
+    "Osobne": [
+        "leaf_69"
+    ],
+    "5-8": [
+        "leaf_69"
+    ],
+    "Utrzymanie": [
+        "leaf_69",
+        "leaf_70",
+        "leaf_113"
+    ],
+    "Allmedica FENG": [
+        "leaf_70",
+        "leaf_140",
+        "leaf_141",
+        "leaf_142",
+        "leaf_143",
+        "leaf_147",
+        "leaf_162",
+        "leaf_164",
+        "leaf_165",
+        "leaf_168"
+    ],
+    "Versioning": [
+        "leaf_70"
+    ],
+    "Chinach": [
+        "leaf_70"
+    ],
+    "ConsistencyChecker": [
+        "leaf_70"
+    ],
+    "RPO": [
+        "leaf_70"
+    ],
+    "Obecny": [
+        "leaf_71"
+    ],
+    "Kalkulacja Claude": [
+        "leaf_71",
+        "leaf_72",
+        "leaf_78",
+        "leaf_79",
+        "leaf_80",
+        "leaf_81",
+        "leaf_82"
+    ],
+    "Planowany": [
+        "leaf_71",
+        "leaf_79",
+        "leaf_149"
+    ],
+    "Finalny": [
+        "leaf_71"
+    ],
+    "DeepSeek": [
+        "leaf_71"
+    ],
+    "Planowana": [
+        "leaf_71",
+        "leaf_72"
+    ],
+    "SLA": [
+        "leaf_72",
+        "leaf_85"
+    ],
+    "\"agency\"": [
+        "leaf_72"
+    ],
+    "Timeline MVP": [
+        "leaf_72"
+    ],
+    "Prognozowany": [
+        "leaf_72"
+    ],
+    "DeepSeek API": [
+        "leaf_72",
+        "leaf_73"
+    ],
+    "DD AI System": [
+        "leaf_73",
+        "leaf_82",
+        "leaf_83",
+        "leaf_84",
+        "leaf_85",
+        "leaf_86",
+        "leaf_87",
+        "leaf_88",
+        "leaf_94",
+        "leaf_100",
+        "leaf_101",
+        "leaf_102",
+        "leaf_103"
+    ],
+    "Streamlit": [
+        "leaf_73",
+        "leaf_74",
+        "leaf_80",
+        "leaf_84",
+        "leaf_121"
+    ],
+    "Polsce": [
+        "leaf_73",
+        "leaf_78",
+        "leaf_87",
+        "leaf_118"
+    ],
+    "KRUK SA": [
+        "leaf_73"
+    ],
+    "Getin Bank": [
+        "leaf_73"
+    ],
+    "ZPF": [
+        "leaf_73",
+        "leaf_74"
+    ],
+    "Beelink SER9 AI Lab": [
+        "leaf_73",
+        "leaf_80",
+        "leaf_81"
+    ],
+    "Automatyzuje": [
+        "leaf_73"
+    ],
+    "Banki": [
+        "leaf_73"
+    ],
+    "Cloudflare Tunnel": [
+        "leaf_74",
+        "leaf_76",
+        "leaf_84"
+    ],
+    "Tailscale": [
+        "leaf_74"
+    ],
+    "Next.js": [
+        "leaf_74",
+        "leaf_80"
+    ],
+    "React": [
+        "leaf_74",
+        "leaf_80",
+        "leaf_94",
+        "leaf_103",
+        "leaf_104",
+        "leaf_107",
+        "leaf_108",
+        "leaf_110",
+        "leaf_122",
+        "leaf_123",
+        "leaf_124",
+        "leaf_125",
+        "leaf_127",
+        "leaf_128",
+        "leaf_168",
+        "leaf_169"
+    ],
+    "JSONB": [
+        "leaf_74"
+    ],
+    "Async": [
+        "leaf_74"
+    ],
+    "Endpoint": [
+        "leaf_74"
+    ],
+    "Celery": [
+        "leaf_74",
+        "leaf_75"
+    ],
+    "MPZP": [
+        "leaf_74",
+        "leaf_77",
+        "leaf_83",
+        "leaf_84"
+    ],
+    "Odczytywanie": [
+        "leaf_74"
+    ],
+    "Cloudflare": [
+        "leaf_74"
+    ],
+    "Krajowa Integracja MPZP": [
+        "leaf_75",
+        "leaf_84",
+        "leaf_85"
+    ],
+    "Krajowej Integracji": [
+        "leaf_75",
+        "leaf_79",
+        "leaf_86"
+    ],
+    "SZYBKOŚĆ": [
+        "leaf_75"
+    ],
+    "AWS": [
+        "leaf_75",
+        "leaf_76"
+    ],
+    "GCP": [
+        "leaf_75",
+        "leaf_76"
+    ],
+    "WMS": [
+        "leaf_75"
+    ],
+    "Biuletyny Informacji Publicznej": [
+        "leaf_75"
+    ],
+    "Kto": [
+        "leaf_75"
+    ],
+    "Faza 0": [
+        "leaf_75"
+    ],
+    "RODO": [
+        "leaf_76"
+    ],
+    "Roadmap": [
+        "leaf_76",
+        "leaf_79",
+        "leaf_80"
+    ],
+    "Hybrydowy": [
+        "leaf_76",
+        "leaf_91"
+    ],
+    "Tier 2": [
+        "leaf_76"
+    ],
+    "Tier 3": [
+        "leaf_76"
+    ],
+    "Gminie A ≠": [
+        "leaf_77"
+    ],
+    "Gminie B ≠": [
+        "leaf_77"
+    ],
+    "Gminie C —": [
+        "leaf_77"
+    ],
+    "Krajowa Klasyfikacja Zagospodarowania Przestrzennego": [
+        "leaf_77"
+    ],
+    "Ministerstwo": [
+        "leaf_77"
+    ],
+    "Krajowej Integracji MPZP": [
+        "leaf_77",
+        "leaf_79",
+        "leaf_86"
+    ],
+    "Vision AI": [
+        "leaf_77",
+        "leaf_80",
+        "leaf_83",
+        "leaf_84"
+    ],
+    "Budowanie": [
+        "leaf_77"
+    ],
+    "KKZP": [
+        "leaf_77",
+        "leaf_78"
+    ],
+    "Excel": [
+        "leaf_77",
+        "leaf_78",
+        "leaf_126",
+        "leaf_127"
+    ],
+    "Slack": [
+        "leaf_78",
+        "leaf_101"
+    ],
+    "Kontakt Krzyśka": [
+        "leaf_78"
+    ],
+    "50/miesiąc": [
+        "leaf_78"
+    ],
+    "Operating cost": [
+        "leaf_78",
+        "leaf_79"
+    ],
+    "LinkedIn": [
+        "leaf_78"
+    ],
+    "Potencjalna": [
+        "leaf_78"
+    ],
+    "Koszt AI": [
+        "leaf_78",
+        "leaf_79"
+    ],
+    "Oszczędność SER9 vs cloud": [
+        "leaf_79"
+    ],
+    "Budget Phase 0": [
+        "leaf_79"
+    ],
+    "Budget Phase 2": [
+        "leaf_79",
+        "leaf_80"
+    ],
+    "Pokrycie MPZP": [
+        "leaf_79"
+    ],
+    "Tier 3 Enterprise": [
+        "leaf_79"
+    ],
+    "AI Grant System": [
+        "leaf_80",
+        "leaf_81",
+        "leaf_82",
+        "leaf_83",
+        "leaf_84",
+        "leaf_85",
+        "leaf_86",
+        "leaf_87"
+    ],
+    "KW API": [
+        "leaf_80"
+    ],
+    "GTM": [
+        "leaf_80"
+    ],
+    "Compliance": [
+        "leaf_80"
+    ],
+    "KNF": [
+        "leaf_80",
+        "leaf_86"
+    ],
+    "PoC": [
+        "leaf_80"
+    ],
+    "MPZP WMS": [
+        "leaf_80"
+    ],
+    "UI - Historical": [
+        "leaf_80"
+    ],
+    "Orchestracja AI": [
+        "leaf_81"
+    ],
+    "Budowa": [
+        "leaf_81",
+        "leaf_84"
+    ],
+    "Kontrola": [
+        "leaf_81"
+    ],
+    "Wszystkie": [
+        "leaf_81",
+        "leaf_112"
+    ],
+    "Eksploracyjny": [
+        "leaf_82"
+    ],
+    "ROI": [
+        "leaf_82",
+        "leaf_83",
+        "leaf_85",
+        "leaf_95",
+        "leaf_156"
+    ],
+    "Preferuje": [
+        "leaf_82"
+    ],
+    "Pragmatyczny": [
+        "leaf_82",
+        "leaf_83"
+    ],
+    "Scheduled": [
+        "leaf_83"
+    ],
+    "Claude Opus/Sonnet": [
+        "leaf_83"
+    ],
+    "Embeddingi": [
+        "leaf_84"
+    ],
+    "WMS API": [
+        "leaf_84",
+        "leaf_85",
+        "leaf_86"
+    ],
+    "AI_Grant_System": [
+        "leaf_85"
+    ],
+    "KRUK": [
+        "leaf_85",
+        "leaf_86"
+    ],
+    "Identyfikacja": [
+        "leaf_85",
+        "leaf_86"
+    ],
+    "DeepSeek (": [
+        "leaf_85"
+    ],
+    "Potwierdzenie": [
+        "leaf_85"
+    ],
+    "Propozycja MVP": [
+        "leaf_85"
+    ],
+    "Pytanie": [
+        "leaf_85"
+    ],
+    "DD_AI_System": [
+        "leaf_86"
+    ],
+    "Architektura Vision AI": [
+        "leaf_86"
+    ],
+    "Uptime Kuma": [
+        "leaf_86",
+        "leaf_87"
+    ],
+    "Grant Writing": [
+        "leaf_87",
+        "leaf_143",
+        "leaf_159",
+        "leaf_160",
+        "leaf_162"
+    ],
+    "Obie": [
+        "leaf_87"
+    ],
+    "Finalna": [
+        "leaf_87"
+    ],
+    "RODO w": [
+        "leaf_87"
+    ],
+    "CRM": [
+        "leaf_87"
+    ],
+    "ERP": [
+        "leaf_87"
+    ],
+    "PIERWSZY": [
+        "leaf_87"
+    ],
+    "LangChain": [
+        "leaf_88",
+        "leaf_89",
+        "leaf_103",
+        "leaf_138",
+        "leaf_163",
+        "leaf_164"
+    ],
+    "Pinecone": [
+        "leaf_88",
+        "leaf_89",
+        "leaf_101",
+        "leaf_103"
+    ],
+    "ChromaDB": [
+        "leaf_88",
+        "leaf_89",
+        "leaf_93",
+        "leaf_103",
+        "leaf_108",
+        "leaf_120",
+        "leaf_122",
+        "leaf_123",
+        "leaf_124",
+        "leaf_125"
+    ],
+    "AI Automation Course": [
+        "leaf_88"
+    ],
+    "Platformy": [
+        "leaf_88"
+    ],
+    "LCEL": [
+        "leaf_88"
+    ],
+    "Document Intelligence Hub": [
+        "leaf_88"
+    ],
+    "AutoGen": [
+        "leaf_88",
+        "leaf_89"
+    ],
+    "Google Document AI": [
+        "leaf_89",
+        "leaf_101",
+        "leaf_103"
+    ],
+    "Tesseract": [
+        "leaf_89"
+    ],
+    "AgentOps": [
+        "leaf_89"
+    ],
+    "Week_XX_Name/": [
+        "leaf_89"
+    ],
+    "Git": [
+        "leaf_89",
+        "leaf_123"
+    ],
+    "Claude'a": [
+        "leaf_89",
+        "leaf_90"
+    ],
+    "PLAN.md": [
+        "leaf_89",
+        "leaf_90",
+        "leaf_91",
+        "leaf_92"
+    ],
+    "Python PDF": [
+        "leaf_89"
+    ],
+    "Hierarchia": [
+        "leaf_89"
+    ],
+    "Kompletne": [
+        "leaf_89",
+        "leaf_90"
+    ],
+    "System Prompt v1": [
+        "leaf_90",
+        "leaf_91"
+    ],
+    "\"Quality > Token savings\"": [
+        "leaf_91"
+    ],
+    "Trzeba": [
+        "leaf_91",
+        "leaf_92"
+    ],
+    "UTF": [
+        "leaf_92",
+        "leaf_113",
+        "leaf_152"
+    ],
+    "Day_XX_FULL.md": [
+        "leaf_92",
+        "leaf_105",
+        "leaf_106"
+    ],
+    "AI Fundamentals": [
+        "leaf_92"
+    ],
+    "System Prompt v2": [
+        "leaf_93"
+    ],
+    "Smart Document Search": [
+        "leaf_93"
+    ],
+    "Temat": [
+        "leaf_93",
+        "leaf_99"
+    ],
+    "Tokenizacja": [
+        "leaf_93"
+    ],
+    "Parametry API": [
+        "leaf_93"
+    ],
+    "Vector Stores": [
+        "leaf_93"
+    ],
+    "Mini-Projekt": [
+        "leaf_93"
+    ],
+    "Podręcznik AI Dzieci": [
+        "leaf_94",
+        "leaf_102",
+        "leaf_103"
+    ],
+    "Midjourney": [
+        "leaf_94",
+        "leaf_95",
+        "leaf_98",
+        "leaf_99",
+        "leaf_100",
+        "leaf_103"
+    ],
+    "Function Calling APIs": [
+        "leaf_94"
+    ],
+    "Research Assistant": [
+        "leaf_94"
+    ],
+    "AI Agents": [
+        "leaf_94",
+        "leaf_105"
+    ],
+    "Comprehensive Review": [
+        "leaf_94",
+        "leaf_105"
+    ],
+    "Knowledge Base RAG Bot": [
+        "leaf_94"
+    ],
+    "Kolorowy": [
+        "leaf_94"
+    ],
+    "Canva": [
+        "leaf_95",
+        "leaf_96",
+        "leaf_98",
+        "leaf_99",
+        "leaf_100",
+        "leaf_103"
+    ],
+    "Brand Kit": [
+        "leaf_95",
+        "leaf_103"
+    ],
+    "Remove.bg": [
+        "leaf_95"
+    ],
+    "LemonSqueezy": [
+        "leaf_95"
+    ],
+    "Magic Edit": [
+        "leaf_95"
+    ],
+    "Dzieci": [
+        "leaf_95"
+    ],
+    "Osobista": [
+        "leaf_95"
+    ],
+    "Koszty": [
+        "leaf_95",
+        "leaf_96",
+        "leaf_117",
+        "leaf_118"
+    ],
+    "K PLN": [
+        "leaf_95",
+        "leaf_96",
+        "leaf_97",
+        "leaf_98",
+        "leaf_99",
+        "leaf_102"
+    ],
+    "Piageta": [
+        "leaf_96",
+        "leaf_97"
+    ],
+    "Pure AI": [
+        "leaf_96"
+    ],
+    "Q2 MVP": [
+        "leaf_96"
+    ],
+    "Digital": [
+        "leaf_96",
+        "leaf_98"
+    ],
+    "Poziom 2": [
+        "leaf_96",
+        "leaf_97",
+        "leaf_98"
+    ],
+    "Poziom 3": [
+        "leaf_96",
+        "leaf_97"
+    ],
+    "Fundamentalnie": [
+        "leaf_96",
+        "leaf_97"
+    ],
+    "Poziom 1": [
+        "leaf_97"
+    ],
+    "Potrzebna": [
+        "leaf_97"
+    ],
+    "Rekomendacja Claude": [
+        "leaf_97"
+    ],
+    "Aiko": [
+        "leaf_97",
+        "leaf_98",
+        "leaf_105"
+    ],
+    "Conservative estimate first 3": [
+        "leaf_98"
+    ],
+    "Total investment": [
+        "leaf_98",
+        "leaf_99"
+    ],
+    "Piaget": [
+        "leaf_98",
+        "leaf_99"
+    ],
+    "Sugestia Claude": [
+        "leaf_98"
+    ],
+    "Koszty AI": [
+        "leaf_98"
+    ],
+    "Canva Pro": [
+        "leaf_98"
+    ],
+    "Kalkulacja": [
+        "leaf_98"
+    ],
+    "Max AI": [
+        "leaf_98",
+        "leaf_99"
+    ],
+    "🎯 Szybkie": [
+        "leaf_99"
+    ],
+    "Royal Blue": [
+        "leaf_99"
+    ],
+    "Orange": [
+        "leaf_99"
+    ],
+    "Midjourney+Canva learning": [
+        "leaf_99",
+        "leaf_100"
+    ],
+    "Twoja": [
+        "leaf_99"
+    ],
+    "Kopnij": [
+        "leaf_99"
+    ],
+    "💬 Cytat": [
+        "leaf_99"
+    ],
+    "Fioletowy": [
+        "leaf_99"
+    ],
+    "Impressive": [
+        "leaf_99"
+    ],
+    "Research & Validation": [
+        "leaf_99",
+        "leaf_100"
+    ],
+    "Hello Ruby": [
+        "leaf_99",
+        "leaf_100"
+    ],
+    "MVP Creation": [
+        "leaf_99",
+        "leaf_100"
+    ],
+    "Linda Liukas": [
+        "leaf_100"
+    ],
+    "Polish & Launch": [
+        "leaf_100"
+    ],
+    "Midjourney/DALL-E": [
+        "leaf_100"
+    ],
+    "Gumroad": [
+        "leaf_100"
+    ],
+    "Nazwa": [
+        "leaf_100",
+        "leaf_101"
+    ],
+    "Airtable": [
+        "leaf_101"
+    ],
+    "FAQ": [
+        "leaf_101",
+        "leaf_103"
+    ],
+    "Upload/Watch": [
+        "leaf_101"
+    ],
+    "KURS_AI_AUTOMATION": [
+        "leaf_102",
+        "leaf_103"
+    ],
+    "Organizuje": [
+        "leaf_102"
+    ],
+    "Doc Intel Hub": [
+        "leaf_103"
+    ],
+    "Model AI": [
+        "leaf_103"
+    ],
+    "Tanie": [
+        "leaf_103"
+    ],
+    "Prototypy": [
+        "leaf_103"
+    ],
+    "Kurs AI": [
+        "leaf_103",
+        "leaf_104",
+        "leaf_105",
+        "leaf_106"
+    ],
+    "Workflow": [
+        "leaf_103"
+    ],
+    "Chroma": [
+        "leaf_103"
+    ],
+    "LangChain/LangGraph": [
+        "leaf_103"
+    ],
+    "Framework AI": [
+        "leaf_103"
+    ],
+    "Complex": [
+        "leaf_103"
+    ],
+    "CRISPE Framework": [
+        "leaf_103",
+        "leaf_104"
+    ],
+    "Custom Instructions": [
+        "leaf_104",
+        "leaf_105"
+    ],
+    "Few-Shot": [
+        "leaf_104",
+        "leaf_105"
+    ],
+    "NIS2": [
+        "leaf_105"
+    ],
+    "Cloudflare Turnstile": [
+        "leaf_107",
+        "leaf_124",
+        "leaf_125",
+        "leaf_127"
+    ],
+    "BiznesValidator": [
+        "leaf_107",
+        "leaf_108",
+        "leaf_111",
+        "leaf_113",
+        "leaf_116",
+        "leaf_117",
+        "leaf_119",
+        "leaf_121",
+        "leaf_122",
+        "leaf_123",
+        "leaf_124",
+        "leaf_125",
+        "leaf_126",
+        "leaf_128",
+        "leaf_129"
+    ],
+    "Tailwind CSS": [
+        "leaf_107",
+        "leaf_124"
+    ],
+    "Lucide React": [
+        "leaf_107",
+        "leaf_124"
+    ],
+    "Supabase": [
+        "leaf_107",
+        "leaf_110",
+        "leaf_111",
+        "leaf_122",
+        "leaf_123",
+        "leaf_125",
+        "leaf_127"
+    ],
+    "Recharts": [
+        "leaf_107",
+        "leaf_124"
+    ],
+    "Zustand": [
+        "leaf_107",
+        "leaf_124"
+    ],
+    "GitHub": [
+        "leaf_107",
+        "leaf_108",
+        "leaf_111",
+        "leaf_123",
+        "leaf_124",
+        "leaf_125"
+    ],
+    "Vercel": [
+        "leaf_107",
+        "leaf_110",
+        "leaf_111",
+        "leaf_123",
+        "leaf_125",
+        "leaf_126"
+    ],
+    "Vite": [
+        "leaf_107",
+        "leaf_108",
+        "leaf_113",
+        "leaf_114",
+        "leaf_122",
+        "leaf_123",
+        "leaf_125",
+        "leaf_127"
+    ],
+    "Polska": [
+        "leaf_107",
+        "leaf_109",
+        "leaf_110"
+    ],
+    "Rynek": [
+        "leaf_107"
+    ],
+    "LifeCommandCenter": [
+        "leaf_108",
+        "leaf_116",
+        "leaf_119",
+        "leaf_121",
+        "leaf_122",
+        "leaf_123",
+        "leaf_124",
+        "leaf_125",
+        "leaf_126"
+    ],
+    "Liofilizacja": [
+        "leaf_108",
+        "leaf_109",
+        "leaf_112",
+        "leaf_116",
+        "leaf_117",
+        "leaf_121",
+        "leaf_122",
+        "leaf_123",
+        "leaf_124",
+        "leaf_126",
+        "leaf_127",
+        "leaf_137",
+        "leaf_140",
+        "leaf_141",
+        "leaf_143",
+        "leaf_144",
+        "leaf_154",
+        "leaf_158",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_165",
+        "leaf_166",
+        "leaf_169",
+        "leaf_170"
+    ],
+    "Przelewy24": [
+        "leaf_108",
+        "leaf_124",
+        "leaf_128"
+    ],
+    "USP": [
+        "leaf_108"
+    ],
+    "PWA": [
+        "leaf_108",
+        "leaf_113",
+        "leaf_125",
+        "leaf_126"
+    ],
+    "Natywna": [
+        "leaf_108"
+    ],
+    "Apple": [
+        "leaf_108",
+        "leaf_113"
+    ],
+    "Google Sheets": [
+        "leaf_108",
+        "leaf_124"
+    ],
+    "revenue template": [
+        "leaf_109"
+    ],
+    "country pack": [
+        "leaf_109",
+        "leaf_110"
+    ],
+    "ZUS": [
+        "leaf_109",
+        "leaf_110"
+    ],
+    "Niemcy": [
+        "leaf_109",
+        "leaf_110"
+    ],
+    "Czechy": [
+        "leaf_109",
+        "leaf_110"
+    ],
+    "Logika": [
+        "leaf_109"
+    ],
+    "AI API": [
+        "leaf_109"
+    ],
+    "VAT": [
+        "leaf_109",
+        "leaf_110"
+    ],
+    "Inter": [
+        "leaf_110",
+        "leaf_124"
+    ],
+    "KPI": [
+        "leaf_110",
+        "leaf_113"
+    ],
+    "Stripe/Linear": [
+        "leaf_110"
+    ],
+    "Maksymalizuje": [
+        "leaf_110"
+    ],
+    "M1-M4": [
+        "leaf_110"
+    ],
+    "Timeline +2": [
+        "leaf_110",
+        "leaf_111"
+    ],
+    "Vercel API Routes / Supabase Edge Functions": [
+        "leaf_110",
+        "leaf_111"
+    ],
+    "Google Drive": [
+        "leaf_111",
+        "leaf_113",
+        "leaf_122",
+        "leaf_123",
+        "leaf_124",
+        "leaf_125"
+    ],
+    "Kod": [
+        "leaf_111"
+    ],
+    "Dualna": [
+        "leaf_111"
+    ],
+    "Zmniejszenie": [
+        "leaf_111",
+        "leaf_131"
+    ],
+    "PLN - Data": [
+        "leaf_111"
+    ],
+    "Profile AI": [
+        "leaf_111"
+    ],
+    "Trzy": [
+        "leaf_111"
+    ],
+    "GENERIC": [
+        "leaf_112"
+    ],
+    "GUS": [
+        "leaf_112",
+        "leaf_113"
+    ],
+    "PARP": [
+        "leaf_112",
+        "leaf_113"
+    ],
+    "Eurostat": [
+        "leaf_112",
+        "leaf_113"
+    ],
+    "UX - Data": [
+        "leaf_112"
+    ],
+    "Ujednolicony": [
+        "leaf_112"
+    ],
+    "NowyInteres": [
+        "leaf_113",
+        "leaf_124"
+    ],
+    "CurrentUser": [
+        "leaf_113"
+    ],
+    "Reconnect": [
+        "leaf_113",
+        "leaf_114"
+    ],
+    "Brave": [
+        "leaf_113",
+        "leaf_114",
+        "leaf_126"
+    ],
+    "Wzmocnienie": [
+        "leaf_113"
+    ],
+    "RemoteSigned": [
+        "leaf_113"
+    ],
+    "UTF-8": [
+        "leaf_113"
+    ],
+    "Angielska": [
+        "leaf_114",
+        "leaf_115"
+    ],
+    "Koszt AI Prefill": [
+        "leaf_115"
+    ],
+    "Rejestracje": [
+        "leaf_115"
+    ],
+    "Kryteria": [
+        "leaf_115"
+    ],
+    "M0-M7": [
+        "leaf_115",
+        "leaf_116"
+    ],
+    "Sidebar": [
+        "leaf_115",
+        "leaf_116"
+    ],
+    "Sesja": [
+        "leaf_115",
+        "leaf_116"
+    ],
+    "HarvestRight": [
+        "leaf_116",
+        "leaf_117",
+        "leaf_118",
+        "leaf_119",
+        "leaf_124",
+        "leaf_143",
+        "leaf_144",
+        "leaf_164",
+        "leaf_166",
+        "leaf_169",
+        "leaf_170"
+    ],
+    "AI calls": [
+        "leaf_116"
+    ],
+    "Postgres": [
+        "leaf_116",
+        "leaf_121",
+        "leaf_122",
+        "leaf_123"
+    ],
+    "Harvest Right Industrial XL PRO": [
+        "leaf_116",
+        "leaf_117"
+    ],
+    "Limit": [
+        "leaf_116"
+    ],
+    "Fazy 0": [
+        "leaf_116",
+        "leaf_128"
+    ],
+    "Dogfooding": [
+        "leaf_117"
+    ],
+    "Najprostszy": [
+        "leaf_117"
+    ],
+    "XL PRO": [
+        "leaf_117"
+    ],
+    "Sanepid": [
+        "leaf_118",
+        "leaf_119",
+        "leaf_143",
+        "leaf_144"
+    ],
+    "Sanepidu": [
+        "leaf_118"
+    ],
+    "Scenariusz": [
+        "leaf_118"
+    ],
+    "BSE": [
+        "leaf_118"
+    ],
+    "NaOH": [
+        "leaf_118",
+        "leaf_126"
+    ],
+    "+20": [
+        "leaf_118"
+    ],
+    "ADHD coaching": [
+        "leaf_119",
+        "leaf_121",
+        "leaf_122",
+        "leaf_123"
+    ],
+    "stale detection": [
+        "leaf_119",
+        "leaf_120",
+        "leaf_122"
+    ],
+    "WIP limit": [
+        "leaf_119",
+        "leaf_120",
+        "leaf_122"
+    ],
+    "Trello": [
+        "leaf_119",
+        "leaf_120",
+        "leaf_121",
+        "leaf_122",
+        "leaf_123",
+        "leaf_124",
+        "leaf_126"
+    ],
+    "Labeling": [
+        "leaf_119"
+    ],
+    "Bug": [
+        "leaf_119"
+    ],
+    "2 PLN": [
+        "leaf_119"
+    ],
+    "Krzysiek ma": [
+        "leaf_119",
+        "leaf_120"
+    ],
+    "SpaCy": [
+        "leaf_120",
+        "leaf_121"
+    ],
+    "Entity Extraction": [
+        "leaf_120",
+        "leaf_121"
+    ],
+    "Postgres MCP": [
+        "leaf_120"
+    ],
+    "Atlassian MCP": [
+        "leaf_120"
+    ],
+    "Jira": [
+        "leaf_120"
+    ],
+    "Jira Product Discovery": [
+        "leaf_120"
+    ],
+    "Webhook": [
+        "leaf_120"
+    ],
+    "E2GraphRAG": [
+        "leaf_120"
+    ],
+    "Claude Projects": [
+        "leaf_120",
+        "leaf_138"
+    ],
+    "NER": [
+        "leaf_120",
+        "leaf_121"
+    ],
+    "WIP": [
+        "leaf_120",
+        "leaf_122",
+        "leaf_126"
+    ],
+    "Trello MCP": [
+        "leaf_120"
+    ],
+    "Asana": [
+        "leaf_120"
+    ],
+    "Linear": [
+        "leaf_120"
+    ],
+    "Czy Trello": [
+        "leaf_121"
+    ],
+    "Postgres - Liofilizacja": [
+        "leaf_121"
+    ],
+    "LCC": [
+        "leaf_122",
+        "leaf_123"
+    ],
+    "Postgres LifeCommandCenter": [
+        "leaf_122",
+        "leaf_123"
+    ],
+    "SER9 ALLMEDICA_Experience": [
+        "leaf_122",
+        "leaf_123"
+    ],
+    "Silna": [
+        "leaf_122"
+    ],
+    "ALLMEDICA_Experience": [
+        "leaf_123"
+    ],
+    "BUSINESS tier": [
+        "leaf_123"
+    ],
+    "LifeCommandCenter // BiznesValidator": [
+        "leaf_123"
+    ],
+    "Liofilizacja // Potencjalnie": [
+        "leaf_123"
+    ],
+    "Core UI": [
+        "leaf_123"
+    ],
+    "Auth": [
+        "leaf_123"
+    ],
+    "MrNekromanta": [
+        "leaf_124",
+        "leaf_125"
+    ],
+    "Security": [
+        "leaf_124"
+    ],
+    "ValidatorAI": [
+        "leaf_124"
+    ],
+    "IdeaProof": [
+        "leaf_124"
+    ],
+    "VCS": [
+        "leaf_124"
+    ],
+    "CAPTCHA": [
+        "leaf_124"
+    ],
+    "CSS": [
+        "leaf_124"
+    ],
+    "Frankfurt": [
+        "leaf_125"
+    ],
+    "Cash Flow": [
+        "leaf_125",
+        "leaf_126"
+    ],
+    "Milestones M0-M7": [
+        "leaf_125"
+    ],
+    "Dodanie M5": [
+        "leaf_125"
+    ],
+    "RAG z ChromaDB": [
+        "leaf_125"
+    ],
+    "M1-M5": [
+        "leaf_125"
+    ],
+    "PLN API": [
+        "leaf_125"
+    ],
+    "Scenariusze": [
+        "leaf_125",
+        "leaf_126"
+    ],
+    "Jobleer.pl": [
+        "leaf_126",
+        "leaf_127"
+    ],
+    "Korekta NowyInteres.pl": [
+        "leaf_126"
+    ],
+    "AI Prefill": [
+        "leaf_126"
+    ],
+    "Home Assistant": [
+        "leaf_127",
+        "leaf_149",
+        "leaf_150",
+        "leaf_157",
+        "leaf_158",
+        "leaf_161",
+        "leaf_162",
+        "leaf_163",
+        "leaf_168",
+        "leaf_170"
+    ],
+    "PayProGlobal": [
+        "leaf_127"
+    ],
+    "> &&": [
+        "leaf_127"
+    ],
+    "Lean Canvas": [
+        "leaf_127"
+    ],
+    "BMC": [
+        "leaf_127"
+    ],
+    "PLN/mies": [
+        "leaf_127",
+        "leaf_128"
+    ],
+    "Aktualna": [
+        "leaf_127",
+        "leaf_128"
+    ],
+    "Marketing & CAC +": [
+        "leaf_128"
+    ],
+    "Apitherapy Research": [
+        "leaf_130",
+        "leaf_137",
+        "leaf_159",
+        "leaf_163"
+    ],
+    "propolis": [
+        "leaf_130",
+        "leaf_131",
+        "leaf_132",
+        "leaf_133",
+        "leaf_134",
+        "leaf_135",
+        "leaf_136",
+        "leaf_137",
+        "leaf_158",
+        "leaf_159",
+        "leaf_165",
+        "leaf_166"
+    ],
+    "Produkty Pszczele": [
+        "leaf_130"
+    ],
+    "WYGENEROWANY ARTEFAKT": [
+        "leaf_130",
+        "leaf_133"
+    ],
+    "Artefakt": [
+        "leaf_130",
+        "leaf_133"
+    ],
+    "Akademicki": [
+        "leaf_130",
+        "leaf_131"
+    ],
+    "Tematyczne": [
+        "leaf_130",
+        "leaf_131"
+    ],
+    "mleczko pszczele": [
+        "leaf_131",
+        "leaf_133",
+        "leaf_134",
+        "leaf_137",
+        "leaf_159",
+        "leaf_164",
+        "leaf_165",
+        "leaf_166"
+    ],
+    "CAPE": [
+        "leaf_131",
+        "leaf_135",
+        "leaf_136"
+    ],
+    "Dok": [
+        "leaf_131",
+        "leaf_132",
+        "leaf_134",
+        "leaf_135"
+    ],
+    "Faza 3": [
+        "leaf_131"
+    ],
+    "Faza 4": [
+        "leaf_131"
+    ],
+    "Naturalnie": [
+        "leaf_131"
+    ],
+    "Przyspieszenie": [
+        "leaf_131"
+    ],
+    "Wzrost": [
+        "leaf_131",
+        "leaf_132",
+        "leaf_134"
+    ],
+    "TGF-β": [
+        "leaf_132",
+        "leaf_134",
+        "leaf_135",
+        "leaf_136"
+    ],
+    "Badanie": [
+        "leaf_132",
+        "leaf_134",
+        "leaf_135",
+        "leaf_156",
+        "leaf_160",
+        "leaf_161"
+    ],
+    "Tworzenie": [
+        "leaf_132",
+        "leaf_133"
+    ],
+    "Kontynuacja": [
+        "leaf_133"
+    ],
+    "Oba": [
+        "leaf_133",
+        "leaf_136",
+        "leaf_137"
+    ],
+    "Identyczne": [
+        "leaf_133"
+    ],
+    "Dostosowane": [
+        "leaf_133"
+    ],
+    "Dojrzewanie": [
+        "leaf_133",
+        "leaf_134"
+    ],
+    "Materialnie": [
+        "leaf_133",
+        "leaf_134"
+    ],
+    "Lista": [
+        "leaf_133"
+    ],
+    "10-HDA": [
+        "leaf_134",
+        "leaf_135",
+        "leaf_136"
+    ],
+    "Defensyna": [
+        "leaf_134"
+    ],
+    "Klarowna": [
+        "leaf_134"
+    ],
+    "Propolis Edukacja": [
+        "leaf_135",
+        "leaf_136",
+        "leaf_137"
+    ],
+    "Mleczko Edukacja": [
+        "leaf_135",
+        "leaf_136",
+        "leaf_137"
+    ],
+    "NF-κB": [
+        "leaf_135",
+        "leaf_136"
+    ],
+    "EVs": [
+        "leaf_135",
+        "leaf_137"
+    ],
+    "Mleczko": [
+        "leaf_135",
+        "leaf_136",
+        "leaf_137"
+    ],
+    "Propolis_Zrodlo_Akademickie": [
+        "leaf_135",
+        "leaf_136"
+    ],
+    "Biologia": [
+        "leaf_135"
+    ],
+    "Wiek": [
+        "leaf_135"
+    ],
+    "Propolis_Zrodlo_DlaKazdego": [
+        "leaf_135",
+        "leaf_136"
+    ],
+    "VEGF": [
+        "leaf_136"
+    ],
+    "Przechowywanie": [
+        "leaf_136"
+    ],
+    "Kluczowy": [
+        "leaf_136"
+    ],
+    "Czynnik": [
+        "leaf_136"
+    ],
+    "Fazy": [
+        "leaf_136"
+    ],
+    "Szkielet": [
+        "leaf_136"
+    ],
+    "Zlecenie": [
+        "leaf_136",
+        "leaf_137"
+    ],
+    "AI Automation Side Business": [
+        "leaf_138"
+    ],
+    "Groq": [
+        "leaf_138",
+        "leaf_139"
+    ],
+    "Rozmowy Claude": [
+        "leaf_138"
+    ],
+    "Docelowy": [
+        "leaf_138",
+        "leaf_140"
+    ],
+    "0.028/1M": [
+        "leaf_138",
+        "leaf_140"
+    ],
+    "LangGraph": [
+        "leaf_138"
+    ],
+    "Google AI Studio": [
+        "leaf_138"
+    ],
+    "Gemini": [
+        "leaf_138",
+        "leaf_139"
+    ],
+    "SMB": [
+        "leaf_139"
+    ],
+    "Anthropic Claude": [
+        "leaf_139"
+    ],
+    "Neurotransmission Docs": [
+        "leaf_140",
+        "leaf_141",
+        "leaf_153",
+        "leaf_162",
+        "leaf_163",
+        "leaf_168"
+    ],
+    "Mitos Translation": [
+        "leaf_140",
+        "leaf_141",
+        "leaf_151",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_166"
+    ],
+    "ElevenLabs": [
+        "leaf_140",
+        "leaf_141",
+        "leaf_155",
+        "leaf_156",
+        "leaf_162",
+        "leaf_163",
+        "leaf_166"
+    ],
+    "AI Lab Hardware": [
+        "leaf_141",
+        "leaf_155",
+        "leaf_166",
+        "leaf_167",
+        "leaf_169",
+        "leaf_170"
+    ],
+    "EU Project Procurement": [
+        "leaf_141"
+    ],
+    "Fundusze Europejskie": [
+        "leaf_141"
+    ],
+    "Nowoczesnej Gospodarki": [
+        "leaf_141"
+    ],
+    "ALLMEDICA Sp": [
+        "leaf_141"
+    ],
+    "Szaflary": [
+        "leaf_141",
+        "leaf_142",
+        "leaf_164",
+        "leaf_165"
+    ],
+    "Myślenice": [
+        "leaf_141"
+    ],
+    "Wadowice": [
+        "leaf_141"
+    ],
+    "QUANTARA": [
+        "leaf_141",
+        "leaf_142",
+        "leaf_165"
+    ],
+    "GL Sp": [
+        "leaf_141"
+    ],
+    "PKD": [
+        "leaf_141",
+        "leaf_142"
+    ],
+    "Winroof sp": [
+        "leaf_142"
+    ],
+    "Raba Wyżna": [
+        "leaf_142"
+    ],
+    "Winroof": [
+        "leaf_142",
+        "leaf_165",
+        "leaf_168"
+    ],
+    "FAKRO": [
+        "leaf_142",
+        "leaf_168"
+    ],
+    "QUANTARA Wadowice LED": [
+        "leaf_142",
+        "leaf_143"
+    ],
+    "Podstawa": [
+        "leaf_142"
+    ],
+    "Najkorzystniejsza": [
+        "leaf_142"
+    ],
+    "Oferta QUANTARA Wadowice": [
+        "leaf_142",
+        "leaf_143"
+    ],
+    "Oferta Winroof": [
+        "leaf_142",
+        "leaf_143"
+    ],
+    "zamówienia publiczne": [
+        "leaf_143",
+        "leaf_165"
+    ],
+    "FENG": [
+        "leaf_143",
+        "leaf_164",
+        "leaf_165"
+    ],
+    "Numer": [
+        "leaf_143"
+    ],
+    "Punktacja Winroof": [
+        "leaf_143"
+    ],
+    "Biznes": [
+        "leaf_143"
+    ],
+    "Przewodnik": [
+        "leaf_143",
+        "leaf_144"
+    ],
+    "HACCP": [
+        "leaf_143",
+        "leaf_144"
+    ],
+    "WIW": [
+        "leaf_144"
+    ],
+    "PIS": [
+        "leaf_144"
+    ],
+    "Marże": [
+        "leaf_144",
+        "leaf_145"
+    ],
+    "B2C": [
+        "leaf_144"
+    ],
+    "Food Forest": [
+        "leaf_145",
+        "leaf_153",
+        "leaf_154",
+        "leaf_158",
+        "leaf_159",
+        "leaf_162",
+        "leaf_163",
+        "leaf_165",
+        "leaf_167",
+        "leaf_169",
+        "leaf_170"
+    ],
+    "Duckweed": [
+        "leaf_145",
+        "leaf_154",
+        "leaf_158",
+        "leaf_162",
+        "leaf_168"
+    ],
+    "Duckweed Research": [
+        "leaf_145"
+    ],
+    "Uw=0": [
+        "leaf_145",
+        "leaf_146",
+        "leaf_147"
+    ],
+    "Dom": [
+        "leaf_145"
+    ],
+    "MI-107748": [
+        "leaf_145"
+    ],
+    "BluEvolution": [
+        "leaf_145"
+    ],
+    "PIR": [
+        "leaf_146",
+        "leaf_147"
+    ],
+    "Univ": [
+        "leaf_146"
+    ],
+    "Salford": [
+        "leaf_146"
+    ],
+    "Oak Ridge": [
+        "leaf_146"
+    ],
+    "FTC": [
+        "leaf_146"
+    ],
+    "ETX": [
+        "leaf_146"
+    ],
+    "Powierzchnia": [
+        "leaf_146",
+        "leaf_147"
+    ],
+    "PSC": [
+        "leaf_146"
+    ],
+    "Oak Ridge NL": [
+        "leaf_146"
+    ],
+    "Czyste Powietrze": [
+        "leaf_146",
+        "leaf_147"
+    ],
+    "Wycena": [
+        "leaf_146",
+        "leaf_147"
+    ],
+    "LiFePO4": [
+        "leaf_147",
+        "leaf_148",
+        "leaf_149",
+        "leaf_154",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_167"
+    ],
+    "Payback Uw=0": [
+        "leaf_147"
+    ],
+    "Tauron": [
+        "leaf_147",
+        "leaf_148",
+        "leaf_149",
+        "leaf_169",
+        "leaf_170"
+    ],
+    "Alibaba": [
+        "leaf_147",
+        "leaf_148",
+        "leaf_167"
+    ],
+    "Obszar": [
+        "leaf_147"
+    ],
+    "Aktualne": [
+        "leaf_147"
+    ],
+    "CuSi": [
+        "leaf_148"
+    ],
+    "50L": [
+        "leaf_148"
+    ],
+    "Rury": [
+        "leaf_148"
+    ],
+    "SANHA-Therm": [
+        "leaf_148"
+    ],
+    "Obecna": [
+        "leaf_148",
+        "leaf_149"
+    ],
+    "Meshtastic": [
+        "leaf_149",
+        "leaf_154",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_166",
+        "leaf_167"
+    ],
+    "Wnioskowane": [
+        "leaf_149"
+    ],
+    "Energia": [
+        "leaf_149"
+    ],
+    "Typowe": [
+        "leaf_149",
+        "leaf_153"
+    ],
+    "Prawdopodobna": [
+        "leaf_149"
+    ],
+    "AI z": [
+        "leaf_149"
+    ],
+    "Calibre Web": [
+        "leaf_149"
+    ],
+    "Intel": [
+        "leaf_149",
+        "leaf_150",
+        "leaf_169"
+    ],
+    "N100": [
+        "leaf_149",
+        "leaf_150"
+    ],
+    "Plus": [
+        "leaf_150"
+    ],
+    "Manli": [
+        "leaf_150"
+    ],
+    "NVLink": [
+        "leaf_150"
+    ],
+    "Dell": [
+        "leaf_150"
+    ],
+    "Calibre Faza 3": [
+        "leaf_150"
+    ],
+    "Gigabyte Gaming OC": [
+        "leaf_150"
+    ],
+    "Gigabyte Gaming OC ma": [
+        "leaf_150"
+    ],
+    "Manli Data": [
+        "leaf_150"
+    ],
+    "ROG STRIX": [
+        "leaf_150"
+    ],
+    "Dell PowerEdge R740": [
+        "leaf_150"
+    ],
+    "GPU Enablement Kit": [
+        "leaf_150"
+    ],
+    "PSU Data": [
+        "leaf_150"
+    ],
+    "ProArt": [
+        "leaf_151"
+    ],
+    "Investment Analysis": [
+        "leaf_151"
+    ],
+    "Parkinson": [
+        "leaf_151",
+        "leaf_152"
+    ],
+    "Q4 LLM": [
+        "leaf_151"
+    ],
+    "AI - Mitos Translation": [
+        "leaf_151"
+    ],
+    "bupropion": [
+        "leaf_152",
+        "leaf_161",
+        "leaf_162"
+    ],
+    "escitalopram": [
+        "leaf_152",
+        "leaf_153",
+        "leaf_161",
+        "leaf_170"
+    ],
+    "Mental Health": [
+        "leaf_152",
+        "leaf_167",
+        "leaf_168"
+    ],
+    "ADEK": [
+        "leaf_152",
+        "leaf_161",
+        "leaf_162"
+    ],
+    "Strategia": [
+        "leaf_152",
+        "leaf_167"
+    ],
+    "Krzeszowice": [
+        "leaf_153",
+        "leaf_166",
+        "leaf_167"
+    ],
+    "Krzeszowicach": [
+        "leaf_153",
+        "leaf_154",
+        "leaf_165"
+    ],
+    "NNE": [
+        "leaf_153"
+    ],
+    "Elektrokultura": [
+        "leaf_153"
+    ],
+    "Justin Christofleau": [
+        "leaf_153"
+    ],
+    "Okazjonalne": [
+        "leaf_153"
+    ],
+    "BMI": [
+        "leaf_153"
+    ],
+    "PLOS": [
+        "leaf_153"
+    ],
+    "Nachylenie": [
+        "leaf_153",
+        "leaf_154"
+    ],
+    "Fan Fiction RAG": [
+        "leaf_154",
+        "leaf_155",
+        "leaf_162",
+        "leaf_167",
+        "leaf_168"
+    ],
+    "Miękini": [
+        "leaf_154",
+        "leaf_165"
+    ],
+    "LoRa": [
+        "leaf_154"
+    ],
+    "Krzeszowicami": [
+        "leaf_154"
+    ],
+    "Rabką": [
+        "leaf_154"
+    ],
+    "Kraków": [
+        "leaf_154",
+        "leaf_159",
+        "leaf_160",
+        "leaf_166"
+    ],
+    "Beskidy": [
+        "leaf_154"
+    ],
+    "LiFePO4 - Food Forest": [
+        "leaf_154"
+    ],
+    "Pokrycie": [
+        "leaf_154"
+    ],
+    "Strefa": [
+        "leaf_154"
+    ],
+    "Bunkier": [
+        "leaf_154"
+    ],
+    "Blokada": [
+        "leaf_154"
+    ],
+    "DOC": [
+        "leaf_154",
+        "leaf_155"
+    ],
+    "Kindle Paperwhite": [
+        "leaf_154",
+        "leaf_155"
+    ],
+    "Digital Memorial": [
+        "leaf_155",
+        "leaf_156",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_168"
+    ],
+    "Recursive Language Model": [
+        "leaf_155"
+    ],
+    "MIT CSAIL": [
+        "leaf_155",
+        "leaf_168"
+    ],
+    "Zhang": [
+        "leaf_155",
+        "leaf_168"
+    ],
+    "Kraska": [
+        "leaf_155",
+        "leaf_168"
+    ],
+    "Khattab": [
+        "leaf_155",
+        "leaf_168"
+    ],
+    "ElevenLabs IVC": [
+        "leaf_155"
+    ],
+    "IVC": [
+        "leaf_155"
+    ],
+    "PVC": [
+        "leaf_155"
+    ],
+    "Python REPL": [
+        "leaf_155"
+    ],
+    "Taba": [
+        "leaf_155",
+        "leaf_156",
+        "leaf_168"
+    ],
+    "IDP Research": [
+        "leaf_156",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_165",
+        "leaf_168"
+    ],
+    "Terraform CICD": [
+        "leaf_156",
+        "leaf_157",
+        "leaf_162",
+        "leaf_163",
+        "leaf_167",
+        "leaf_168"
+    ],
+    "Pivot": [
+        "leaf_156"
+    ],
+    "Harry'ego": [
+        "leaf_156"
+    ],
+    "Internal Developer Platform": [
+        "leaf_156"
+    ],
+    "IDP": [
+        "leaf_156",
+        "leaf_164",
+        "leaf_165",
+        "leaf_166"
+    ],
+    "Kratix": [
+        "leaf_156"
+    ],
+    "Humanitec": [
+        "leaf_156",
+        "leaf_157",
+        "leaf_164",
+        "leaf_165"
+    ],
+    "Convera": [
+        "leaf_156",
+        "leaf_157"
+    ],
+    "Pottera": [
+        "leaf_156"
+    ],
+    "NatWest Port": [
+        "leaf_156"
+    ],
+    "TCO": [
+        "leaf_156",
+        "leaf_157"
+    ],
+    "Terraform CI": [
+        "leaf_156",
+        "leaf_157",
+        "leaf_167",
+        "leaf_168"
+    ],
+    "Raspberry Pi Education": [
+        "leaf_157",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164"
+    ],
+    "Smart Home": [
+        "leaf_157",
+        "leaf_158",
+        "leaf_162",
+        "leaf_163",
+        "leaf_164",
+        "leaf_170"
+    ],
+    "GitLab": [
+        "leaf_157",
+        "leaf_164"
+    ],
+    "Terraform": [
+        "leaf_157",
+        "leaf_166",
+        "leaf_167",
+        "leaf_168"
+    ],
+    "Jenkins": [
+        "leaf_157",
+        "leaf_164"
+    ],
+    "Puppet": [
+        "leaf_157",
+        "leaf_164"
+    ],
+    "IaC": [
+        "leaf_157"
+    ],
+    "Jasio": [
+        "leaf_157",
+        "leaf_161"
+    ],
+    "Jasiem": [
+        "leaf_157"
+    ],
+    "Scratch": [
+        "leaf_157"
+    ],
+    "GCompris": [
+        "leaf_157"
+    ],
+    "RetroPie": [
+        "leaf_157"
+    ],
+    "PCI": [
+        "leaf_157"
+    ],
+    "GitLab CI": [
+        "leaf_157"
+    ],
+    "Sonic Pi": [
+        "leaf_157"
+    ],
+    "Opcjonalnie": [
+        "leaf_157"
+    ],
+    "Fe₂O₃": [
+        "leaf_158"
+    ],
+    "Braukmann Resideo": [
+        "leaf_158"
+    ],
+    "Plantible Foods": [
+        "leaf_158"
+    ],
+    "Hinoman": [
+        "leaf_158"
+    ],
+    "GreenOnyx": [
+        "leaf_158"
+    ],
+    "Fitoremediacja": [
+        "leaf_158"
+    ],
+    "CLL": [
+        "leaf_158",
+        "leaf_159"
+    ],
+    "Honeywell FF06-1AA": [
+        "leaf_158"
+    ],
+    "Rosja": [
+        "leaf_159"
+    ],
+    "ESC/ESH": [
+        "leaf_159"
+    ],
+    "LPT": [
+        "leaf_159"
+    ],
+    "USDT": [
+        "leaf_159"
+    ],
+    "CRV": [
+        "leaf_159"
+    ],
+    "GLM": [
+        "leaf_159"
+    ],
+    "SPARKLET": [
+        "leaf_159"
+    ],
+    "Art": [
+        "leaf_159"
+    ],
+    "NFZ": [
+        "leaf_160"
+    ],
+    "Niziołek": [
+        "leaf_160",
+        "leaf_167"
+    ],
+    "Władysława Niziołka": [
+        "leaf_160"
+    ],
+    "Ziempniów": [
+        "leaf_160"
+    ],
+    "Józef": [
+        "leaf_160"
+    ],
+    "Jakub": [
+        "leaf_160"
+    ],
+    "Tomasz": [
+        "leaf_160"
+    ],
+    "Walczak": [
+        "leaf_160"
+    ],
+    "Waręda": [
+        "leaf_160"
+    ],
+    "Bożek": [
+        "leaf_160"
+    ],
+    "Kozioł": [
+        "leaf_160"
+    ],
+    "Szarek": [
+        "leaf_160"
+    ],
+    "Czermin": [
+        "leaf_160",
+        "leaf_167"
+    ],
+    "Tarnów": [
+        "leaf_160"
+    ],
+    "Galicja": [
+        "leaf_160"
+    ],
+    "Mahdia": [
+        "leaf_160"
+    ],
+    "Darija": [
+        "leaf_160"
+    ],
+    "Laniakea": [
+        "leaf_160"
+    ],
+    "Great Attractor": [
+        "leaf_160"
+    ],
+    "Słońca": [
+        "leaf_160",
+        "leaf_166",
+        "leaf_167"
+    ],
+    "AGB": [
+        "leaf_160"
+    ],
+    "Dionizy": [
+        "leaf_160"
+    ],
+    "Metatron": [
+        "leaf_160"
+    ],
+    "Merkava": [
+        "leaf_160",
+        "leaf_166",
+        "leaf_167"
+    ],
+    "Boga": [
+        "leaf_160"
+    ],
+    "Bóg": [
+        "leaf_160",
+        "leaf_161"
+    ],
+    "Top": [
+        "leaf_160",
+        "leaf_161"
+    ],
+    "Vectric": [
+        "leaf_160",
+        "leaf_161"
+    ],
+    "RasterCarve": [
+        "leaf_160",
+        "leaf_161"
+    ],
+    "Kompleksowy": [
+        "leaf_160"
+    ],
+    "KBC Void": [
+        "leaf_160"
+    ],
+    "Wiedza": [
+        "leaf_160"
+    ],
+    "Pseudo-Dionizy": [
+        "leaf_160"
+    ],
+    "TIFF": [
+        "leaf_160",
+        "leaf_161"
+    ],
+    "CNC": [
+        "leaf_160",
+        "leaf_161",
+        "leaf_167"
+    ],
+    "Clarke": [
+        "leaf_161",
+        "leaf_169"
+    ],
+    "Halmana": [
+        "leaf_161",
+        "leaf_169"
+    ],
+    "Bowman": [
+        "leaf_161"
+    ],
+    "Radykalnie": [
+        "leaf_161"
+    ],
+    "FENIX": [
+        "leaf_161"
+    ],
+    "Brutalna": [
+        "leaf_161"
+    ],
+    "ADHD Mental Health": [
+        "leaf_162",
+        "leaf_163"
+    ],
+    "Smart_Home": [
+        "leaf_162",
+        "leaf_163"
+    ],
+    "Home Assistant AI_Automation": [
+        "leaf_162"
+    ],
+    "LiFePO4 PV_Energy -[DEPENDS_ON": [
+        "leaf_162"
+    ],
+    "All_Projects": [
+        "leaf_162"
+    ],
+    "Food_Forest": [
+        "leaf_162",
+        "leaf_163"
+    ],
+    "Liofilizacja // AI": [
+        "leaf_162"
+    ],
+    "LiFePO4 PV_Energy": [
+        "leaf_162"
+    ],
+    "Crypto Portfolio": [
+        "leaf_163",
+        "leaf_164"
+    ],
+    "CNC Research": [
+        "leaf_163",
+        "leaf_167"
+    ],
+    "Crypto_Portfolio": [
+        "leaf_163"
+    ],
+    "Workflow automation": [
+        "leaf_163"
+    ],
+    "Research Agent": [
+        "leaf_163"
+    ],
+    "Confluence Migration": [
+        "leaf_163"
+    ],
+    "IoT": [
+        "leaf_163"
+    ],
+    "AI Lab": [
+        "leaf_163"
+    ],
+    "LLM API": [
+        "leaf_163"
+    ],
+    "Lokalne LLM": [
+        "leaf_163"
+    ],
+    "Library": [
+        "leaf_163"
+    ],
+    "Transkrypcja": [
+        "leaf_163"
+    ],
+    "TTS": [
+        "leaf_163",
+        "leaf_164"
+    ],
+    "httrack": [
+        "leaf_164"
+    ],
+    "Jasia": [
+        "leaf_164",
+        "leaf_166",
+        "leaf_169"
+    ],
+    "Git + CI": [
+        "leaf_164"
+    ],
+    "Liofilizator": [
+        "leaf_164"
+    ],
+    "Raspberry Pi": [
+        "leaf_164"
+    ],
+    "Pierwszy": [
+        "leaf_164"
+    ],
+    "Infografiki": [
+        "leaf_164"
+    ],
+    "Apitherapy": [
+        "leaf_164",
+        "leaf_165",
+        "leaf_166"
+    ],
+    "Backstage, Humanitec": [
+        "leaf_164"
+    ],
+    "Port, Cortex": [
+        "leaf_164",
+        "leaf_165"
+    ],
+    "CPV": [
+        "leaf_164",
+        "leaf_165"
+    ],
+    "GHP/GMP": [
+        "leaf_165"
+    ],
+    "SZAFLARY/2/FENG/2025": [
+        "leaf_165"
+    ],
+    "PIR ETX": [
+        "leaf_165"
+    ],
+    "Wezwanie": [
+        "leaf_165"
+    ],
+    "Prezentacja PIR ETX": [
+        "leaf_165"
+    ],
+    "FR/EN/AR": [
+        "leaf_165"
+    ],
+    "Tunisia": [
+        "leaf_165"
+    ],
+    "GMP": [
+        "leaf_165"
+    ],
+    "Betonowanie": [
+        "leaf_165"
+    ],
+    "Health Docs": [
+        "leaf_165",
+        "leaf_166"
+    ],
+    "Raspberry Pi Ed": [
+        "leaf_166"
+    ],
+    "LoRa Krzeszowice-Rabka": [
+        "leaf_166",
+        "leaf_167"
+    ],
+    "Projekty Raspberry Pi": [
+        "leaf_166"
+    ],
+    "ITIL": [
+        "leaf_166"
+    ],
+    "AI Automation vs Liofilizacja": [
+        "leaf_166"
+    ],
+    "Decyzja o": [
+        "leaf_166"
+    ],
+    "Mitos": [
+        "leaf_166"
+    ],
+    "LoRa Krzeszowice-Rabka +": [
+        "leaf_166",
+        "leaf_167"
+    ],
+    "TON-618": [
+        "leaf_166",
+        "leaf_167"
+    ],
+    "Teologia": [
+        "leaf_166",
+        "leaf_167"
+    ],
+    "Podhalańska": [
+        "leaf_167"
+    ],
+    "Personal": [
+        "leaf_167"
+    ],
+    "Farba PSC": [
+        "leaf_167"
+    ],
+    "ADHD/Mental Health": [
+        "leaf_167",
+        "leaf_168",
+        "leaf_170"
+    ],
+    "Rury SANHA-Therm": [
+        "leaf_167"
+    ],
+    "N100/5600G": [
+        "leaf_167"
+    ],
+    "Uptime Institute Tiers": [
+        "leaf_168"
+    ],
+    "Legal Analysis": [
+        "leaf_168"
+    ],
+    "Honeywell": [
+        "leaf_168"
+    ],
+    "Digital Memorial \"Taba\"": [
+        "leaf_168"
+    ],
+    "Aneks Winroof": [
+        "leaf_168"
+    ],
+    "Sankcje EU": [
+        "leaf_168"
+    ],
+    "Mostki": [
+        "leaf_168"
+    ],
+    "RLM": [
+        "leaf_168"
+    ],
+    "— Zhang": [
+        "leaf_168"
+    ],
+    "Zwrot": [
+        "leaf_168"
+    ],
+    "Water Filtration": [
+        "leaf_168"
+    ],
+    "Miękinia": [
+        "leaf_169"
+    ],
+    "AMOC": [
+        "leaf_169"
+    ],
+    "EN↔PL": [
+        "leaf_169"
+    ],
+    "Bonifacym": [
+        "leaf_169"
+    ],
+    "Arthur C": [
+        "leaf_169"
+    ],
+    "French": [
+        "leaf_169"
+    ],
+    "BTM": [
+        "leaf_169"
+    ],
+    "Derja": [
+        "leaf_169"
+    ],
+    "MSA": [
+        "leaf_169"
+    ],
+    "N150": [
+        "leaf_169"
+    ],
+    "Gdzie": [
+        "leaf_169",
+        "leaf_170"
+    ],
+    "AI Automation / Smart Home": [
+        "leaf_170"
+    ]
+}
