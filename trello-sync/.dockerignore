@@ -1,0 +1,9 @@
+.venv
+__pycache__
+*.pyc
+.env
+.env.example
+start-service.bat
+README.md
+schema.sql
+docker-compose.yml

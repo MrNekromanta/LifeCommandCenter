@@ -1,0 +1,20 @@
+services:
+  trello-sync:
+    build: .
+    container_name: trello-sync
+    restart: unless-stopped
+    ports:
+      - "8891:8891"
+    environment:
+      - TRELLO_API_KEY=${TRELLO_API_KEY}
+      - TRELLO_TOKEN=${TRELLO_TOKEN}
+      - DATABASE_URL=postgresql://postgres:f%26RuIlAm86%2Av%23RgPh%40jiM1ho@crypto-postgres:5432/trello_sync
+      - SYNC_INTERVAL_MINUTES=60
+      - LOG_LEVEL=INFO
+    networks:
+      - crypto-network
+
+networks:
+  crypto-network:
+    external: true
+    name: crypto-rebalancer_crypto-network

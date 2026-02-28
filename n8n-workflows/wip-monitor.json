@@ -1,0 +1,171 @@
+{
+  "name": "LCC WIP Monitor (Trello Webhook)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "=HEAD",
+        "path": "trello-wip",
+        "responseMode": "responseNode",
+        "options": {}
+      },
+      "id": "webhook-head",
+      "name": "Trello HEAD Check",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, -200],
+      "webhookId": "trello-wip-head"
+    },
+    {
+      "parameters": {
+        "respondWith": "noData",
+        "options": {}
+      },
+      "id": "respond-head",
+      "name": "Respond HEAD OK",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [220, -200]
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "trello-wip",
+        "options": {}
+      },
+      "id": "webhook-post",
+      "name": "Trello Webhook",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [0, 0],
+      "webhookId": "trello-wip-post"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "card-moved",
+              "leftValue": "={{ $json.body.action.type }}",
+              "rightValue": "updateCard",
+              "operator": { "type": "string", "operation": "equals" }
+            },
+            {
+              "id": "has-list-after",
+              "leftValue": "={{ $json.body.action.data.listAfter.name }}",
+              "rightValue": "",
+              "operator": { "type": "string", "operation": "exists" }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "filter-move",
+      "name": "Is Card Move?",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2,
+      "position": [220, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Credentials from n8n environment variables (set in n8n Settings > Variables)\nconst API_KEY = $env.TRELLO_API_KEY;\nconst TOKEN = $env.TRELLO_TOKEN;\nconst BOARDS = [\n  '65c71730e7e0e88bbac71966',\n  '680726930c136ce6165030dc',\n  '6820e2a5acd2eba4c771b29f'\n];\nconst WIP_LISTS = ['In Progress', 'W trakcie', 'Doing'];\n\nlet wipCount = 0;\nfor (const boardId of BOARDS) {\n  const url = `https://api.trello.com/1/boards/${boardId}/lists?cards=open&card_fields=id&fields=name&key=${API_KEY}&token=${TOKEN}`;\n  const lists = await this.helpers.httpRequest({\n    url: url,\n    method: 'GET',\n    json: true\n  });\n  for (const list of lists) {\n    if (WIP_LISTS.includes(list.name)) {\n      wipCount += (list.cards || []).length;\n    }\n  }\n}\n\nreturn [{ json: { wip_count: wipCount } }];"
+      },
+      "id": "count-wip",
+      "name": "Count WIP",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [440, 0]
+    },
+    {
+      "parameters": {
+        "jsCode": "const webhook = $('Trello Webhook').first().json.body;\nconst action = webhook.action || {};\nconst data = action.data || {};\nconst wip = $('Count WIP').first().json.wip_count;\n\nconst cardName = data.card ? data.card.name : 'Nieznana karta';\nconst boardName = data.board ? data.board.name : 'Nieznany board';\nconst listAfter = data.listAfter ? data.listAfter.name : '?';\nconst listBefore = data.listBefore ? data.listBefore.name : '?';\nconst memberName = action.memberCreator ? action.memberCreator.fullName : 'Ktoś';\n\nconst isOverLimit = wip > 3;\n\nlet msg = '';\nif (isOverLimit) {\n  msg = `🔴 *WIP ALERT*\\n\\n`;\n  msg += `*${cardName}* przeniesiona do *${listAfter}*\\n`;\n  msg += `Board: _${boardName}_\\n`;\n  msg += `Przez: _${memberName}_\\n`;\n  msg += `Poprzednia kolumna: _${listBefore}_\\n\\n`;\n  msg += `⚠️ Aktualnie *${wip} kart* In Progress (limit: 3)\\n`;\n  msg += `Zamknij coś zanim zaczniesz nowe!`;\n}\n\nreturn [{ json: { message: msg, over_limit: isOverLimit, wip_count: wip } }];"
+      },
+      "id": "build-alert",
+      "name": "Build Alert",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [660, 0]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": { "caseSensitive": true, "leftValue": "", "typeValidation": "strict" },
+          "conditions": [
+            {
+              "id": "over-limit",
+              "leftValue": "={{ $json.over_limit }}",
+              "rightValue": true,
+              "operator": { "type": "boolean", "operation": "true" }
+            }
+          ],
+          "combinator": "and"
+        }
+      },
+      "id": "if-over-limit",
+      "name": "WIP > 3?",
+      "type": "n8n-nodes-base.filter",
+      "typeVersion": 2,
+      "position": [880, 0]
+    },
+    {
+      "parameters": {
+        "chatId": "502308168",
+        "text": "={{ $json.message }}",
+        "additionalFields": {
+          "parse_mode": "Markdown"
+        }
+      },
+      "id": "telegram-alert",
+      "name": "Telegram Alert",
+      "type": "n8n-nodes-base.telegram",
+      "typeVersion": 1.2,
+      "position": [1100, 0],
+      "credentials": {
+        "telegramApi": {
+          "id": "",
+          "name": "LCC Telegram Bot"
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Trello HEAD Check": {
+      "main": [
+        [{ "node": "Respond HEAD OK", "type": "main", "index": 0 }]
+      ]
+    },
+    "Trello Webhook": {
+      "main": [
+        [{ "node": "Is Card Move?", "type": "main", "index": 0 }]
+      ]
+    },
+    "Is Card Move?": {
+      "main": [
+        [{ "node": "Count WIP", "type": "main", "index": 0 }]
+      ]
+    },
+    "Count WIP": {
+      "main": [
+        [{ "node": "Build Alert", "type": "main", "index": 0 }]
+      ]
+    },
+    "Build Alert": {
+      "main": [
+        [{ "node": "WIP > 3?", "type": "main", "index": 0 }]
+      ]
+    },
+    "WIP > 3?": {
+      "main": [
+        [{ "node": "Telegram Alert", "type": "main", "index": 0 }]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "pinData": {},
+  "staticData": null,
+  "tags": [],
+  "triggerCount": 2,
+  "active": true
+}
