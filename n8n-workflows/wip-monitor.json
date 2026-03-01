@@ -68,13 +68,56 @@
     },
     {
       "parameters": {
-        "jsCode": "// Credentials from n8n environment variables (set in n8n Settings > Variables)\nconst API_KEY = $env.TRELLO_API_KEY;\nconst TOKEN = $env.TRELLO_TOKEN;\nconst BOARDS = [\n  '65c71730e7e0e88bbac71966',\n  '680726930c136ce6165030dc',\n  '6820e2a5acd2eba4c771b29f'\n];\nconst WIP_LISTS = ['In Progress', 'W trakcie', 'Doing'];\n\nlet wipCount = 0;\nfor (const boardId of BOARDS) {\n  const url = `https://api.trello.com/1/boards/${boardId}/lists?cards=open&card_fields=id&fields=name&key=${API_KEY}&token=${TOKEN}`;\n  const lists = await this.helpers.httpRequest({\n    url: url,\n    method: 'GET',\n    json: true\n  });\n  for (const list of lists) {\n    if (WIP_LISTS.includes(list.name)) {\n      wipCount += (list.cards || []).length;\n    }\n  }\n}\n\nreturn [{ json: { wip_count: wipCount } }];"
+        "jsCode": "// Generate one item per monitored board\nconst BOARDS = [\n  { boardId: '65c71730e7e0e88bbac71966', name: 'Domowe sprawy' },\n  { boardId: '680726930c136ce6165030dc', name: 'Allmedica FENG' },\n  { boardId: '6820e2a5acd2eba4c771b29f', name: 'Allmedica FENX' }\n];\n\nreturn BOARDS.map(b => ({ json: b }));"
+      },
+      "id": "board-ids",
+      "name": "Board IDs",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [440, 0]
+    },
+    {
+      "parameters": {
+        "method": "GET",
+        "url": "=https://api.trello.com/1/boards/{{ $json.boardId }}/lists",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "trelloApi",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            { "name": "cards", "value": "open" },
+            { "name": "card_fields", "value": "id" },
+            { "name": "fields", "value": "name" }
+          ]
+        },
+        "options": {
+          "batching": {
+            "batch": { "batchSize": 3, "batchInterval": 0 }
+          }
+        }
+      },
+      "id": "fetch-lists",
+      "name": "Fetch Board Lists",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [660, 0],
+      "credentials": {
+        "trelloApi": {
+          "id": "VEEy2xjuaPM8V91Z",
+          "name": "LCC Trello"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "// Count WIP cards across all board responses (no credentials needed)\nconst WIP_LISTS = ['In Progress', 'W trakcie', 'Doing'];\nlet wipCount = 0;\n\nfor (const item of $input.all()) {\n  const lists = Array.isArray(item.json) ? item.json : [item.json];\n  for (const list of lists) {\n    if (list.name && WIP_LISTS.includes(list.name)) {\n      wipCount += (list.cards || []).length;\n    }\n  }\n}\n\nreturn [{ json: { wip_count: wipCount } }];"
       },
       "id": "count-wip",
       "name": "Count WIP",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [440, 0]
+      "position": [880, 0]
     },
     {
       "parameters": {
@@ -84,7 +127,7 @@
       "name": "Build Alert",
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
-      "position": [660, 0]
+      "position": [1100, 0]
     },
     {
       "parameters": {
@@ -105,7 +148,7 @@
       "name": "WIP > 3?",
       "type": "n8n-nodes-base.filter",
       "typeVersion": 2,
-      "position": [880, 0]
+      "position": [1320, 0]
     },
     {
       "parameters": {
@@ -119,50 +162,42 @@
       "name": "Telegram Alert",
       "type": "n8n-nodes-base.telegram",
       "typeVersion": 1.2,
-      "position": [1100, 0],
+      "position": [1540, 0],
       "credentials": {
         "telegramApi": {
-          "id": "",
-          "name": "LCC Telegram Bot"
+          "id": "5cnekxun8PD0ZAcu",
+          "name": "Telegram account"
         }
       }
     }
   ],
   "connections": {
     "Trello HEAD Check": {
-      "main": [
-        [{ "node": "Respond HEAD OK", "type": "main", "index": 0 }]
-      ]
+      "main": [[{ "node": "Respond HEAD OK", "type": "main", "index": 0 }]]
     },
     "Trello Webhook": {
-      "main": [
-        [{ "node": "Is Card Move?", "type": "main", "index": 0 }]
-      ]
+      "main": [[{ "node": "Is Card Move?", "type": "main", "index": 0 }]]
     },
     "Is Card Move?": {
-      "main": [
-        [{ "node": "Count WIP", "type": "main", "index": 0 }]
-      ]
+      "main": [[{ "node": "Board IDs", "type": "main", "index": 0 }]]
+    },
+    "Board IDs": {
+      "main": [[{ "node": "Fetch Board Lists", "type": "main", "index": 0 }]]
+    },
+    "Fetch Board Lists": {
+      "main": [[{ "node": "Count WIP", "type": "main", "index": 0 }]]
     },
     "Count WIP": {
-      "main": [
-        [{ "node": "Build Alert", "type": "main", "index": 0 }]
-      ]
+      "main": [[{ "node": "Build Alert", "type": "main", "index": 0 }]]
     },
     "Build Alert": {
-      "main": [
-        [{ "node": "WIP > 3?", "type": "main", "index": 0 }]
-      ]
+      "main": [[{ "node": "WIP > 3?", "type": "main", "index": 0 }]]
     },
     "WIP > 3?": {
-      "main": [
-        [{ "node": "Telegram Alert", "type": "main", "index": 0 }]
-      ]
+      "main": [[{ "node": "Telegram Alert", "type": "main", "index": 0 }]]
     }
   },
-  "settings": {
-    "executionOrder": "v1"
-  },
+  "settings": { "executionOrder": "v1" },
   "pinData": {},
   "staticData": null,
   "tags": [],
