@@ -23,7 +23,12 @@ Types: PROJECT, TOOL, MODEL, HARDWARE, PLATFORM, CONCEPT, PERSON, ORG, LOCATION,
 
 Rules:
 - Extract: project names, tools, frameworks, AI models, hardware, people, organizations, medical/biomedical terms
-- Handle Polish declension: "bupropionu" → {"text": "bupropion", "label": "BIOMEDICAL"}
+- CRITICAL: NEVER translate Polish names to English. Keep original language as-is:
+  "termomodernizacja" → {"text": "Termomodernizacja", "label": "PROJECT"} (NOT "Thermal Insulation")
+  "fotowoltaika" → {"text": "Fotowoltaika", "label": "PROJECT"} (NOT "PV Energy")
+  "rzęsa wodna" → {"text": "Rzęsa wodna", "label": "PRODUCT"} (NOT "Duckweed")
+  "filtracja wody" → {"text": "Filtracja wody", "label": "CONCEPT"} (NOT "Water Filtration")
+- Handle Polish declension to base form, but stay in Polish: "termomodernizacji" → "Termomodernizacja"
 - Keep original casing for proper nouns, use base form for declined words
 - Skip generic nouns (system, data, file, code, project, plan, status, opis, cel)
 - For multi-word entities use the full name (e.g. "Docker Compose" not "Docker")
