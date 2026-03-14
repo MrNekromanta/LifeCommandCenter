@@ -12,9 +12,9 @@ services:
       - SYNC_INTERVAL_MINUTES=${SYNC_INTERVAL_MINUTES:-60}
       - LOG_LEVEL=${LOG_LEVEL:-INFO}
     networks:
-      - crypto-network
+      - ser9-shared
 
 networks:
-  crypto-network:
+  ser9-shared:
     external: true
-    name: crypto-rebalancer_crypto-network
+    name: ser9-shared

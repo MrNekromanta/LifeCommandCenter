@@ -26,7 +26,7 @@ services:
       - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
     
     networks:
-      - crypto-network
+      - ser9-shared
     
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
@@ -67,7 +67,7 @@ services:
       - n8n-data:/home/node/.n8n
     
     networks:
-      - crypto-network
+      - ser9-shared
     
     depends_on:
       postgres:
@@ -96,7 +96,7 @@ services:
       - grafana-data:/var/lib/grafana
     
     networks:
-      - crypto-network
+      - ser9-shared
     
     depends_on:
       - postgres
@@ -116,5 +116,6 @@ volumes:
 # Networks
 # ===================================
 networks:
-  crypto-network:
-    driver: bridge
+  ser9-shared:
+    external: true
+    name: ser9-shared

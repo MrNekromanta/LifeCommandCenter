@@ -1,0 +1,31 @@
+# =====================================
+# CLOUDFLARE TUNNEL
+# Docker Compose Configuration
+# =====================================
+# Uruchamianie: docker compose -f docker-compose.cloudflared.yml up -d
+# Token: przechowywany w Bitwarden (Cloudflare Tunnel Token - SER9)
+# =====================================
+
+services:
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: cloudflared
+    restart: unless-stopped
+
+    command:
+      - "--no-autoupdate"
+      - "tunnel"
+      - "--no-autoupdate"
+      - "--protocol"
+      - "http2"
+      - "run"
+      - "--token"
+      - "${CLOUDFLARE_TUNNEL_TOKEN}"
+
+    networks:
+      - ser9-shared
+
+networks:
+  ser9-shared:
+    external: true
+    name: ser9-shared
