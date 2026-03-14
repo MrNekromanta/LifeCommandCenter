@@ -21,6 +21,12 @@ services:
       retries: 3
       start_period: 10s
 
+    deploy:
+      resources:
+        limits:
+          memory: 512m
+          cpus: "0.5"
+
 networks:
   ser9-shared:
     external: true

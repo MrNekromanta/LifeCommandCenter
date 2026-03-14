@@ -25,6 +25,12 @@ services:
     networks:
       - ser9-shared
 
+    deploy:
+      resources:
+        limits:
+          memory: 256m
+          cpus: "0.25"
+
 networks:
   ser9-shared:
     external: true
