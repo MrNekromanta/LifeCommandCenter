@@ -68,7 +68,14 @@ services:
     
     networks:
       - ser9-shared
-    
+
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost:5678/healthz || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
     depends_on:
       postgres:
         condition: service_healthy
@@ -97,7 +104,14 @@ services:
     
     networks:
       - ser9-shared
-    
+
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost:3000/api/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
     depends_on:
       - postgres
 
