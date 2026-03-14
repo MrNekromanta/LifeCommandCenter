@@ -1,0 +1,34 @@
+{
+  "mcpServers": {
+    "trello-db": {
+      "command": "node",
+      "args": [
+        "C:\\projects\\AI\\LifeCommandCenter\\trello-db\\index.js",
+        "postgresql://claude_ro:<BITWARDEN: Postgres RO haslo>@localhost:5432/trello_sync"
+      ]
+    },
+    "trello": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@delorenj/mcp-server-trello"
+      ],
+      "env": {
+        "TRELLO_API_KEY": "<BITWARDEN: Trello API Key>",
+        "TRELLO_TOKEN": "<BITWARDEN: Trello Token>"
+      }
+    },
+    "lcc-rag": {
+      "command": "c:\\projects\\AI\\LifeCommandCenter\\rag-mcp\\.venv\\Scripts\\python.exe",
+      "args": [
+        "c:\\projects\\AI\\LifeCommandCenter\\rag-mcp\\server.py"
+      ]
+    }
+  },
+  "preferences": {
+    "coworkScheduledTasksEnabled": true,
+    "sidebarMode": "chat",
+    "coworkWebSearchEnabled": true,
+    "ccdScheduledTasksEnabled": true
+  }
+}
